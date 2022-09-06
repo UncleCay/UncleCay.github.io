@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Poppins:wght@300;400;500;600&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faster+One&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faster+One&family=Poppins:wght@500;600&family=Ultra&family=Vidaloka&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    line-height: 1.7;
+}
+
+/* ======= GENERAL STYLES ======= */
+section {
+    position: sticky;
+    top: 0;
+    padding-top: 4rem;
+    z-index: 0;
+}
+section h2{
+    text-align: center;
+  }
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+h1 {
+    font-size: 2.5rem;
+}
+
+
+.text-light {
+    color: var(--color-light);
+}
+a {
+    color:var(--color-light);
+    transition: var(--transition);
+}
+a:hover {
+    color: var(--color-white);
+}
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: burlywood;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid brown;
+    transition: var(--transition);
+}
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: brown;
+    color: burlywood;
+}
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ======= FADE IN FOR CLASSES======= */
+.fadeIn{
+  opacity:1;
+  transition: opacity 1s;
+}
+/* FADE IN FOR ANIMATIONS */
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1;}
+  }
+
+/* ======= FADE OUT ======= */
+.fadeOut{
+  opacity:0;
+  transition: opacity 1s;
+  pointer-events: none;
+}
+
+/* ======= MEDIA QUERIES FOR MEDIUM DEVICES ======= */
+@media screen and (max-width: 1024px){
+    .container {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* ======= MEDIA QUERIES FOR SMALL DEVICES ======= */
+@media screen and (max-width: 627px){
+    .container {
+        width: var(--container-width-sm);
+    }
+    section {
+        margin-top: 2rem;
+        height: 100vh;
+    }
+}

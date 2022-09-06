@@ -1,0 +1,128 @@
+.home {
+    margin: -1.5rem auto;
+    padding-top: 1.5rem;
+    justify-content:center;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+    background-image: url(../../assets/home.jpg);
+    background-size: cover;
+  }
+
+  .home__intro{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70%;
+    padding-top: 3rem;
+  }
+  
+  .home__intro h1 {
+    font-family: 'Vidaloka', serif;
+    overflow:hidden;
+    font-size: 5em;
+    white-space: nowrap;
+    letter-spacing: .05em;
+    animation: intro 3s steps(50, end), blink-caret .6s step-end infinite;
+  }
+
+  .home__intro .txtLine2{
+    font-size: 4em;
+    animation-fill-mode: backwards;
+    animation-delay: 2s;
+  }
+  .home__intro .txtLine3{
+    font-size: 2em;
+    animation-fill-mode: backwards;
+    animation-delay: 6s;
+    color: var(--color-light);
+  }
+
+  .home__intro .my__name{
+    color:tomato;
+  }
+  
+  @keyframes intro {
+    from { width: 0;}
+    to { width: 100%;}
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent}
+  }
+
+  .home__socials{
+    position: absolute;
+    bottom: 60%;
+    right: 50%;
+    transform: translateX(50%);
+    width: 100%;
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    display: none;
+  }
+  
+  .homesoc__icons{
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  .homesoc__icons .icon__row{
+    display: flex;
+    gap: 4rem;
+    font-size:50px;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 627px){
+.home{
+        height: 100vh
+    }
+
+.home__socials{
+        display: block;
+    }
+
+.home__intro h1{
+        font-size:x-large;
+    }
+
+.home__intro .txtLine2{
+    font-size: 1.4em;
+    }
+
+.home__intro .txtLine3{
+    font-size: 1em;
+    }
+.home__socials .homesoc__icons{
+    display: block;
+}
+}
+
+@media screen and (max-width: 827px){
+    .home__intro h1{
+        font-size:xx-large;
+    }
+
+    .home__intro .txtLine2{
+      font-size: 1.7em;
+    }
+    .home__intro .txtLine3{
+      font-size: 1.3em;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .home__intro h1{
+        font-size: 4em;
+    }
+    .home__intro .txtLine2{
+      font-size: 1.6em;
+  }
+  .home__intro .txtLine3{
+      font-size: 1.2em;
+  }
+}
