@@ -8,6 +8,7 @@
     background-color: darkgray;
     background: url(../../assets/custom-bg.jpg);
     background-size: cover;
+    border-radius: 20px 20px 0 0;
   }
   
   .about__container{
@@ -69,6 +70,7 @@ div img:hover{
 .card:hover{
   border: 2px solid darkgray;
   color: white;
+  cursor: pointer;
 }
 
 .about__content{

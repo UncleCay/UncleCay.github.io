@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import Me from '../../assets/me.png'
 import {AiFillFolderOpen} from 'react-icons/ai'
-import {FaAward} from 'react-icons/fa'
+import {MdContactPage} from 'react-icons/md'
 
 const About = () => {
   return (
@@ -15,9 +15,9 @@ const About = () => {
           </div>
           <div className="cards">
             <article className="card">
-              <FaAward className="about__icon"/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <MdContactPage className="about__icon"/>
+              <h5>Contact Me</h5>
+              <small>** 24/7 **</small>
             </article>
               <article className="card">
                 <AiFillFolderOpen className="about__icon"/>

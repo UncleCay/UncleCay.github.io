@@ -1,7 +1,109 @@
 #contact{
     width: 100%;
-    padding-top: 4rem;
     position: sticky;
     top: 0;
+    padding: 4rem .5rem 0 .5rem;
     margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: rgba(29, 29, 29, 1);
+    background-image: url(../../assets/arabesque.png);
+    color: bisque;
+    border-radius: 25px 25px 0 0;
 }
+
+.contact__form{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.form__input__wrapper{
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 5%;
+}
+
+.name__email{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+}
+
+/* GENERAL STYLING */
+.form__input__group input, textarea{
+    width: 100%;
+    background: rgba(35, 35, 35, 1);
+    height: 3rem;
+    color: white;
+    padding: .5rem;
+    letter-spacing: .03rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+/* OVERRIDES ON TEXTAREA */
+textarea{
+    height: 6rem;
+    margin-bottom: 2.5rem;
+}
+
+/* GENERAL STYLING FOR SPAN */
+.form__input__group input + span::after,
+.form__input__group textarea + span::after{
+    content: '';
+    height: 2px;
+    position: absolute;
+    background: bisque;
+    transition: all 0.3s linear;
+    left: 0;
+    margin: 3rem 0 0 .5rem;
+    width: 0;
+}
+/* OVERRIDE ON TEXTAREA SPAN*/
+.form__input__group textarea + span::after{
+    margin: 6rem 0 0 .5rem;
+}
+/* OVERRIDE ON EMAIL SPAN POSITION */
+.email__span input + span::after{
+    left: calc(.5rem + (49%/2));
+}
+
+/* GENERAL WIDTH OF THE SPANS ON FOCUS */
+.form__input__group input:focus + span::after,
+.form__input__group textarea:focus + span::after{
+    width: calc(50% - .5rem);
+}
+/* OVERRIDE ON NAME AND EMAIL SPAN WIDTH */
+.name__email input:focus + span::after{
+    width: 24.1%;
+}
+
+.submit__btn{
+    background: darkgray;
+    height: 3rem;
+    border: 2px solid darkgray;
+    font-size: large;
+    border-radius: 7px;
+}
+
+.submit__btn:hover{
+    background: transparent;
+    color: white;
+}
+
+@media screen and (max-width: 627px){
+    #contact{
+        grid-template-columns: 100%;
+    }
+
+    .name__email{
+        grid-template-columns: 100%;
+        gap: 1rem;
+    }
+    .email__span input + span::after{
+        left:0;
+    }
+    .form__input__group input:focus + span::after,
+    .form__input__group textarea:focus + span::after{
+    width: calc(100% - 1rem);
+    }
+  }
