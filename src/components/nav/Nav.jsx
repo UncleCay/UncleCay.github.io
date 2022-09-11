@@ -9,11 +9,12 @@ import {FiChevronsDown} from 'react-icons/fi'
 import {FiChevronsUp} from 'react-icons/fi'
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = React.useState("#home");
+  const [activeNav, setActiveNav] = React.useState("#");
+  
   return (
     <nav>
       <div className="nav__links">
-          <a href="#" onClick={() => setActiveNav("#home")} className={activeNav === "#home" ? "active" : ""} title="home"><AiOutlineHome /></a>
+          <a href="#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""} title="home"><AiOutlineHome /></a>
           <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""} title="about"><SiAboutdotme /></a>
           <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""} title="experience"><MdLibraryBooks /></a>
           <a href="#services" onClick={() => setActiveNav(prev => prev = "#services")} className={activeNav === "#services" ? "active" : ""} title="services"><RiServiceLine /></a>

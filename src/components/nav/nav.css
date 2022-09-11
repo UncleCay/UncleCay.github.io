@@ -19,11 +19,11 @@ nav{
 .nav__links{
     position: fixed;
     top: 50%;
-    right: 2rem;
+    right: 1rem;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.3);
     padding: 2rem 1rem;
-    z-index: 3;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
@@ -39,6 +39,7 @@ nav a, .go__down, .go__up{
     font-size:larger;
     display: flex;
     background: transparent;
+    z-index: 3;
 }
 
 nav a:hover{
@@ -49,6 +50,7 @@ nav a.active{
     background: rgba(0, 0, 0, 0.6);
     color: var(--color-white);
 }
+
 @media screen and (max-width: 627px){
     nav{
         display: none;

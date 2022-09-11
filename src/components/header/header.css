@@ -11,6 +11,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
+    
 }
 .brand__name{
   color: var(--color-light);
@@ -23,6 +24,7 @@ header {
   aspect-ratio: 1/1;
   padding-top: 0.5rem;
   text-align:center;
+  z-index: 3;
 }
 
   .header__links{
@@ -31,7 +33,6 @@ header {
   }
 
   .header__links a{
-    z-index: 3;
     display: flex;
     gap: 0.8rem;
     border-radius: 50%;
@@ -40,15 +41,16 @@ header {
     justify-content: center;
     text-align: center;
     align-items:center;
+    z-index: 3;
   }
 
-  .header__sublink{
+  .header__icons_cv{
      font-size:x-large;
      align-self:center;
      width: 2.9rem;
      aspect-ratio: 1/1;
    }
-  .header__sublink:hover{
+  .header__icons_cv:hover{
      font-size: 25px;
    }
   

@@ -1,13 +1,14 @@
 .home {
-    margin: -1.5rem auto;
+    margin: -3.5rem auto;
     padding-top: 1.5rem;
     justify-content:center;
-    height: 100vh;
+    height: 110vh;
     position: sticky;
     top: 0;
     z-index: 0;
     background-image: url(../../assets/home.jpg);
     background-size: cover;
+    animation: slideDown 1s ease;
   }
 
   .home__intro{
@@ -24,23 +25,27 @@
     font-size: 5em;
     white-space: nowrap;
     letter-spacing: .05em;
-    animation: intro 3s steps(50, end), blink-caret .6s step-end infinite;
+    animation: intro 3s 1.3s steps(50, end) backwards, blink-caret .6s step-end infinite;
   }
 
   .home__intro .txtLine2{
     font-size: 4em;
     animation-fill-mode: backwards;
-    animation-delay: 2s;
+    animation-delay: 3.3s;
   }
   .home__intro .txtLine3{
     font-size: 2em;
     animation-fill-mode: backwards;
-    animation-delay: 6s;
+    animation-delay: 7s;
     color: var(--color-light);
   }
 
+.home__intro .emoji{
+  font-size: larger;
+}
+
   .home__intro .my__name{
-    color:tomato;
+    color:bisque;
   }
   
   @keyframes intro {
@@ -54,7 +59,7 @@
 
   .home__socials{
     position: absolute;
-    bottom: 60%;
+    bottom: 55%;
     right: 50%;
     transform: translateX(50%);
     width: 100%;
@@ -78,9 +83,6 @@
 }
 
 @media screen and (max-width: 627px){
-.home{
-        height: 100vh
-    }
 
 .home__socials{
         display: block;
@@ -117,7 +119,7 @@
 }
 @media screen and (max-width: 1024px){
     .home__intro h1{
-        font-size: 4em;
+        font-size: 2.8em;
     }
     .home__intro .txtLine2{
       font-size: 1.6em;
