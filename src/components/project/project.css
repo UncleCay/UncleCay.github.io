@@ -1,0 +1,47 @@
+#project{
+    width: 100%;
+    padding-top: 4rem;
+    position: relative;
+    margin: 0;
+    height: 100%;
+}
+
+.project__cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.project__card__row{
+    position: relative;
+    display: flex;
+    gap: 1rem;
+}
+
+.project__card img{
+    border-radius: 7px;
+}
+
+.project__card{
+    position: relative;
+}
+
+.project__card span{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 0;
+    backdrop-filter: blur(1px);
+    text-align: center;
+    color: transparent;
+    background: rgba(0, 0, 0, .3);
+    transition: all .7s ease;
+    width: 100%;
+}
+
+.project__card:hover span{
+    height: 100%;
+    color: white;
+}

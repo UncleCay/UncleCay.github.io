@@ -2,25 +2,31 @@
     width: 100%;
     position: sticky;
     top: 0;
-    padding: 4rem .5rem 0 .5rem;
+    padding: 4rem .5rem .5rem .5rem;
     margin: 0;
-    display: grid;
-    grid-template-columns: 50% 50%;
     background: rgba(29, 29, 29, 1);
-    background-image: url(../../assets/arabesque.png);
     color: bisque;
-    border-radius: 25px 25px 0 0;
+    height: 100%;
+}
+
+.contact__container{
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+    gap: 1%;
+    position: relative;
 }
 
 .contact__form{
     display: grid;
     grid-template-columns: 100%;
+    padding: 1rem 0;
 }
 
 .form__input__wrapper{
-    display: grid;
-    grid-template-columns: 100%;
-    row-gap: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 1rem;
 }
 
 .name__email{
@@ -29,8 +35,13 @@
     gap: 2%;
 }
 
+.form__input__group{
+    position: relative;
+}
+
 /* GENERAL STYLING */
 .form__input__group input, textarea{
+    position: relative;
     width: 100%;
     background: rgba(35, 35, 35, 1);
     height: 3rem;
@@ -42,8 +53,7 @@
 }
 /* OVERRIDES ON TEXTAREA */
 textarea{
-    height: 6rem;
-    margin-bottom: 2.5rem;
+    height:12rem;
 }
 
 /* GENERAL STYLING FOR SPAN */
@@ -55,55 +65,82 @@ textarea{
     background: bisque;
     transition: all 0.3s linear;
     left: 0;
-    margin: 3rem 0 0 .5rem;
+    bottom: 0;
     width: 0;
-}
-/* OVERRIDE ON TEXTAREA SPAN*/
-.form__input__group textarea + span::after{
-    margin: 6rem 0 0 .5rem;
-}
-/* OVERRIDE ON EMAIL SPAN POSITION */
-.email__span input + span::after{
-    left: calc(.5rem + (49%/2));
 }
 
 /* GENERAL WIDTH OF THE SPANS ON FOCUS */
 .form__input__group input:focus + span::after,
 .form__input__group textarea:focus + span::after{
-    width: calc(50% - .5rem);
-}
-/* OVERRIDE ON NAME AND EMAIL SPAN WIDTH */
-.name__email input:focus + span::after{
-    width: 24.1%;
+    width: 100%;
 }
 
 .submit__btn{
-    background: darkgray;
+    position: relative;
+    width: 50%;
     height: 3rem;
-    border: 2px solid darkgray;
-    font-size: large;
-    border-radius: 7px;
 }
 
-.submit__btn:hover{
+.submit__btn button{
+    position: relative;
+    height: 3rem;
+    border: 2px solid bisque;
+    font-size: large;
+    border-radius: 7px;
     background: transparent;
-    color: white;
+    color: bisque;
+    width: 100%;
+    transition: all .5s ease;
+}
+.submit__btn span{
+    border-radius: 7px;
+    position: absolute;
+    content: '';
+    background: bisque;
+    height: 3rem;
+    transition: all .5s ease;
+    width: 0;
+    margin: 0;
+}
+
+.submit__btn:hover span, .submit__btn:hover button{
+    width: 100%;
+    color: black;
+}
+
+.contact__map{
+    position: relative;
+    padding: 1rem 0;
+}
+.google__map{
+    position: relative;
+    width: 100%;
+}
+
+.google__map iframe{
+    width: 100%;
+    margin-top: 50px;
+    height: 100vh;
+    padding: 0 1rem;
+}
+
+.google__map .map__content{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #f3f3f3;
+    position: absolute;
+    top: 5.5rem;
+    left: 1.5rem;
+    padding: 10px;
+    backdrop-filter: blur(1px);
 }
 
 @media screen and (max-width: 627px){
-    #contact{
+    .contact__container{
         grid-template-columns: 100%;
     }
 
     .name__email{
         grid-template-columns: 100%;
-        gap: 1rem;
-    }
-    .email__span input + span::after{
-        left:0;
-    }
-    .form__input__group input:focus + span::after,
-    .form__input__group textarea:focus + span::after{
-    width: calc(100% - 1rem);
+        gap: .5rem;
     }
   }

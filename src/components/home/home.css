@@ -1,5 +1,5 @@
 .home {
-    margin: -3.5rem auto;
+    margin: -4rem auto;
     padding-top: 1.5rem;
     justify-content:center;
     height: 110vh;
@@ -7,25 +7,52 @@
     top: 0;
     z-index: 0;
     background-image: url(../../assets/home.jpg);
-    background-size: cover;
+    background-size:cover;
     animation: slideDown 1s ease;
   }
-
+  
   .home__intro{
     position: absolute;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
-    height: 70%;
-    padding-top: 3rem;
+    padding: 6.5rem 1rem 0;
+    letter-spacing: .1rem;
+    word-spacing: .2rem;
   }
   
   .home__intro h1 {
-    font-family: 'Vidaloka', serif;
+    font-family:'poppins';
+    font-family: 'lato';
+    font-family: 'Bebas Neue', cursive;
     overflow:hidden;
-    font-size: 5em;
+    font-size: 3.5em;
     white-space: nowrap;
-    letter-spacing: .05em;
-    animation: intro 3s 1.3s steps(50, end) backwards, blink-caret .6s step-end infinite;
+    animation: intro 3s 1.3s steps(50, end) backwards,
+    blink-caret .6s step-end infinite;
+    /*flicker steps(100) var(--interval) 1s infinite;*/
+    
+    color: white;
+  --color1: orangered;
+  --color2: firebrick;
+  --color3: maroon;
+  --color4: darkred;
+
+  --interval: 2s;
+  display: block;
+  text-shadow: 
+    0px 0px 0px var(--color1),
+    0px 0px 0px var(--color2),
+    0px 0px 0px var(--color3),
+    1.5px 1.5px 1.5px var(--color4);
+  will-change: filter, color;
+  filter: saturate(70%);
+  }
+
+  @keyframes flicker {
+    50% {
+      color: white;
+      filter: saturate(70%) hue-rotate(20deg);
+    }
   }
 
   .home__intro .txtLine2{
@@ -37,7 +64,6 @@
     font-size: 2em;
     animation-fill-mode: backwards;
     animation-delay: 7s;
-    color: var(--color-light);
   }
 
 .home__intro .emoji{
@@ -45,7 +71,7 @@
 }
 
   .home__intro .my__name{
-    color:bisque;
+    color: var(--color-light);
   }
   
   @keyframes intro {
@@ -75,6 +101,7 @@
     transform: translateX(50%);
   }
 
+
   .homesoc__icons .icon__row{
     display: flex;
     gap: 4rem;
@@ -83,28 +110,31 @@
 }
 
 @media screen and (max-width: 627px){
-
+  .home__intro{
+    left: 50%;
+  }
 .home__socials{
         display: block;
     }
 
-.home__intro h1{
-        font-size:x-large;
+    
+    .home__intro h1{
+      font-size:x-large;
     }
-
-.home__intro .txtLine2{
-    font-size: 1.4em;
+    
+    .home__intro .txtLine2{
+      font-size: 1.4em;
     }
-
-.home__intro .txtLine3{
-    font-size: 1em;
+    
+    .home__intro .txtLine3{
+      font-size: 1em;
     }
-.home__socials .homesoc__icons{
-    display: block;
-}
-}
-
-@media screen and (max-width: 827px){
+    .home__socials .homesoc__icons{
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 827px){
     .home__intro h1{
         font-size:xx-large;
     }

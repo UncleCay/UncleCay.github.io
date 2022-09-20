@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/me.png'
+import Me from '../../assets/me1.jpg'
 import {AiFillFolderOpen} from 'react-icons/ai'
 import {MdContactPage} from 'react-icons/md'
 
@@ -10,7 +10,7 @@ const About = () => {
       <h2>About Me</h2>
       <div className="about__container">
         <div className="img__container">
-          <div className="img__div">
+          <div className="about__img">
             <img src={Me}/>
           </div>
           <div className="cards">

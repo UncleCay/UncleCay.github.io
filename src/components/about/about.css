@@ -8,16 +8,13 @@
     background-color: darkgray;
     background: url(../../assets/custom-bg.jpg);
     background-size: cover;
-    border-radius: 20px 20px 0 0;
   }
   
   .about__container{
   display: grid;
-  grid-template-columns: 29% 55%;
-  gap: 8%;
-  margin:0;
+  grid-template-columns: 30% 69%;
+  gap: 1%;
   color: bisque;
-  width: 100%;
   padding: 0.5rem;
   justify-content: center;
 }
@@ -32,16 +29,17 @@
 }
 
 
-.img__div{
+.about__img{
   background: darkgray;
   border-radius: 10px;
 }
 
-div img{
+.about__img img{
   aspect-ratio: 1/1;
+  border-radius: 10px;
 }
 
-div img:hover{
+.about__img img:hover{
   animation: swing .6s ease-in;
 }
 
@@ -59,6 +57,7 @@ div img:hover{
   gap: 2%;
   text-align: center;
   margin: 0.5rem 0;
+  width: 100%;
 }
 
 .card{
@@ -77,14 +76,12 @@ div img:hover{
   border-radius: 10px;
   text-align: center;
   height: 100%;
-  position: relative;
 }
 
 .skills{
       width: 200%;
       background: black;
       color: bisque;
-      padding:0;
       display: inline-flex;
       gap: 10rem;
       align-items: center;

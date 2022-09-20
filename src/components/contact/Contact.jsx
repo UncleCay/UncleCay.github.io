@@ -4,6 +4,7 @@ import './contact.css'
 const Contact = () => {
   return (
     <section id="contact">
+      <div className="contact__container">
         <form className="contact__form">
           <div className="contact__heading">
             <h2>Contact Me</h2>
@@ -33,21 +34,33 @@ const Contact = () => {
             <span></span>
             </div>
           </div>
-          <button type="submit" className="submit__btn">Send Message</button>
+          <div className="submit__btn">
+            <span></span>
+            <button type="submit">Send Message</button>
+          </div>
         </form>
         <div className="contact__map">
           <div className="google__map">
-            <iframe src=""></iframe>
-          </div>
-          <div className="map__content">
-            <p></p>
-            <span>
-              <br />
-            </span>
-              <br />
-            <span></span>
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63041.17342008881!2d7.4711039999999995!3d9.0570752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1663021122403!5m2!1sen!2sng"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="my__location">
+            </iframe>
+            <div className="map__content">
+              <p>Orakpor Caleb</p>
+              <span>
+                my address 
+                <br />
+                numbers with name
+              </span>
+                <br />
+              <span>@: orakporcaleb@gmail.com</span>
+            </div>
           </div>
         </div>
+      </div>
     </section>
   )
 }
