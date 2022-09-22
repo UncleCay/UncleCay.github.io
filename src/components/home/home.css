@@ -1,26 +1,34 @@
 .home {
     margin: -4rem auto;
-    padding-top: 1.5rem;
     justify-content:center;
     height: 110vh;
     position: sticky;
     top: 0;
     z-index: 0;
-    background-image: url(../../assets/home.jpg);
+    background-image: url(../../assets/home10.jpg);
     background-size:cover;
+    background-color: rgba(26, 26, 26, 1);
+    background-repeat: no-repeat;
     animation: slideDown 1s ease;
   }
   
   .home__intro{
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: sepia(60%);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .text__container{
+    padding: 6.5rem 0 0;
     position: absolute;
-    left: 40%;
-    transform: translateX(-50%);
-    padding: 6.5rem 1rem 0;
-    letter-spacing: .1rem;
-    word-spacing: .2rem;
+    left: 9%;
   }
   
   .home__intro h1 {
+    letter-spacing: .1rem;
+    word-spacing: .2rem;
     font-family:'poppins';
     font-family: 'lato';
     font-family: 'Bebas Neue', cursive;
@@ -110,14 +118,10 @@
 }
 
 @media screen and (max-width: 627px){
-  .home__intro{
-    left: 50%;
-  }
 .home__socials{
         display: block;
     }
 
-    
     .home__intro h1{
       font-size:x-large;
     }

@@ -30,7 +30,7 @@
 
 
 .about__img{
-  background: darkgray;
+  background: bisque;
   border-radius: 10px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .card:hover{
-  border: 2px solid darkgray;
+  border: 2px solid bisque;
   color: white;
   cursor: pointer;
 }

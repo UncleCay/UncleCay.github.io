@@ -108,6 +108,16 @@ textarea{
     color: black;
 }
 
+.error input, .error textarea{
+    border-bottom: 2px solid red;
+    transition: all .2s linear;
+}
+
+.success input, .success textarea{
+    border-bottom: 2px solid green;
+    transition: all .2s linear;
+}
+
 .contact__map{
     position: relative;
     padding: 1rem 0;

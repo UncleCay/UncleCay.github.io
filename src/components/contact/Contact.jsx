@@ -17,20 +17,20 @@ const Contact = () => {
           <div className="form__input__wrapper">
             <div className="name__email">
               <div className="form__input__group">
-                <input type="text" placeholder='Name' name="name"/>
+                <input type="text" placeholder='Name' name="name" className="name"/>
                 <span></span>
               </div>
               <div className="form__input__group email__span">
-                <input type="email" placeholder='Email' name="email"/>
+                <input type="email" placeholder='Email' name="email" className="email"/>
                 <span></span>
               </div>
             </div>
             <div className="form__input__group">
-              <input type="text" placeholder='Subject' name="subject"/>
+              <input type="text" placeholder='Subject' name="subject" className="subject"/>
               <span></span>
             </div>
             <div className="form__input__group">
-            <textarea type="text" placeholder='Message' name="message"/>
+            <textarea type="text" placeholder='Message' name="message" className="message"/>
             <span></span>
             </div>
           </div>

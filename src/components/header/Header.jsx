@@ -9,6 +9,13 @@ const Header = () => {
   const changeBar = () => {
     setBar(prevBar => prevBar = !prevBar);
   }
+
+  const menu = document.querySelector('.menu__links');
+  const menuLinkClick = () => {
+    menu.classList.add('fadeOut')
+    setBar(prevBar => prevBar = !prevBar);
+  }
+
   return (
     <header className="header__top">
       <h2 className="brand__name" title="Logo">OC</h2>
@@ -23,7 +30,7 @@ const Header = () => {
             <div className="bar3 bar"></div>
         </div>
       </div>
-        <MenuLinks barMode={bars}/>
+        <MenuLinks barMode={bars} handleClick={menuLinkClick}/>
     </header>
   )
 }
