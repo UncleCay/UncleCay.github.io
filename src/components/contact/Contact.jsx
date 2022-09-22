@@ -34,6 +34,7 @@ const Contact = () => {
             <span></span>
             </div>
           </div>
+          <div className="errmsg"></div>
           <div className="submit__btn">
             <span></span>
             <button type="submit">Send Message</button>

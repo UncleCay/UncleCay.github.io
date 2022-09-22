@@ -68,11 +68,48 @@ textarea{
     bottom: 0;
     width: 0;
 }
-
+.form__input__group textarea + span::after{
+bottom: .5rem;
+}
 /* GENERAL WIDTH OF THE SPANS ON FOCUS */
 .form__input__group input:focus + span::after,
 .form__input__group textarea:focus + span::after{
     width: 100%;
+}
+
+.error input, .error textarea{
+    border-bottom: 2px solid red;
+    transition: all .2s linear;
+}
+
+.success input, .success textarea{
+    border-bottom: 2px solid green;
+    transition: all .2s linear;
+}
+
+.errmsg{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    transition: all .3s ease-in-out;
+    transform: translate(100%, 50%);
+    transition: all .3s linear;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 1;
+}
+
+.errmsg__content{
+    padding: 15px;
+    background: red;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 550ms ease-in-out;
+    margin-bottom: 5px;
+}
+
+.errmsg__content.hide{
+    opacity: 0;
 }
 
 .submit__btn{
@@ -90,7 +127,7 @@ textarea{
     background: transparent;
     color: bisque;
     width: 100%;
-    transition: all .5s ease;
+    transition: all .3s ease;
 }
 .submit__btn span{
     border-radius: 7px;
@@ -98,7 +135,7 @@ textarea{
     content: '';
     background: bisque;
     height: 3rem;
-    transition: all .5s ease;
+    transition: all .3s ease;
     width: 0;
     margin: 0;
 }
@@ -108,15 +145,6 @@ textarea{
     color: black;
 }
 
-.error input, .error textarea{
-    border-bottom: 2px solid red;
-    transition: all .2s linear;
-}
-
-.success input, .success textarea{
-    border-bottom: 2px solid green;
-    transition: all .2s linear;
-}
 
 .contact__map{
     position: relative;
