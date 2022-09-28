@@ -10,7 +10,7 @@ const MenuLinks = (props) => {
             <li><a href="#about" onClick={props.handleClick}>About</a></li>
             <li><a href="#experience" onClick={props.handleClick}>Experience</a></li>
             <li><a href="#services" onClick={props.handleClick}>Services</a></li>
-            <li><a href="#portfolio" onClick={props.handleClick}>Portfolio</a></li>
+            <li><a href="#project" onClick={props.handleClick}>Projects</a></li>
             <li><a href="#testimonials" onClick={props.handleClick}>Testimonials</a></li>
             <li><a href="#contact" onClick={props.handleClick}>Contact</a></li>
         </ul>

@@ -1,7 +1,5 @@
 import React from 'react'
-import {BsGithub, BsWhatsapp} from 'react-icons/bs'
-import {BsLinkedin} from 'react-icons/bs'
-import {BsFacebook} from 'react-icons/bs'
+import {BsGithub, BsWhatsapp, BsLinkedin, BsFacebook} from 'react-icons/bs'
 const HomeSocials = () => {
   return (
     <div className='home__socials'>

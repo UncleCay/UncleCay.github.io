@@ -5,10 +5,10 @@ import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Services from './components/services/Services'
 import Project from './components/project/Project'
-/*import Testimonials from './components/testimonials/Testimonials'
-import Footer from './components/footer/Footer'*/
+/*import Testimonials from './components/testimonials/Testimonials'*/
 import Contact from './components/contact/Contact'
 import Home from './components/home/Home'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -21,6 +21,7 @@ const App = () => {
       <Services />
       <Project />
       <Contact />
+      <Footer />
     </div>
   )
 }

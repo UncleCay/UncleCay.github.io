@@ -4,6 +4,8 @@
     position: relative;
     margin: 0;
     height: 100%;
+    background: url(../../assets/work2.jpg);
+    background-attachment: fixed;
 }
 
 .project__cards{
@@ -44,4 +46,12 @@
 .project__card:hover span{
     height: 100%;
     color: white;
+}
+
+
+@media screen and (max-width: 627px){
+    .project__card__row{
+        display: flex;
+        flex-direction: column;
+    }
 }
