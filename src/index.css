@@ -53,7 +53,7 @@ section {
     color: black;
     background: white;
 }
-section h2{
+section h1{
     text-align: center;
   }
 
@@ -124,12 +124,56 @@ img {
     0% {transform: translateY(-100vh);}
     100% {transform: translateY(0);}
   }
+@keyframes slideUp {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-100vh);}
+  }
+
+  .slideDown{
+    animation: slideDown 1s ease;
+  }
+  .slideUp{
+    animation: slideUp 1s ease;
+  }
+
 
 /* ======= FADE OUT ======= */
 .fadeOut{
   opacity:0;
   transition: opacity 1s;
   pointer-events: none;
+}
+
+/* ======= BTN COLOR FILL ======= */
+.btn__color__fill{
+    position: relative;
+    height: 3rem;
+}
+
+.btn__color__fill button{
+    position: relative;
+    transition: all .3s ease;
+    background: transparent;
+    width: 100%;
+    height: 3rem;
+    border: 2px solid bisque;
+    font-size: large;
+    color: bisque;
+}
+
+.btn__color__fill span{
+    position: absolute;
+    content: '';
+    transition: all .3s ease;
+    width: 0;
+    margin: 0;
+    background: bisque;
+    height: 3rem;
+}
+
+.btn__color__fill:hover span, .btn__color__fill:hover button{
+    width: 100%;
+    color: black;
 }
 
 /* ======= MEDIA QUERIES FOR MEDIUM DEVICES ======= */

@@ -19,16 +19,13 @@ nav{
 .nav__links{
     position: fixed;
     top: 50%;
-    right: 0rem;
+    right: 1rem;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.3);
     padding: 2rem 1rem;
     z-index: 1;
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
-    backdrop-filter: blur(7px);
-    width: max-content;
+    gap: 18rem;
 }
 
 nav a, .go__down, .go__up{
@@ -37,17 +34,12 @@ nav a, .go__down, .go__up{
     color: var(--color-light);
     font-size:larger;
     display: flex;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.2);
     z-index: 3;
 }
 
 nav a:hover{
     background: rgba(0, 0, 0, 0.3);
-}
-
-nav a.active{
-    background: rgba(0, 0, 0, 0.6);
-    color: var(--color-white);
 }
 
 @media screen and (max-width: 627px){

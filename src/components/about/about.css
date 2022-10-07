@@ -1,19 +1,17 @@
 #about{
-    color: white;
+    color: black;
     width: 100%;
     overflow-x: hidden;
     position: relative;
     padding-top: 4rem;
-    height: 100vh;
-    background: url(../../assets/custom-bg.jpg);
     background-size: cover;
+    height: 120vh
   }
   
   .about__container{
   display: grid;
   grid-template-columns: 25% 74%;
   gap: 1%;
-  color: bisque;
   padding: 0.5rem;
   justify-content: center;
 }
@@ -23,19 +21,15 @@
   flex-direction: column;
   background: rgba(29, 29, 29, 1);
   background-image: url(../../assets/arabesque.png);
-  padding: 1rem 1rem .5rem 1rem;
-  border-radius: 5px;
 }
 
 
 .about__img{
   background: bisque;
-  border-radius: 10px;
 }
 
 .about__img img{
   aspect-ratio: 1/1.2;
-  border-radius: 10px;
 }
 
 .about__img img:hover{
@@ -55,24 +49,11 @@
   grid-template-columns: 49% 49%;
   gap: 2%;
   text-align: center;
-  margin: 0.5rem 0;
   width: 100%;
-}
-
-.card{
-  border: 2px solid transparent;
-  border-radius: 10px;
-  transition: all .3s ease-in-out;
-}
-
-.card:hover{
-  border: 2px solid bisque;
-  color: white;
-  cursor: pointer;
+  padding: .1rem;
 }
 
 .about__content{
-  border-radius: 10px;
   text-align: center;
   height: 100%;
 }

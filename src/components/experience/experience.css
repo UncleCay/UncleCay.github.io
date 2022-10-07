@@ -1,7 +1,56 @@
 #experience{
     width: 100%;
     padding-top: 4rem;
-    position: sticky;
+    position: relative;
     top: 0;
     margin: 0;
+    text-align: center;
+    height: 150vh;
+}
+
+.experience__wrapper{
+    display: flex;
+    flex-direction: column;
+    box-shadow: .2px .3px .5px .5px darkgray;
+    margin: 2rem 2rem;
+}
+
+.qualifications{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    background: white;
+    gap: 2%;
+    text-align: start;
+    padding: .5rem;
+}
+
+.qualifications .quali__card{
+    box-shadow: .2px .3px .5px .5px darkgray;
+    padding: 1rem;
+}
+
+.qualifications .quali__card:hover{
+    background: rgba(255, 228, 196, .2);
+    transition: all .5s ease;
+}
+
+.quali__card p{
+    margin-top: 1rem;
+    color: gray;
+}
+
+.work__experience{
+    padding-top: 2rem;
+}
+
+.work__experience:hover {
+    background: rgba(255, 228, 196, .2);
+    transition: all .5s ease;
+
+}
+
+@media screen and (max-width: 627px){
+    .qualifications{
+        grid-template-columns: 100%;
+    }
 }

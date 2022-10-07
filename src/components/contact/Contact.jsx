@@ -1,4 +1,6 @@
 import React from 'react'
+import { FcCellPhone } from 'react-icons/fc'
+import { HiMail } from 'react-icons/hi'
 import './contact.css'
 
 const Contact = () => {
@@ -7,11 +9,12 @@ const Contact = () => {
       <div className="contact__container">
         <form className="contact__form">
           <div className="contact__heading">
-            <h2>Contact Me</h2>
+            <h1>Contact Me</h1>
             <p>
               I'm interested in remote job opportunities
-              fdfhl dfhdf dfdfod dfh dfpafdpdp dpfhd
-              dpfdfoy  ufdhpfhp fdidp ifdpfdia dfh
+              fdfhl dfhdf dfdfod dfh dfpafdpdp dpfhd<br />
+              You can contact me via the <strong><i>**Contacts On The Map**</i></strong><br />
+              Or you can aswell send a direct email to me through the form below.
             </p>
           </div>
           <div className="form__input__wrapper">
@@ -35,9 +38,11 @@ const Contact = () => {
             </div>
           </div>
           <div className="errmsg"></div>
-          <div className="submit__btn">
+          <div className='submit__btn'>
+          <div className="btn__color__fill">
             <span></span>
             <button type="submit">Send Message</button>
+          </div>
           </div>
         </form>
         <div className="contact__map">
@@ -50,14 +55,14 @@ const Contact = () => {
             title="my__location">
             </iframe>
             <div className="map__content">
-              <p>Orakpor Caleb</p>
+              <p>street number and name</p>
               <span>
-                my address 
+                Abuja 
                 <br />
-                numbers with name
+                <FcCellPhone />: +234 813 510 2532
               </span>
                 <br />
-              <span>@: orakporcaleb@gmail.com</span>
+              <span><HiMail />: orakporcaleb@gmail.com</span>
             </div>
           </div>
         </div>

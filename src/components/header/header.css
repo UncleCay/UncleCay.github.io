@@ -4,13 +4,13 @@ header {
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 0.1rem 1.5rem;
+    padding: 0.2rem 1.5rem;
     height: 100%;
-    background:rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(7px);
+    background:rgba(0, 0, 0, .1);
+    backdrop-filter: blur(1px);
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     
 }
 .brand__name{
@@ -24,9 +24,8 @@ header {
   aspect-ratio: 1/1;
   padding-top: 0.5rem;
   text-align:center;
-  z-index: 3;
-
   text-shadow: 2px 2px 2px black;
+  z-index: 2;
 }
 
   .header__links{
@@ -43,10 +42,10 @@ header {
     justify-content: center;
     text-align: center;
     align-items:center;
-    z-index: 3;
+    z-index: 2;
   }
 
-  .header__icons_cv{
+  .header__icons{
      font-size:x-large;
      align-self:center;
      width: 2.9rem;
@@ -69,15 +68,15 @@ header {
 /* ======= MENU BARS ======= */
 .menu__bars {
     cursor: pointer;
-    display: none;
     background:rgba(0, 0, 0, 0.9);
     border-radius: 50%;
     padding: 0.6rem;
+    z-index: 2;
 }  
 
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 33px;
+    height: 4px;
     background: var(--color-light);
     margin: 6px 0;
     transition: 0.4s;
@@ -92,8 +91,8 @@ header {
   }
 
   .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-8px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
   }
   
   .change .bar2 {opacity: 0;}
@@ -107,12 +106,12 @@ header {
   .menu__links{
     background: rgb(10, 10, 10, 1);
     position: absolute;
-    top: 3.9rem;
-    width: 100%;
+    top: 0rem;
+    width: 40%;
     height: 100vh;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
+    right: 0;
+    z-index: 1;
+    padding-top: 3.9rem;
 }
 
 .menu__links > ul{
@@ -146,14 +145,11 @@ header {
 
 /* ======= MEDIA QUERIES FOR SMALL DEVICES ======= */
 @media screen and (max-width: 627px){
-   header {
-    position:sticky;
-    top: 0;
-    z-index: 1;
-   }
-   .menu__bars {
-    display:inline-block;
-   }
+  
+  .menu__links{
+    width: 100%;
+  }
+
    .header__links a{
     display: none;
    }

@@ -1,7 +1,7 @@
 .home {
     margin: -4rem auto;
     justify-content:center;
-    height: 110vh;
+    height: 115vh;
     position: sticky;
     top: 0;
     z-index: 0;
@@ -14,7 +14,8 @@
   
   .home__intro{
     position: relative;
-    backdrop-filter: sepia(10%);
+    backdrop-filter: sepia(50%);
+    background: rgba(0, 0, 0, 0.1);
     width: 100%;
     height: 100%;
   }
@@ -51,14 +52,25 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    animation: intro 15s 1s steps(100, end) both infinite,
-    blink-caret .6s step-end both infinite;
+    animation: intro 32s 3.1s steps(100, end) both infinite;
+    /* blink-caret .6s step-end both infinite; */
+  }
+  .txtLine1{
+    animation: introOne 2s 1s steps(100, end) backwards;
   }
   .home__intro .txtLine2{
     font-size: 4em;
   }
   .home__intro .txtLine3{
-    animation-delay: 8.5s;
+    animation-delay: 11.1s;
+    font-size: 2em;
+  }
+  .home__intro .txtLine4{
+    animation-delay: 19.1s;
+    font-size: 2em;
+  }
+  .home__intro .txtLine5{
+    animation-delay: 27.1s;
     font-size: 2em;
   }
 
@@ -66,20 +78,27 @@
   font-size: larger;
 }
 
-.home__intro .my__name{
-  color: var(--color-light)
-}
-
-  @keyframes intro {
+ /* @keyframes intro {
     from, to { width: 0%;}
     25% { width: 100%;}
     50% { width: 0%;}
+  }*/
+
+  @keyframes intro {
+    from, to { width: 0%;}
+    15% { width: 100%;}
+    25% { width: 0%;}
+  }
+
+  @keyframes introOne {
+    from { width: 0%;}
+    to { width: 100%;}
   }
   
-  @keyframes blink-caret {
+  /* @keyframes blink-caret {
     from, to { border-color: transparent;}
     50% { border-color: orange;}
-  }
+  } */
   
   .home__socials{
     position: relative;
@@ -113,16 +132,16 @@
 
 @media screen and (max-width: 627px){
   .text__container{
-    padding: 9rem 0 0;
+    padding: 10rem 0 0;
     margin: 0 auto;
   }
   
-  .home__intro .txtLine2{
+  .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4{
     font-size: 1.4em;
   }
   
-  .home__intro .txtLine3{
-    font-size: 1em;
+ .home__intro .txtLine5{
+    font-size: 1.3em;
   }
   .home__socials{
           display: block;

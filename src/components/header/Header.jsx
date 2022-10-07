@@ -18,12 +18,10 @@ const Header = () => {
 
   return (
     <header className="header__top">
-      <h2 className="brand__name" title="Logo">OC</h2>
+      <h2 className="brand__name" title="Orakpor Caleb"><a href="#">OC</a></h2>
       <div className="header__links">
-          <a className="header__icons_cv" href="http://BsGithub.com" target="_blank"><BsGithub /></a>
-          <a className="header__icons_cv" href="http://linkedin.com" target="_blank"><BsLinkedin /></a>
-          <a className="header__icons_cv" href={CV} target="_blank">CV</a>
-          <a className="lets__talk" href="#contact">Let's Talk</a>
+          <a className="header__icons" href="http://BsGithub.com" target="_blank"><BsGithub /></a>
+          <a className="header__icons" href="http://linkedin.com" target="_blank"><BsLinkedin /></a>
         <div className={bars ? "menu__bars" : "menu__bars change"} onClick={changeBar}>
             <div className="bar1 bar"></div>
             <div className="bar2 bar"></div>

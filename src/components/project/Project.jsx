@@ -5,7 +5,7 @@ import projectImage from '../../assets/wood-texture.jpg'
 const Project = () => {
   return (
     <section id="project">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <div className="project__cards">
         <div className="project__card__row">
           <div className="project__card">

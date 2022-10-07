@@ -5,6 +5,7 @@ footer{
     position: relative;
     text-align: center;
     padding: 2rem;
+    box-shadow: 0 0 2px 0 white;
 }
 
 footer a{

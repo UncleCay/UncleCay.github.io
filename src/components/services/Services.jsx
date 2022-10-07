@@ -4,7 +4,7 @@ import './services.css'
 const Services = () => {
   return (
     <section id="services">
-      <h2>Services</h2>
+      <h1>Services</h1>
     </section>
   )
 }

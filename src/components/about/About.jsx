@@ -1,29 +1,37 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/me1.jpg'
+import Me from '../../assets/me.png'
 import {AiFillFolderOpen} from 'react-icons/ai'
 import {MdContactPage} from 'react-icons/md'
 
 const About = () => {
   return (
     <section id="about">
-      <h2>About Me</h2>
+      <h1>About Me</h1>
       <div className="about__container">
         <div className="img__container">
           <div className="about__img">
             <img src={Me}/>
           </div>
           <div className="cards">
-            <article className="card">
+          <div className="btn__color__fill">
+            <span></span>
+            <a href="#contact" className="card">
+              <button>
               <MdContactPage className="about__icon"/>
               <h5>Contact Me</h5>
-              <small>** 24/7 **</small>
-            </article>
-              <article className="card">
+              </button>
+            </a>
+          </div>
+          <div className="btn__color__fill">
+            <span></span>
+              <a href="#project" className="card">
+            <button>
                 <AiFillFolderOpen className="about__icon"/>
                 <h5>Projects</h5>
-                <small>5+ Completed</small>
-              </article>
+            </button>
+              </a>
+          </div>
           </div>
         </div>
         <div className="about__content">
@@ -37,9 +45,9 @@ const About = () => {
         </div>
       </div>
       <div className="skills">
-        <h3>SKILLS:</h3>
-        <h4 className="skills__slide1">HTML CSS BOOTSTRAP JAVASCRIPT(ES6) REACTJS FIGMA GIT/GITHUB</h4>
-        <h4 className="skills__slide2">HTML CSS BOOTSTRAP JAVASCRIPT(ES6) REACTJS FIGMA GIT/GITHUB</h4>
+        <h3>MY SKILLS:</h3>
+        <h4 className="skills__slide1">BPMN2.0 FIGMA GIT/GITHUB REACTJS JAVASCRIPT BOOTSTRAP CSS HTML</h4>
+        <h4 className="skills__slide2">BPMN2.0 FIGMA GIT/GITHUB REACTJS JAVASCRIPT BOOTSTRAP CSS HTML</h4>
       </div>
     </section>
   )
