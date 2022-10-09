@@ -4,7 +4,7 @@ import CV from '../../assets/cv.pdf'
 const MenuLinks = (props) => {
 
   return (
-    <div className={props.barMode ? "menu__links slideUp fadeOut" : "menu__links slideDown fadeIn"}>
+    <div className={props.barMode ? "menu__links slideLeft fadeOut" : "menu__links slideRight fadeIn"}>
         <ul>
             <li><a href={CV} target='_blank' onClick={props.handleClick}>Download CV</a></li>
             <li><a href="#about" onClick={props.handleClick}>About</a></li>
