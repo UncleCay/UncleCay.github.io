@@ -1,7 +1,49 @@
 #services{
+    color: rgba(29, 29, 29, 1);
     width: 100%;
-    padding-top: 4rem;
-    position: sticky;
+    padding-top: 0;
+    position: relative;
     top: 0;
     margin: 0;
+    height: 100vh;
+}
+
+#services h1{
+    margin: 0;
+    padding-top: 4rem;
+}
+
+.serviceCards{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    box-shadow: .2px .3px .5px .5px darkgray;
+    background: rgba(169, 169, 169, .1);
+}
+
+.serviceCard{
+    box-shadow: .2px .3px .5px .5px black;
+    height: 50vh;
+    width: 100%;
+    border-radius: 30px;
+    transition: all .2s ease;
+    overflow:hidden;
+    background: white;
+}
+
+.serviceCard:hover {
+    background: rgba(29, 29, 29, 1);
+    color:bisque;
+
+}
+
+@media screen and (max-width: 627px){
+    #services{
+        height: 100%;
+    }
+    .serviceCards{
+        flex-direction: column;
+    }
 }

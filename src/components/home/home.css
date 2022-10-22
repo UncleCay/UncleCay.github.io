@@ -23,6 +23,7 @@
   .text__container{
     padding: 13.5rem 0 0 0;
     margin: 0;
+    align-content: center;
   }
   
   .home__intro h1 {
@@ -52,53 +53,55 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    animation: intro 32s 3.1s steps(100, end) both infinite;
-    /* blink-caret .6s step-end both infinite; */
+    border-right: 4px solid transparent;
+    animation: intro 24s 3.1s steps(100, end) both infinite, blink-caret .6s step-end both infinite;
   }
   .txtLine1{
-    animation: introOne 2s 1s steps(100, end) backwards;
+    animation: subIntro 2s 1s steps(100, end) backwards;
   }
   .home__intro .txtLine2{
     font-size: 4em;
   }
   .home__intro .txtLine3{
-    animation-delay: 11.1s;
+    animation-delay: 9.1s;
     font-size: 2em;
   }
   .home__intro .txtLine4{
-    animation-delay: 19.1s;
+    animation-delay: 15.1s;
     font-size: 2em;
   }
   .home__intro .txtLine5{
-    animation-delay: 27.1s;
+    animation-delay: 21.1s;
     font-size: 2em;
   }
-
+  
   .home__intro .emoji{
-  font-size: larger;
-}
-
- /* @keyframes intro {
+    font-size: larger;
+  }
+  
+  /* @keyframes intro {
     from, to { width: 0%;}
     25% { width: 100%;}
     50% { width: 0%;}
   }*/
-
+  
   @keyframes intro {
     from, to { width: 0%;}
     15% { width: 100%;}
     25% { width: 0%;}
   }
-
-  @keyframes introOne {
+  
+  
+  @keyframes subIntro {
     from { width: 0%;}
     to { width: 100%;}
   }
   
-  /* @keyframes blink-caret {
-    from, to { border-color: transparent;}
-    50% { border-color: orange;}
-  } */
+   @keyframes blink-caret {
+    from, to { border: transparent;}
+    15% { border: orange;}
+    25% { border: transparent;}
+  } 
   
   .home__socials{
     position: relative;

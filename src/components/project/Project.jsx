@@ -36,6 +36,7 @@ const Project = () => {
           </div>
         </div>
       </div>
+      <div className="project__foot"></div>
     </section>
   )
 }

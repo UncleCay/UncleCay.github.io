@@ -4,29 +4,21 @@ import './experience.css'
 const Experience = () => {
   return (
     <section id="experience">
+      <div className="upperBackground"></div>
       <h1>Experience</h1>
       <div className="experience__wrapper">
         <div className="qualifications">
           <div className="quali__card">
             <h2>Education</h2>
                 <p>2014-2019</p>
-                <h4><strong>Bachelor of Engineering</strong> - University of Nigeria Nsukka</h4>
-              <ul>
-                <li>Electronic Engineering</li>
-              </ul>
+                <h4><strong>Bachelor of Engineering</strong> - University of Nigeria Nsukka <br />Electronic Engineering</h4>
           </div>
           <div className="quali__card">
             <h2>Certifications</h2>
             <p>2014-2019</p>
-                <h4><strong>Bachelor of Engineering</strong> - University of Nigeria Nsukka</h4>
-              <ul>
-                <li>Electronic Engineering</li>
-              </ul>
+                <h4><strong>Bachelor of Engineering</strong> - University of Nigeria Nsukka <br />Electronic Engineering</h4>
               <p>2014-2019</p>
-                <h4><strong>Bachelor of Engineering</strong> - University of Nigeria Nsukka</h4>
-              <ul>
-                <li>Electronic Engineering</li>
-              </ul>
+                <h4><strong>Bachelor of Engineering</strong> - University of Nigeria Nsukka <br />Electronic Engineering</h4>
             </div>
           </div>
         <div className="work__experience">

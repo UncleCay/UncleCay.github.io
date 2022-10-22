@@ -42,12 +42,26 @@ const About = () => {
             fdljfl djfldgge oihgei hoei;hfa lihd ;lfh;fdljf
             fldj;fkdj f;ldj;lk djfdjfdlj fldj f;djf;d jf;dj
           </p>
+          <h3>blaljdjldf</h3>
+          <p>
+            dfhdlkfhd khfdhdfj hfdhdkjhfklhfd khfkdhfk<br />
+            dlfjdl jfdlfjdo ifo ejoejf ;lefld dklfj dklfj dfj
+            fdljfl djfldgge oihgei hoei;hfa lihd ;lfh;fdljf
+            fldj;fkdj f;ldj;lk djfdjfdlj fldj f;djf;d jf;dj
+          </p>
+          <h3>blaljdjldf</h3>
+          <p>
+            dfhdlkfhd khfdhdfj hfdhdkjhfklhfd khfkdhfk<br />
+            dlfjdl jfdlfjdo ifo ejoejf ;lefld dklfj dklfj dfj
+            fdljfl djfldgge oihgei hoei;hfa lihd ;lfh;fdljf
+            fldj;fkdj f;ldj;lk djfdjfdlj fldj f;djf;d jf;dj
+          </p>
         </div>
       </div>
       <div className="skills">
-        <h3>MY SKILLS:</h3>
-        <h4 className="skills__slide1">BPMN2.0 FIGMA GIT/GITHUB REACTJS JAVASCRIPT BOOTSTRAP CSS HTML</h4>
-        <h4 className="skills__slide2">BPMN2.0 FIGMA GIT/GITHUB REACTJS JAVASCRIPT BOOTSTRAP CSS HTML</h4>
+        <h3>CORE SKILLS:</h3>
+        <h4 className="skills__slide1">HTML CSS BOOTSTRAP JAVASCRIPT REACTJS GIT/GITHUB FIGMA BPMN2.0</h4>
+        <h4 className="skills__slide2">HTML CSS BOOTSTRAP JAVASCRIPT REACTJS GIT/GITHUB FIGMA BPMN2.0</h4>
       </div>
     </section>
   )

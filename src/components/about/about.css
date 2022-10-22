@@ -1,39 +1,47 @@
 #about{
-    color: black;
+    color: bisque;
     width: 100%;
     overflow-x: hidden;
     position: relative;
-    padding-top: 4rem;
+    padding-top: 3rem;
     background-size: cover;
-    height: 120vh;
+    height: 100vh;
+    background:rgba(29, 29, 29, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .about__container{
   display: grid;
   grid-template-columns: 30% 70%;
-
-  padding: 0.5rem;
   justify-content: center;
+  background: rgba(40, 40, 40, 1);
+  color: bisque;
 }
 
 .img__container{
   display: flex;
   flex-direction: column;
-  background: rgba(29, 29, 29, 1);
-  background-image: url(../../assets/arabesque.png);
+  width: 100%;
+  /* background-image: url(../../assets/arabesque.png); */
 }
 
 
 .about__img{
-  background: white;
+  overflow: hidden;
+  width: 100%;
 }
 
 .about__img img{
+  width: 100%;
   aspect-ratio: 1/1;
+  transition: transform .5s ease;
 }
 
 .about__img img:hover{
-  animation: swing .6s ease-in;
+  /* animation: swing .6s ease-in; */
+  transform: scale(1.1);
 }
 
 @keyframes swing { 
@@ -46,16 +54,25 @@
 
 .cards{
   display: grid;
-  grid-template-columns: 49% 49%;
-  gap: 2%;
+  grid-template-columns: 50% 50%;
   text-align: center;
   width: 100%;
-  padding: .1rem;
+}
+
+.cards button{
+  width: 100%;
 }
 
 .about__content{
-  text-align: center;
-  height: 100%;
+  text-align:left;
+  height: 70vh;
+  background: inherit;
+  z-index: 2;
+  padding: 1.5rem;
+}
+
+.about__content h3, .about__content p{
+  margin: .5rem;
 }
 
 .skills{
@@ -64,23 +81,22 @@
       color: bisque;
       display: inline-flex;
       gap: 10rem;
-      align-items: center;
       letter-spacing: 2px;
       word-spacing: 3px;
-      position:absolute;
-      bottom: 0%;
+      position:relative;
+      z-index: 2;
     }
     
     .skills h3{
       background: black;
-      z-index: 1;
-      padding: 0 10px 0 30px;
-      border-radius: 0 0 30px 0;
+      z-index: 2;
+      padding: 0 10px 0 10px;
+      border-radius: 0 0px 40px 0;
     }
     
     .skills h4{
       position: absolute;
-      bottom: 0rem;
+      bottom: 0;
     }
     
     .skills:hover > h4{
@@ -98,25 +114,29 @@
     }
     
     @keyframes sliding__text {
-      from{ transform: translate(-600px)}
-      to {transform: translate(1700px)}
+      from {transform: translate(1700px)}
+      to{ transform: translate(-600px)}
     }
 
     @media screen and (max-width: 627px){
+      #about{
+        height: 100%;
+      }
       .about__container{
         grid-template-columns: 1fr;
         gap: .5rem;
         margin: 0.5rem auto;
       }
-      .skills{
-        position: sticky;
-        bottom: 0;
+      .about__content{
+        height: 100%;
+      }
+      .about__content h3{
+        text-align: center;
       }
     }
+    
     @media screen and (max-width: 827px){
       .cards{
         grid-template-columns: 100%;
       }
-    }
-    @media screen and (max-width: 1024px){
     }

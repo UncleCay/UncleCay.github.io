@@ -55,6 +55,7 @@ section {
 }
 section h1{
     text-align: center;
+    padding: 1rem;
   }
 
 h1, h2, h3, h4, h5 {
@@ -73,7 +74,7 @@ a {
     transition: var(--transition);
 }
 a:hover {
-    color: var(--color-white);
+    color: white;
 }
 .btn{
     width: max-content;
@@ -129,12 +130,12 @@ img {
     100% {transform: translateY(-100vh);}
   }
 @keyframes slideRight {
-    0% {transform: translateX(35rem);}
-    100% {transform: translateX(0);}
+    0% {transform: translateX(-32rem);}
+    100% {transform: translateX(0px);}
   }
 @keyframes slideLeft {
     0% {transform: translateX(0);}
-    100% {transform: translateX(35rem);}
+    100% {transform: translateX(-32rem);}
   }
 
   .slideDown{
@@ -145,17 +146,17 @@ img {
   }
 
   .slideLeft{
-    animation: slideLeft 1s ease;
+    animation: slideLeft 1s ease both;
   }
   .slideRight{
-    animation: slideRight 1s ease;
+    animation: slideRight 1s ease both;
   }
 
 
 /* ======= FADE OUT ======= */
 .fadeOut{
   opacity:0;
-  transition: opacity 1s;
+  transition: opacity 7s;
   pointer-events: none;
 }
 
@@ -171,7 +172,7 @@ img {
     background: transparent;
     width: 100%;
     height: 3rem;
-    border: 2px solid bisque;
+
     font-size: large;
     color: bisque;
 }

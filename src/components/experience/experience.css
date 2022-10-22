@@ -1,11 +1,26 @@
 #experience{
     width: 100%;
-    padding-top: 4rem;
     position: relative;
     top: 0;
     margin: 0;
     text-align: center;
     height: 150vh;
+    padding-top: 4rem;
+}
+
+#experience > h1{
+    color:bisque;
+}
+
+.upperBackground{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 60vh;
+    border-radius: 0 0 60px 60px;
+    background: rgba(30, 25, 25, 1);
+    width: 100%;
 }
 
 .experience__wrapper{
@@ -30,12 +45,16 @@
 }
 
 .qualifications .quali__card:hover{
-    background: rgba(255, 228, 196, .2);
-    transition: all .5s ease;
+    background: rgba(30, 25, 25, 1);
+    color: bisque;
+    transition: all .4s ease;
+}
+
+.quali__card p, .quali__card h4, .quali__card ul{
+    margin: 1rem;
 }
 
 .quali__card p{
-    margin-top: 1rem;
     color: gray;
 }
 
@@ -44,9 +63,9 @@
 }
 
 .work__experience:hover {
-    background: rgba(255, 228, 196, .2);
-    transition: all .5s ease;
-
+    transition: all .5s ease; 
+    background: rgba(30, 25, 25, 1);
+    color: bisque;
 }
 
 @media screen and (max-width: 627px){
