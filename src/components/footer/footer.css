@@ -1,7 +1,7 @@
 footer{
     height: 100%;
     width: 100%;
-    background-color: rgb(20, 20, 20);
+    background-color: var(--color-bg2);
     position: relative;
     text-align: center;
     padding: 2rem;

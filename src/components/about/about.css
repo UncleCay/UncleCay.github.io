@@ -1,74 +1,168 @@
 #about{
-    color: bisque;
-    width: 100%;
-    overflow-x: hidden;
-    position: relative;
-    padding-top: 3rem;
-    background-size: cover;
-    height: 100vh;
-    background:rgba(29, 29, 29, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .about__container{
-  display: grid;
-  grid-template-columns: 30% 70%;
-  justify-content: center;
-  background: rgba(40, 40, 40, 1);
   color: bisque;
-}
-
-.img__container{
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  background: var(--color-bg2);
   display: flex;
   flex-direction: column;
-  width: 100%;
-  /* background-image: url(../../assets/arabesque.png); */
+  justify-content: space-between;
+  }
+  
+  .color__scheme{
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+  }
+  
+  .color__scheme div{
+    background: white;
+    width: 20%;
+    aspect-ratio: 1/1;
+  }
+
+  .color__scheme #a1{
+    background: black;
+  }
+  .color__scheme #a2{
+    background: white;
 }
-
-
-.about__img{
-  overflow: hidden;
-  width: 100%;
+  .color__scheme #a3{
+    background: rgb(55, 55, 55);
 }
-
-.about__img img{
-  width: 100%;
-  aspect-ratio: 1/1;
-  transition: transform .5s ease;
+.color__scheme #a4{
+  background: rgb(195, 206, 200);
 }
-
-.about__img img:hover{
-  /* animation: swing .6s ease-in; */
-  transform: scale(1.1);
+  .color__scheme #a5{
+    background: rgb(102, 102, 102);
 }
-
-@keyframes swing { 
-  20% { transform: rotate(7deg); } 
-  40% { transform: rotate(-4deg); } 
-  60% { transform: rotate(2deg); } 
-  80% { transform: rotate(-1deg); } 
-  100% { transform: rotate(0deg); } 
+.color__scheme #a6{
+  background: rgb(84, 84, 84);
 }
-
-.cards{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  text-align: center;
-  width: 100%;
+.color__scheme #a7{
+    background: 
+    rgb(189, 189, 189);
+  }
+  .color__scheme #a8{
+    background: 
+    rgb(228, 228, 228);;
 }
-
-.cards button{
-  width: 100%;
+.color__scheme #a9{
+  background: rgb(74, 74, 74);
 }
+.color__scheme #a10{
+  background: rgb(150, 150, 150);
+}
+.color__scheme #a11{
+  background: rgb(204, 219, 216);
+}
+.color__scheme #a12{
+  background: 
+  rgb(204, 210, 140);
+}
+.color__scheme #a13{
+  background: rgb(83, 93, 68);
+}
+.color__scheme #a14{
+  background:  rgb(57, 87, 13);
+}
+.color__scheme #a15{
+    background: 
+    rgb(89, 125, 1);
+  }
+  .color__scheme #a16{
+    background: rgb(70, 99, 103);
+}
+.color__scheme #a17{
+    background: 
+    rgb(71, 92, 97);
+  }
+  .color__scheme #a18{
+    background: 
+    rgb(31, 51, 52);
+  }
+  .color__scheme #a19{
+    background: rgb(177, 207, 205);
+  }
+  .color__scheme #a20{
+    background: 
+    rgb(33, 33, 33);
+  }
+  .color__scheme #a21{
+    background: rgb(27, 27, 27);
+  }
+  .color__scheme #a22{
+    background: 
+    rgb(26, 35, 32);
+  }
+  .color__scheme #a23{
+    background: 
+    rgb(149, 202, 218);
+  }
+  .color__scheme #a24{
+    background: 
+    rgb(45, 74, 80);
+  }
 
+  .about__container{
+    color: white;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    background: var(--color-bg3);
+  }
+  
+  .img__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-image: url(../../assets/arabesque.png); */
+  }
+  
+  
+  .about__img{
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .about__img img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    transition: transform .5s ease;
+  }
+  
+  .about__img img:hover{
+    /* animation: swing .6s ease-in; */
+    transform: scale(1.1);
+  }
+  
+  /*@keyframes swing { 
+    20% { transform: rotate(7deg); } 
+    40% { transform: rotate(-4deg); } 
+    60% { transform: rotate(2deg); } 
+    80% { transform: rotate(-1deg); } 
+    100% { transform: rotate(0deg); } 
+  }*/
+
+  .cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .cards button{
+    width: 100%;
+  }
+  
 .about__content{
   text-align:left;
   height: 70vh;
-  background: inherit;
   z-index: 2;
   padding: 1.5rem;
+  background-image: url(../../assets/arabesque.png);
 }
 
 .about__content h3, .about__content p{
@@ -85,6 +179,7 @@
       word-spacing: 3px;
       position:relative;
       z-index: 2;
+      margin-bottom: 5rem;
     }
     
     .skills h3{

@@ -1,16 +1,21 @@
 #services{
-    color: rgba(29, 29, 29, 1);
+    background-image: url(../../assets/web-services.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -7rem;
     width: 100%;
-    padding-top: 0;
     position: relative;
     top: 0;
     margin: 0;
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 5rem;
+    color: var(--color-bg);
 }
 
 #services h1{
     margin: 0;
-    padding-top: 4rem;
+    color: brown;
 }
 
 .serviceCards{
@@ -18,30 +23,29 @@
     gap: 1rem;
     text-align: center;
     justify-content: center;
-    padding: 4rem 2rem;
-    box-shadow: .2px .3px .5px .5px darkgray;
-    background: rgba(169, 169, 169, .1);
+    padding: 3rem 2rem;
+    background:rgba(0, 0, 0, .2)
 }
 
 .serviceCard{
-    box-shadow: .2px .3px .5px .5px black;
+    box-shadow: 1px 1px 1px black;
     height: 50vh;
     width: 100%;
-    border-radius: 30px;
     transition: all .2s ease;
     overflow:hidden;
     background: white;
+    color: black
 }
 
 .serviceCard:hover {
-    background: rgba(29, 29, 29, 1);
-    color:bisque;
-
+    color: white;
+    background:rgba(31, 51, 52, .9);
 }
 
 @media screen and (max-width: 627px){
     #services{
         height: 100%;
+        background-position: -30rem 0;
     }
     .serviceCards{
         flex-direction: column;

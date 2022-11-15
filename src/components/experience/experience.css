@@ -5,11 +5,11 @@
     margin: 0;
     text-align: center;
     height: 150vh;
-    padding-top: 4rem;
+    background: white;
 }
 
 #experience > h1{
-    color:bisque;
+    color:brown;
 }
 
 .upperBackground{
@@ -19,8 +19,10 @@
     top: 0;
     height: 60vh;
     border-radius: 0 0 60px 60px;
-    background: rgba(30, 25, 25, 1);
+    background: white;
     width: 100%;
+    border: 8px solid var(--color-white);
+    border-top: 0;
 }
 
 .experience__wrapper{
@@ -28,26 +30,28 @@
     flex-direction: column;
     box-shadow: .2px .3px .5px .5px darkgray;
     margin: 2rem 2rem;
+    background: var(--color-white);
 }
 
 .qualifications{
     display: grid;
     grid-template-columns: 49% 49%;
-    background: white;
+    background: var(--color-white);
     gap: 2%;
     text-align: start;
     padding: .5rem;
+    color: var(--color-bg);
 }
 
 .qualifications .quali__card{
     box-shadow: .2px .3px .5px .5px darkgray;
     padding: 1rem;
+    background: white;
 }
 
 .qualifications .quali__card:hover{
-    background: rgba(30, 25, 25, 1);
-    color: bisque;
     transition: all .4s ease;
+    color: black;
 }
 
 .quali__card p, .quali__card h4, .quali__card ul{
@@ -60,12 +64,12 @@
 
 .work__experience{
     padding-top: 2rem;
+    color: var(--color-bg);
 }
 
 .work__experience:hover {
-    transition: all .5s ease; 
-    background: rgba(30, 25, 25, 1);
-    color: bisque;
+    transition: all .5s ease; ;
+    color: black;
 }
 
 @media screen and (max-width: 627px){

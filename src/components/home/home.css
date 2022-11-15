@@ -14,8 +14,8 @@
   
   .home__intro{
     position: relative;
-    backdrop-filter: sepia(50%);
-    background: rgba(0, 0, 0, 0.1);
+    /* backdrop-filter: sepia(50%); */
+    background: rgba(0, 0, 0, .1);
     width: 100%;
     height: 100%;
   }

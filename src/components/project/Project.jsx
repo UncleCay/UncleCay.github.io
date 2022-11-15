@@ -20,8 +20,20 @@ const Project = () => {
               <p>project description goes here</p>
               </span>
           </div>
+          <div className="project__card">
+          <img src={projectImage} alt="project Img"/>
+            <span className="project__description">
+              <p>project description goes here</p>
+              </span>
+          </div>
         </div>
         <div className="project__card__row">
+          <div className="project__card">
+          <img src={projectImage} alt="project Img"/>
+            <span className="project__description">
+              <p>project description goes here</p>
+              </span>
+          </div>
           <div className="project__card">
           <img src={projectImage} alt="project Img"/>
             <span className="project__description">
