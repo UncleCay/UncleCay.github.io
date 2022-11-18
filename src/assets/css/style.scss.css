@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rubik+Wet+Paint&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:700,900);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faster+One&family=Poppins:wght@500;600&family=Ultra&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Open+Sans:ital,wght@0,700;0,800;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+
+   /* 
+   --color-bg8: rgb(71, 92, 97);
+   --color-green: rgb(204, 210, 140);
+   --color-green: rgb(204, 219, 216);
+   --color-white: rgb(150, 150, 150);
+   --color-white: rgb(189, 189, 189);
+   --color-white: rgb(55, 55, 55);
+   --color-bgb3: rgb(84, 84, 84);
+   --color-bgb3: rgb(102, 102, 102);
+   */
+   --color-bg: rgb(26, 35, 32);
+   --color-bg2: rgb(31, 51, 52);
+   --color-bg3: rgb(45, 74, 80);
+   --color-bg4: rgb(70, 99, 103);
+   --color-bg5: rgb(83, 93, 68);
+   --color-bgb1: rgb(27, 27, 27);
+   --color-bgb2: rgb(33, 33, 33);
+   --color-bgb3: rgb(74, 74, 74);
+   --color-txt: rgb(149, 202, 218);
+   --color-txt2: rgb(177, 207, 205);
+   --color-white: rgb(228, 228, 228);
+   --color-white2: rgb(195, 206, 200);
+   --color-green1: rgb(89, 125, 1);
+   --color-green2: rgb(57, 87, 13);
+   
+   --transition: all 400ms ease;
+    
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    line-height: 1.5;
+}
+
+/* ======= GENERAL STYLES ======= */
+section {
+    height: 100vh;
+    z-index: 0;
+    position: sticky;
+    top: 0;
+    color: black;
+    background: white;
+}
+section h1{
+    text-align: center;
+    padding-top: .9rem;
+    padding-bottom: 3rem;
+  }
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+h1 {
+    font-size: 2.5rem;
+}
+
+
+.text-light {
+    color: var(--color-light);
+}
+a {
+    color:var(--color-light);
+    color: var(--color-txt2);
+    transition: var(--transition);
+}
+a:hover {
+    color: white;
+}
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: burlywood;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid brown;
+    transition: var(--transition);
+}
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: brown;
+    color: burlywood;
+}
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ======= FADE IN FOR CLASSES======= */
+.fadeIn{
+  opacity:1;
+  transition: opacity 1s;
+}
+/* FADE IN FOR ANIMATIONS */
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1;}
+  }
+@keyframes slideDown {
+    0% {transform: translateY(-100vh);}
+    100% {transform: translateY(0);}
+  }
+@keyframes slideUp {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-100vh);}
+  }
+@keyframes slideRight {
+    0% {transform: translateX(-32rem);}
+    100% {transform: translateX(0px);}
+  }
+@keyframes slideLeft {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-32rem);}
+  }
+
+  .slideDown{
+    animation: slideDown 1s ease;
+  }
+  .slideUp{
+    animation: slideUp 1s ease;
+  }
+
+  .slideLeft{
+    animation: slideLeft 1s ease both;
+  }
+  .slideRight{
+    animation: slideRight 1s ease both;
+  }
+
+
+/* ======= FADE OUT ======= */
+.fadeOut{
+  opacity:0;
+  transition: opacity 7s;
+  pointer-events: none;
+}
+
+/* ======= BTN COLOR FILL ======= */
+.btn__color__fill{
+    position: relative;
+    height: 3rem;
+    width: 50%;
+}
+
+.btn__color__fill button{
+    position: relative;
+    transition: all .3s ease;
+    background: transparent;
+    width: 100%;
+    height: 3rem;
+    font-size: large;
+}
+
+.btn__color__fill span{
+    position: absolute;
+    content: '';
+    transition: all .3s ease;
+    width: 0;
+    margin: 0;
+    height: 3rem;
+    background: var(--color-bg4);
+}
+
+.btn__color__fill:hover span, .btn__color__fill:hover button{
+    width: 100%;
+    color: white;
+}
+.btn_about{
+    position: relative;
+    height: 3rem;
+}
+
+.btn_about button{
+    position: relative;
+    transition: all .3s ease;
+    background: transparent;
+    width: 100%;
+    height: 3rem;
+    font-size: large;
+    color: white;
+}
+
+.btn_about span{
+    position: absolute;
+    content: '';
+    transition: all .3s ease;
+    width: 0;
+    margin: 0;
+    height: 3rem;
+    background: var(--color-bg);
+}
+
+.btn_about:hover span, .btn_about:hover button{
+    width: 100%;
+    color: bisque;
+}
+
+/* ======= MEDIA QUERIES FOR MEDIUM DEVICES ======= */
+@media screen and (max-width: 1024px){
+    .container {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/* ======= MEDIA QUERIES FOR SMALL DEVICES ======= */
+@media screen and (max-width: 627px){
+    .container {
+        width: var(--container-width-sm);
+    }
+    section {
+        margin-top: 2rem;
+        height: 100vh;
+    }
+}
