@@ -1,2 +1,2 @@
 This is a portfolio website project by Orakpor Caleb,
-a front-end react developer
+a front-end reactjs developer
