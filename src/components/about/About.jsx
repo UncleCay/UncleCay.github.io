@@ -105,10 +105,12 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <h3>blaljdjldf</h3>
+          <h3>Please Allow Me To Introduce Myself</h3>
           <p>
-            dfhdlkfhd khfdhdfj hfdhdkjhfklhfd khfkdhfk<br />
-            dlfjdl jfdlfjdo ifo ejoejf ;lefld dklfj dklfj dfj
+           I'm Caleb, a front-end reactjs developer, 
+           with over 2 years of experience in responsive web development.<br />
+
+            I love to write a Scalable and Readable lines of code that are easy to change and maintain.
             fdljfl djfldgge oihgei hoei;hfa lihd ;lfh;fdljf
             fldj;fkdj f;ldj;lk djfdjfdlj fldj f;djf;d jf;dj
           </p>
@@ -127,6 +129,11 @@ const About = () => {
             fldj;fkdj f;ldj;lk djfdjfdlj fldj f;djf;d jf;dj
           </p>
         </div>
+      </div>
+      <div>My focus: <span>Scalable Code</span><span>Readable Code</span>
+          <span>Reusable Code</span><span>Responsive Design</span>
+          <span>Mobile-first App</span><span>Simple and eyecatchy Design</span>
+          <span>User Friendly Design</span>
       </div>
       <div className="skills">
         <h3>CORE SKILLS:</h3>

@@ -34,12 +34,17 @@
     transition: all .2s ease;
     overflow:hidden;
     background: white;
-    color: black
+    color: black;
 }
 
 .serviceCard:hover {
     color: white;
     background:rgba(31, 51, 52, .9);
+}
+
+.serviceCard img{
+    width: 100px;
+    aspect-ratio: 1.5/1;
 }
 
 @media screen and (max-width: 627px){

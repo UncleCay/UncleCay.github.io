@@ -1,5 +1,6 @@
 import React from 'react'
 import './services.css'
+import webdev from '../../assets/webdev__icon.jpg'
 
 const Services = () => {
   return (
@@ -7,8 +8,8 @@ const Services = () => {
       <h1>Services</h1>
       <div className='serviceCards'>
         <div className="serviceCard">
-          <img />
-          <h2>Web Developer</h2>
+          <img src={webdev} alt="web dev"/>
+          <h2>WEB DEVELOPMENT</h2>
           <h3>dlfffldjld</h3>
           <p>jfljldjdjld ldjfdljfd
             jdljfldjfld jdljfdljdl
