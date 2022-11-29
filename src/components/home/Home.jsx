@@ -16,6 +16,10 @@ const Home = () => {
             </span>
           </div>
         </div>
+        <div>
+          <h3>Feel free to contact me anytime</h3>
+          <button>My Contact</button>
+        </div>
         <HomeSocials />
       </div>
   )

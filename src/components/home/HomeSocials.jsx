@@ -5,12 +5,12 @@ const HomeSocials = () => {
     <div className='home__socials'>
       <div className="homesoc__icons">
         <span className="icon__row">
-        <a href="http://BsGithub.com" target="_blank"><BsGithub /></a>
-        <a href="http://linkedin.com" target="_blank"><BsLinkedin /></a>
+        <a href="https://github.com/UncleCay" target="_blank"><BsGithub /></a>
+        <a href="https://www.linkedin.com/caleb-orakpor-12ab81209" target="_blank"><BsLinkedin /></a>
         </span>
         <span className="icon__row">
-        <a href="http://facebook.com" target="_blank"><BsFacebook /></a>
-        <a href="http://whatsapp.com" target="_blank"><BsWhatsapp /></a>
+        <a href="https://facebook.com" target="_blank"><BsFacebook /></a>
+        <a href="https://wa.me/2348135102532" target="_blank"><BsWhatsapp /></a>
         </span>
       </div>
     </div>

@@ -22,16 +22,6 @@
     --color-light: rgba(255, 255, 255, 0.6);
     --color-primary-variant: rgba(77, 181, 255, 0.4);
 
-   /* 
-   --color-bg8: rgb(71, 92, 97);
-   --color-green: rgb(204, 210, 140);
-   --color-green: rgb(204, 219, 216);
-   --color-white: rgb(150, 150, 150);
-   --color-white: rgb(189, 189, 189);
-   --color-white: rgb(55, 55, 55);
-   --color-bgb3: rgb(84, 84, 84);
-   --color-bgb3: rgb(102, 102, 102);
-   */
    --color-bg: rgb(26, 35, 32);
    --color-bg2: rgb(31, 51, 52);
    --color-bg3: rgb(45, 74, 80);
@@ -79,8 +69,8 @@ section {
 }
 section h1{
     text-align: center;
-    padding-top: .9rem;
-    padding-bottom: 3rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
   }
 
 h1, h2, h3, h4, h5 {
