@@ -50,10 +50,6 @@
     color: white;
 }
 
-.project__foot{
-
-}
-
 @media screen and (max-width: 627px){
     .project__cards{
         padding: 1rem;
