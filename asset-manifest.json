@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/UncleCay.github.io/public/index.html/static/css/main.7d622e4e.css",
+    "main.js": "/UncleCay.github.io/public/index.html/static/js/main.39577c93.js",
+    "static/media/home10.jpg": "/UncleCay.github.io/public/index.html/static/media/home10.d4bc424eadc92c663299.jpg",
+    "static/media/wood-texture.jpg": "/UncleCay.github.io/public/index.html/static/media/wood-texture.700575b458907e2ace95.jpg",
+    "static/media/web-services.jpg": "/UncleCay.github.io/public/index.html/static/media/web-services.c12b442aa25fc191d7a6.jpg",
+    "static/media/me.png": "/UncleCay.github.io/public/index.html/static/media/me.dcbd51078ac2d53aa1f8.png",
+    "static/media/cv.pdf": "/UncleCay.github.io/public/index.html/static/media/cv.29c83acdb6297308a5f5.pdf",
+    "static/media/webdev__icon.jpg": "/UncleCay.github.io/public/index.html/static/media/webdev__icon.a8e1d6fafa4bb9547499.jpg",
+    "static/media/thinking.png": "/UncleCay.github.io/public/index.html/static/media/thinking.65bb9ab672a072b5d995.png",
+    "index.html": "/UncleCay.github.io/public/index.html/index.html",
+    "main.7d622e4e.css.map": "/UncleCay.github.io/public/index.html/static/css/main.7d622e4e.css.map",
+    "main.39577c93.js.map": "/UncleCay.github.io/public/index.html/static/js/main.39577c93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d622e4e.css",
+    "static/js/main.39577c93.js"
+  ]
+}
