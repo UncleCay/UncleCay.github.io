@@ -2,7 +2,7 @@
   "name": "calebs-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://UncleCay/UncleCay.github.io/public",
+  "homepage": "https://UncleCay/UncleCay.github.io",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
