@@ -3,7 +3,6 @@ import './about.css'
 import Me from '../../assets/me.png'
 import {AiFillFolderOpen} from 'react-icons/ai'
 import {MdContactPage} from 'react-icons/md'
-import thinking from '../../assets/thinking.png'
 
 const About = () => {
   return (
@@ -36,36 +35,23 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <h3>Please Allow Me To Introduce Myself</h3>
-          <p>
-           I'm Caleb, a front-end reactjs developer, 
-           with over 2 years of experience in responsive web development.<br />
-
-            I love to write a Scalable and Readable lines of code that are easy to change and maintain.
-            fdljfl djfldgge oihgei hoei;hfa lihd ;lfh;fdljf
-            fldj;fkdj f;ldj;lk djfdjfdlj fldj f;djf;d jf;dj
-          </p>
-          <h3>blaljdjldf</h3>
-          <p>
-            dfhdlkfhd khfdhdfj hfdhdkjhfklhfd khfkdhfk<br />
-            dlfjdl jfdlfjdo ifo ejoejf ;lefld dklfj dklfj dfj
-            fdljfl djfldgge oihgei hoei;hfa lihd ;lfh;fdljf
-            fldj;fkdj f;ldj;lk djfdjfdlj fldj f;djf;d jf;dj
-          </p>
-          <h3>blaljdjldf</h3>
-          <p>
-            dfhdlkfhd khfdhdfj hfdhdkjhfklhfd khfkdhfk<br />
-            dlfjdl jfdlfjdo ifo ejoejf ;lefld dklfj dklfj dfj
-            fdljfl djfldgge oihgei hoei;hfa lihd ;lfh;fdljf
-            fldj;fkdj f;ldj;lk djfdjfdlj fldj f;djf;d jf;dj
-          </p>
+          <h2>
+           Hello World! <br />
+           My name is Caleb. I'm a front-end reactjs web developer located in Nigeria.
+          </h2>
+          <br />
+          <h4>
+          I design and develop websites and web applications using HTML, CSS and JavaScript.
+          When working on a project, I pay attention to the smallest details addressing problems with patience.
+          Web design and development help me to flex my creative mind and allow me to satisfy my desire for constant self-growth.
+          </h4>
+          <br />
+          <h4>
+          I prioritize responsiveness, scalability, user-friendliness, and simplicity when I design. 
+          I also strive to make my code reusable, understandable, and maintainable.
+          </h4>
         </div>
       </div>
-      <div>My focus: <span>Scalable Code</span><span>Readable Code</span>
-          <span>Reusable Code</span><span>Responsive Design</span>
-          <span>Mobile-first App</span><span>Simple and eyecatchy Design</span>
-          <span>User Friendly Design</span>
-      </div><br />
       <div className="skills">
         <h3>CORE SKILLS:</h3>
         <h4 className="skills__slide1">HTML CSS BOOTSTRAP JAVASCRIPT REACTJS GIT/GITHUB FIGMA BPMN2.0</h4>

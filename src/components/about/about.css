@@ -5,7 +5,7 @@
   position: relative;
   background-size: cover;
   height: 100%;
-  background: var(--color-bg2);
+  background: var(--color-bg);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,15 +14,21 @@
   .about__container{
     color: white;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 69%;
+    gap: 1%;
     justify-content: center;
-    background: var(--color-bg3);
+
+    margin-bottom: 1rem;
+    padding: 1rem;
   }
   
   .img__container{
+    background: var(--color-bg5);
     display: flex;
     flex-direction: column;
     width: 100%;
+    border-radius: 6rem;
+    overflow: hidden;
   }
   
   
@@ -46,22 +52,27 @@
     grid-template-columns: 50% 50%;
     text-align: center;
     width: 100%;
+    padding: .15rem;
   }
   
   .cards button{
     width: 100%;
   }
   
-.about__content{
-  text-align:left;
-  height: 70vh;
-  z-index: 2;
-  padding: 1.5rem;
-  background-image: url(../../assets/arabesque.png);
-}
-
-.about__content h3, .about__content p{
-  margin: .5rem;
+  .about__content{
+    border-radius: 6rem 0 0 6rem;
+    border-right: none;
+    text-align:left;
+    height: 70vh;
+    z-index: 2;
+    background: var(--color-bg5);
+    background-image: url(../../assets/arabesque.png);
+    text-align: justify;
+    padding: 4rem 4rem 0 4rem;
+  }
+  
+  .about__content h4{
+  font-weight: 100;
 }
 
 .skills{
@@ -119,6 +130,8 @@
       }
       .about__content{
         height: 100%;
+        text-align: end;
+        padding: 2rem;
       }
       .about__content h3{
         text-align: center;

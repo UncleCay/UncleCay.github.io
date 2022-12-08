@@ -20,6 +20,7 @@
 }
 
 .serviceCards{
+    position: relative;
     display: flex;
     gap: 1rem;
     text-align: center;
@@ -36,6 +37,7 @@
     overflow:hidden;
     background: white;
     color: black;
+    position: relative;
 }
 
 .serviceCard:hover {
@@ -46,6 +48,7 @@
 .serviceCard img{
     width: 100px;
     aspect-ratio: 1.5/1;
+    margin: 1rem auto;    
 }
 
 @media screen and (max-width: 627px){

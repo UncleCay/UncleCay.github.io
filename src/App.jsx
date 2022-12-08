@@ -9,18 +9,21 @@ import Contact from './components/contact/Contact'
 import Home from './components/home/Home'
 import Footer from './components/footer/Footer'
 
+
 const App = () => {
   return (
     <div className="app__container">
       <Header />
-      <Home />
-      <Nav />
-      <About />
-      <Services />
-      <Experience />
-      <Project />
-      <Contact />
-      <Footer />
+
+        <Home />
+        <Nav />
+        <About />
+        <Services />
+        <Experience />
+        <Project />
+        <Contact />
+        <Footer />
+
     </div>
   )
 }
