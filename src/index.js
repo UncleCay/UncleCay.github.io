@@ -19,10 +19,10 @@ const messageInput = document.querySelector('.message')
 
 const contactForm = document.querySelector('.contact__form')
 
-contactForm.addEventListener("submit", (evt) => {
+/*contactForm.addEventListener('submit', (evt) => {
     evt.preventDefault();
-    validateInput()
-})
+    validateInput();
+});*/
 
 const validateInput = () => {
     let email = emailInput.value
