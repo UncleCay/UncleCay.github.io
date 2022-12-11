@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://UncleCay/UncleCay.github.io/public/",
   "dependencies": {
-    "@emailjs/browser": "^3.6.2",
+    "@emailjs/browser": "^3.10.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -18,7 +18,7 @@
     "react-leaflet": "^4.0.1",
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.54.0",
     "web-vitals": "^2.1.4"
   },

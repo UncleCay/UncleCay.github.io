@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rubik+Wet+Paint&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Faster+One&family=Poppins:wght@500;600&family=Ultra&family=Vidaloka&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Open+Sans:ital,wght@0,700;0,700;1,700;1,700&display=swap');
 
 * {
     margin: 0;
@@ -20,36 +19,49 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --color-primary-variant: rgba(77, 181, 255, 0.4);
-
-   --color-bg: rgb(26, 35, 32);
-   --color-bg2: rgb(31, 51, 52);
-   --color-bg3: rgb(45, 74, 80);
-   --color-bg4: rgb(70, 99, 103);
-   --color-bg5: rgb(83, 93, 68);
-   --color-bgb1: rgb(27, 27, 27);
-   --color-bgb2: rgb(33, 33, 33);
-   --color-bgb3: rgb(74, 74, 74);
-   --color-txt: rgb(149, 202, 218);
-   --color-txt2: rgb(177, 207, 205);
-   --color-white: rgb(228, 228, 228);
-   --color-white2: rgb(195, 206, 200);
-   --color-green1: rgb(89, 125, 1);
-   --color-green2: rgb(57, 87, 13);
-   
-   --transition: all 400ms ease;
-    
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --color-bg: rgb(26, 35, 32);
+    --color-bg2: rgb(31, 51, 52);
+    --color-bg3: rgb(45, 74, 80);
+    --color-bg4: rgb(70, 99, 103);
+    --color-bg5: rgb(83, 93, 68);
+    --color-bgb1: rgb(27, 27, 27);
+    --color-bgb2: rgb(33, 33, 33);
+    --color-bgb3: rgb(74, 74, 74);
+    --color-txt: rgb(149, 202, 218);
+    --color-txt2: rgb(177, 207, 205);
+    --color-white: rgb(228, 228, 228);
+    --color-white2: rgb(195, 206, 200);
+    --color-green1: rgb(89, 125, 1);
+    --color-green2: rgb(57, 87, 13);
+ 
+    --transition: all 400ms ease;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+/* width */
 ::-webkit-scrollbar {
-    display:block;
-}
+    width: 13px;
+    background: gray;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--color-bgb2); 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: var(--color-bgb2); 
+      border-radius: 7px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: var(--color-bgb2); 
+  }
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -90,26 +102,7 @@ a {
 a:hover {
     color: white;
 }
-.btn{
-    width: max-content;
-    display: inline-block;
-    color: burlywood;
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    border: 1px solid brown;
-    transition: var(--transition);
-}
-.btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
-    border-color: transparent;
-}
 
-.btn-primary {
-    background: brown;
-    color: burlywood;
-}
 img {
     display: block;
     width: 100%;

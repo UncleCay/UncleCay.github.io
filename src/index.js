@@ -1,8 +1,16 @@
-import ReactDOM from 'react-dom'
 import App from './App'
 import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import emailjs from '@emailjs/browser';
 
-ReactDOM.render(<App/>, document.querySelector('#root'));
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+    <StrictMode>
+        <App />
+    </StrictMode>);
 
 const nameInput = document.querySelector('.name')
 const emailInput = document.querySelector('.email')
@@ -12,7 +20,7 @@ const messageInput = document.querySelector('.message')
 const contactForm = document.querySelector('.contact__form')
 
 contactForm.addEventListener("submit", (evt) => {
-    evt.preventDefault()
+    evt.preventDefault();
     validateInput()
 })
 
@@ -34,6 +42,12 @@ const validateInput = () => {
         showMessage('Please provide a message')
     }
     else if(email && message){
+        emailjs.sendForm(
+            'service_jfewc2s', 
+            'template_l5fwc59', 
+             contactForm,
+             'jpD7xof6fTqkR1dYW',
+             )
         setSuccess(emailInput.parentElement)
         setSuccess(messageInput.parentElement)
         showMessage("message sent successfully", 'green')

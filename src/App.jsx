@@ -15,7 +15,6 @@ const App = () => {
   return (
     <div className="app__container">
       <Header />
-
         <Home />
         <Nav />
         <About />
@@ -25,7 +24,6 @@ const App = () => {
         <Testimonials />
         <Contact />
         <Footer />
-
     </div>
   )
 }
