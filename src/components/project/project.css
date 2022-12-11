@@ -1,10 +1,9 @@
 #project{
     width: 100%;
-    padding: 0;
+    padding-bottom:2rem;
     position: relative;
     margin: 0;
     height: 100%;
-    background-attachment: fixed;
     color: brown;
     background: var(--color-white);
 }

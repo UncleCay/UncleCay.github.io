@@ -25,7 +25,7 @@ header {
   padding: 0.5rem .1rem 0 0;
   text-align:center;
   z-index: 2;
-  border: 5.5px solid var(--color-bg2);
+  border: 5.5px solid var(--color-bgb2);
   transform: rotate(45deg);
   text-shadow: 2px 1px 0px white;
   box-shadow: 2px 1px 0px white;
@@ -37,16 +37,16 @@ header {
 }
 
 .brand__name a{
-  color: var(--color-bg2);
+  color: var(--color-bgb2);
 }
 .brand__name a:hover{
-  color: var(--color-bg2);
+  color: var(--color-bgb2);
 }
   
 /* ======= MENU BARS ======= */
 .menu__bars {
     cursor: pointer;
-    background:var(--color-bg2);
+    background:var(--color-bgb2);
     border-radius: 50%;
     padding: 0.6rem;
     z-index: 2;
@@ -85,7 +85,7 @@ header {
 
   /* ======= MENU LINKS ======= */
   .menu__links{
-    background: var(--color-bg2);
+    background: var(--color-bgb2);
     position: absolute;
     right: -32rem;
     top: 0rem;
@@ -99,26 +99,23 @@ header {
   }
   
   .menu__links .menu__list ul a{
-    height: 12.5vh;
-    padding-top: 1.8rem;
+    height: 10.8vh;
+    padding-top: 1.2rem;
     display: block; /*important*/
     width: 100%;
-    border-left: .5rem solid var(--color-bg2);
-    
-    border-right: .5rem solid var(--color-bg2);
+    border-left: .5rem solid var(--color-bgb2);
+    border-right: .5rem solid var(--color-bgb2);
   }
-
+  
   .menu__links .menu__list > ul > li > a:hover{
     color: white;
-    border-left: 0rem solid var(--color-bg2);
-    border-right: .5rem solid var(--color-bg2);
-    border-radius: 50%;
+    border-left: 0rem solid var(--color-bgb2);
+    border-right: .5rem solid var(--color-bgb2);
   }
   
   .menu__links .menu__socials{
   font-size:x-large;
-  background: black;
-  background: var(--color-bg2);
+  background: var(--color-bgb2);
   width: 100%;
   height: 10%;
   position: fixed;

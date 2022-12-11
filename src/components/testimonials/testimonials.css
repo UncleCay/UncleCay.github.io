@@ -1,0 +1,47 @@
+#testimonials{
+    width: 100%;
+    position: relative;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    color: var(--color-white);
+    background-image: url(../../assets/quote__image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0rem;
+    padding: 7rem 3rem;
+}
+
+.testimo__content{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+#testimonials h2{
+    font-weight: 100;
+    color:var(--color-white2);
+}
+
+.testimo__content div{
+    padding: 3rem;
+}
+
+.testimo__content h1{
+    font-weight:400;
+}
+
+.testimo__content p{
+    color: var(--color-white2);
+}
+
+@media screen and (max-width: 627px){
+    #testimonials{
+        padding: 5rem 1rem;
+    }
+    .testimo__content h1{
+        font-size: xx-large;
+        font-weight: 100;
+    }
+}

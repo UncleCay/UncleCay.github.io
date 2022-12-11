@@ -36,20 +36,19 @@ const About = () => {
         </div>
         <div className="about__content">
           <h2>
-           Hello World! <br />
+          <strong> Hello World!</strong> <br />
            My name is Caleb. I'm a front-end reactjs web developer located in Nigeria.
           </h2>
           <br />
-          <h4>
+          <p>
           I design and develop websites and web applications using HTML, CSS and JavaScript.
           When working on a project, I pay attention to the smallest details addressing problems with patience.
           Web design and development help me to flex my creative mind and allow me to satisfy my desire for constant self-growth.
-          </h4>
-          <br />
-          <h4>
+          </p>
+          <p>
           I prioritize responsiveness, scalability, user-friendliness, and simplicity when I design. 
-          I also strive to make my code reusable, understandable, and maintainable.
-          </h4>
+          I also strive to make my code concised, reusable, understandable, and maintainable.
+          </p>
         </div>
       </div>
       <div className="skills">

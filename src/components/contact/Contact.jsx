@@ -11,10 +11,8 @@ const Contact = () => {
           <div className="contact__heading">
             <h1>Contact Me</h1>
             <p>
-              I'm interested in remote job opportunities
-              fdfhl dfhdf dfdfod dfh dfpafdpdp dpfhd<br />
-              You can contact me via the <strong><i>**Contacts On The Map**</i></strong><br />
-              Or you can aswell send a direct email to me through the form below.
+              I'm interested in web development job and freelance opportunities.<br />
+              However, if your have other request or question, don't hesitate to contact me.
             </p>
           </div>
           <div className="form__input__wrapper">
@@ -55,12 +53,8 @@ const Contact = () => {
             title="my__location">
             </iframe>
             <div className="map__content">
-              <p>street number and name</p>
-              <span>
-                Abuja 
-                <br />
+              <p>Lagos, Nigeria. </p>
                 <FcCellPhone />: +234 813 510 2532
-              </span>
                 <br />
               <span><HiMail />: orakporcaleb@gmail.com</span>
             </div>

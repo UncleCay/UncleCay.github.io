@@ -1,9 +1,4 @@
 #services{
-    background-image: url(../../assets/web-services.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 0 -7rem;
     width: 100%;
     position: relative;
     top: 0;
@@ -11,6 +6,7 @@
     height: 100%;
     padding-bottom: 5rem;
     color: var(--color-bg);
+    background-color: var(--color-white);
 }
 
 #services h1{
@@ -36,21 +32,43 @@
     transition: all .2s ease;
     overflow:hidden;
     background: white;
-    color: black;
+    color: gray;
     position: relative;
+    padding: 2rem;
 }
 
-.serviceCard:hover {
+.serviceCard h2{
+    color: var(--color-bg2);
+}
+
+.serviceCard p{
+    font-weight: 100;
+    line-height: 1.6rem;
+}
+
+.serviceCard:hover{
+    color: var(--color-white);
+    background:var(--color-bg5);
+}
+.serviceCard:hover h2 {
     color: white;
-    background:rgba(31, 51, 52, .9);
 }
 
 .serviceCard img{
     width: 100px;
     aspect-ratio: 1.5/1;
-    margin: 1rem auto;    
+    margin: auto;    
 }
 
+
+@media screen and (max-width: 827px){
+    .serviceCard{
+        font-size:x-small;
+    }
+    .serviceCard p{
+        line-height: normal;
+    }
+}
 @media screen and (max-width: 627px){
     #services{
         height: 100%;
@@ -58,5 +76,12 @@
     }
     .serviceCards{
         flex-direction: column;
+    }
+    
+    .serviceCard h2{
+        font-size: x-large;
+    }
+    .serviceCard p{
+        font-size: large;
     }
 }

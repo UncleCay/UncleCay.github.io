@@ -73,10 +73,6 @@
     font-size: 2em;
   }
   
-  .home__intro .emoji{
-    font-size: larger;
-  }
-  
   @keyframes intro {
     from, to { width: 0%;}
     15% { width: 100%;}
@@ -87,12 +83,6 @@
   @keyframes subIntro {
     from { width: 0%;}
     to { width: 100%;}
-  }
-  
-   @keyframes blink-caret {
-    from, to { border: transparent;}
-    15% { border: orange;}
-    25% { border: transparent;}
   } 
 
   .contact__link{
@@ -101,21 +91,25 @@
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    color: var(--color-txt2);
+    color: var(--color-white);
     width: 49%;
-    background: var(--color-bg2);
+    background: var(--color-bgb2);
     border-radius: 5px;
+  }
+  
+  .contact__link h3{
+    font-weight: 100;
   }
   
   .contact__link button{
     padding: .5rem;
-    background: var(--color-bg2);
+    background: var(--color-bgb2);
     font-size:large;
     align-self: center;
     border: 1px solid black;
     border-top: none;
     border-bottom: none;
-    color: var(--color-txt2);
+    color: var(--color-white2);
   }
   
   .contact__link button:hover{

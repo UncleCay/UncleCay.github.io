@@ -1,6 +1,7 @@
 import React from 'react'
 import './services.css'
 import webdev from '../../assets/webdev__icon.jpg'
+import ui_ux from '../../assets/ui_ux__icon.jfif'
 
 const Services = () => {
   return (
@@ -10,29 +11,19 @@ const Services = () => {
         <div className="serviceCard">
           <img src={webdev} alt="web dev"/>
           <h2>WEB DEVELOPMENT</h2>
-          <h3>dlfffldjld</h3>
-          <p>jfljldjdjld ldjfdljfd
-            jdljfldjfld jdljfdljdl
+          <p> I design and develope 
+            any form of Reactjs or Javascrip project;<br />
+             website, web application, landing page, online form.
+            etc.
           </p>
-          <h4>fjdldjldjfjd</h4>
         </div>
         <div className="serviceCard">
-          <img />
-          <h2>Web Developer</h2>
-          <h3>dlfffldjld</h3>
-          <p>jfljldjdjld ldjfdljfd
-            jdljfldjfld jdljfdljdl
+          <img src={ui_ux} alt="UI/UX"/>
+          <h2>UI/UX</h2>
+          <p> I design from scratch and improve 
+            user-interface and user-experience of alreay existing website and web application
+            using Figma and Bitmap image.
           </p>
-          <h4>fjdldjldjfjd</h4>
-        </div>
-        <div className="serviceCard">
-          <img />
-          <h2>Web Developer</h2>
-          <h3>dlfffldjld</h3>
-          <p>jfljldjdjld ldjfdljfd
-            jdljfldjfld jdljfdljdl
-          </p>
-          <h4>fjdldjldjfjd</h4>
         </div>
       </div>
       <div className="lowerBackground"></div>
