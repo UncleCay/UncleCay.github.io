@@ -27,6 +27,23 @@
     margin: 1rem auto;
 }
 
+.flip__indicator{
+    position: absolute;
+    left: 17%;
+    top: 27.5%;
+    color: gray;
+    display: inline-flex;
+    align-items: center;
+    gap:1.5px;
+    animation: flip__arrow .7s ease infinite;
+}
+
+@keyframes flip__arrow{
+    from {transform: translateX(2px)}
+    50% {transform: translateX(-2px)}
+    to {transform: translateX(2px)}
+}
+
 .qualifications{ 
     position: relative;
     width: 100%;
@@ -101,5 +118,12 @@
     }
     .flip__card{
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .flip__indicator{
+        left:0;
+        gap:0;
     }
 }

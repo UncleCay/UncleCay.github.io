@@ -1,8 +1,6 @@
 import React from 'react'
 import './header.css'
-import CV from '../../assets/cv.pdf'
 import MenuLinks from './MenuLinks';
-import {BsGithub, BsLinkedin} from 'react-icons/bs'
 
 const Header = () => {
   const [crossBars, setCrossBars] = React.useState(false);

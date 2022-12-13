@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
   }
 
   .about__container{
@@ -78,7 +79,7 @@
 .skills{
       width: 200%;
       background: var(--color-bgb1);
-      color:beige;
+      color: beige;
       display: inline-flex;
       gap: 10rem;
       letter-spacing: 2px;

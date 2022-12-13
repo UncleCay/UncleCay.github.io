@@ -3,11 +3,13 @@ import './experience.css'
 import CV from '../../assets/cv.pdf'
 import CT from '../../assets/certification_logo2.jpg'
 import EDU from '../../assets/education_logo2.png'
+import {TbArrowBigRightLine} from 'react-icons/tb'
 
 const Experience = () => {
   return (
     <section id="experience">
         <h1>Experience</h1>
+        <span className="flip__indicator"><p>flip</p><TbArrowBigRightLine /></span>
       <div className="experience__wrapper">
         <div className="flip__card">
           <div className="qualifications">

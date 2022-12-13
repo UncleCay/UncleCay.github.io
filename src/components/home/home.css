@@ -93,7 +93,7 @@
     transform: translateX(-50%);
     color: var(--color-white);
     width: 49%;
-    background: var(--color-bgb2);
+    background: var(--color-bgb1);
     border-radius: 5px;
   }
   
@@ -103,7 +103,7 @@
   
   .contact__link button{
     padding: .5rem;
-    background: var(--color-bgb2);
+    background: var(--color-bgb1);
     font-size:large;
     align-self: center;
     border: 1px solid black;
