@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/me.png'
+import Me from '../../assets/me3.png'
 import {AiFillFolderOpen} from 'react-icons/ai'
 import {MdContactPage} from 'react-icons/md'
 
