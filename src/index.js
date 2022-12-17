@@ -1,19 +1,21 @@
 import App from './App'
 import './index.css'
 import * as ReactDOM from 'react-dom';
+import emailjs from '@emailjs/browser';
+/*
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import emailjs from '@emailjs/browser';
 
-/*const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);*/
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
 
-/*root.render(
+root.render(
     <StrictMode>
     <App />
     </StrictMode>);*/
 
     ReactDOM.render(<App/>, document.querySelector('#root'));
+  
 
 const nameInput = document.querySelector('.name')
 const emailInput = document.querySelector('.email')

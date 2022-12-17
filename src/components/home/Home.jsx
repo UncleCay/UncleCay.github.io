@@ -3,6 +3,7 @@ import './home.css'
 import HomeSocials from './HomeSocials'
 
 const Home = () => {
+
   return (
       <div className="home">
         <div className="home__intro">
