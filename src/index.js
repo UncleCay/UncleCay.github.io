@@ -1,3 +1,4 @@
+import React from 'react';
 import App from './App'
 import './index.css'
 import * as ReactDOM from 'react-dom';
@@ -14,7 +15,7 @@ root.render(
     <App />
     </StrictMode>);*/
 
-    ReactDOM.render(<App/>, document.querySelector('#root'));
+    ReactDOM.render(<App/>, document.querySelector("#root"));
   
 
 const nameInput = document.querySelector('.name')
