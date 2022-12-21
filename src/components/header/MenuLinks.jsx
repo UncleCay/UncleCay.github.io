@@ -8,7 +8,7 @@ const MenuLinks = (props) => {
     <div className={props.barCrossed ? "menu__links slideLeft" : "menu__links slideRight fadeOut"}>
       <div className='menu__list'>
         <ul>
-            <li><a href={CV} target='_blank' onClick={props.handleClick}>Download CV</a></li>
+            <li><a href={CV} target='_blank' onClick={props.handleClick} rel="noreferrer">Download CV</a></li>
             <li><a href="#about" onClick={props.handleClick}>About</a></li>
             <li><a href="#services" onClick={props.handleClick}>Services</a></li>
             <li><a href="#experience" onClick={props.handleClick}>Experience</a></li>
@@ -19,10 +19,10 @@ const MenuLinks = (props) => {
         </ul>
       </div>
       <div className='menu__socials'>
-        <a href="https://github.com/UncleCay" target="_blank"><BsGithub /></a>
-        <a href="https://linkedin.com/caleb-orakpor-12ab81209" target="_blank"><BsLinkedin /></a>
-        <a href="https://facebook.com" target="_blank"><BsFacebook /></a>
-        <a href="https://wa.me/2348135102532" target="_blank"><BsWhatsapp /></a>
+        <a href="https://github.com/UncleCay" target="_blank" rel="noreferrer"><BsGithub /></a>
+        <a href="https://linkedin.com/caleb-orakpor-12ab81209" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+        <a href="https://facebook.com" target="_blank" rel="noreferrer"><BsFacebook /></a>
+        <a href="https://wa.me/2348135102532" target="_blank" rel="noreferrer"><BsWhatsapp /></a>
       </div>
     </div>
   )

@@ -119,58 +119,20 @@
     color: bisque;
   }
 
-  .home__socials{
-    position: relative;
-    bottom: 55%;
-    width: 100%;
-    text-align: center;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    display: none;
-  }
-  
-  .homesoc__icons{
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-  }
-  
-  .homesoc__icons a{
-    border-radius: 7px;
-    color:var(--color-light);
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size:80px;
-    padding: 1rem 2.5rem;
-    text-align: center;
-  }
-  
-  .homesoc__icons .icon__row{
-    display: flex;
-    gap: 3px;
-    margin: 3px
-}
-
 @media screen and (max-width: 627px){
-  .text__container{
-    padding: 10rem 0 0;
-    margin: 0 auto;
-  }
-  .home__intro .txtLine1{
-    font-size: 1.5em;
-  }
-  .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4{
-    font-size: 1.4em;
-  }
-  
- .home__intro .txtLine5{
-    font-size: 1.3em;
-  }
-
-  .home__socials{
-          display: block;
-      }
-    .home__socials .homesoc__icons{
-      display: block;
+    .text__container{
+      padding: 10rem 0 0;
+      margin: 0 auto;
+    }
+    .home__intro .txtLine1{
+      font-size: 1.5em;
+    }
+    .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4{
+      font-size: 1.4em;
+    }
+    
+  .home__intro .txtLine5{
+      font-size: 1.3em;
     }
   }
   
@@ -182,7 +144,6 @@
     .home__intro .txtLine3{
       font-size: 1.3em;
     }
-
 }
 @media screen and (max-width: 1024px){
     .home__intro .txtLine2{

@@ -37,7 +37,7 @@ const Experience = () => {
         <div className="work__experience">
           <div>
             <p>For my work experience and more, Click the botton below to view my CV</p>
-            <a href={CV} target='_blank'><button>My Resume</button></a>
+            <a href={CV} target='_blank' rel="noreferrer"><button>My Resume</button></a>
           </div>
         </div>
     </section>
