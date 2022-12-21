@@ -112,6 +112,9 @@
 }
 
 @media screen and (max-width: 627px){
+    #experience > h1{
+        font-size: xx-large;
+    }
     .qualifications{
         grid-template-columns: 100%;
     }

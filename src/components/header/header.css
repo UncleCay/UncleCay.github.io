@@ -18,15 +18,14 @@ header {
 
 .brand__name{
   font-family: 'Bebas Neue', cursive;
-  font-size: 50px;
-  line-height: 30px;
+  font-size: 48px;
+  line-height: 28px;
   background: transparent;
   border-radius: 7px;
   aspect-ratio: 1/1;
-  padding: 0.5rem .1rem 0 0;
+  padding: 0.5rem 0rem .2rem .1rem;
   text-align:center;
   z-index: 2;
-  border: 5.5px solid var(--color-bgb1);
   border: 5.5px solid var(--color-bgb1);
   transform: rotate(-45deg);
   text-shadow: -1.5px 1.3px 0px white;
