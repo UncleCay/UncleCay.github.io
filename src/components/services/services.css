@@ -72,7 +72,9 @@
     .serviceCards{
         flex-direction: column;
     }
-    
+    .serviceCards{
+        padding: 1rem;
+    }
     .serviceCard h2{
         font-size: x-large;
     }

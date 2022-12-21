@@ -11,19 +11,19 @@ const Project = () => {
           <div className="project__card">
             <img src={projectImage} alt="project Img"/>
             <span className="project__description">
-              <p>project description goes here</p>
+              <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="project Img"/>
             <span className="project__description">
-              <p>project description goes here</p>
+              <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="project Img"/>
             <span className="project__description">
-              <p>project description goes here</p>
+              <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
         </div>
@@ -31,19 +31,19 @@ const Project = () => {
           <div className="project__card">
           <img src={projectImage} alt="project Img"/>
             <span className="project__description">
-              <p>project description goes here</p>
+              <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="project Img"/>
             <span className="project__description">
-              <p>project description goes here</p>
+              <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="project Img"/>
             <span className="project__description">
-              <p>project description goes here</p>
+              <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
         </div>

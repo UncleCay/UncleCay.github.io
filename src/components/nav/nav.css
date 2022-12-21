@@ -47,3 +47,8 @@ nav a:hover{
         display: none;
     }
 }
+@media screen and (max-width: 827px){
+    .nav__links{
+        gap: 9rem;
+    }
+}

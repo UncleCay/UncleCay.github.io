@@ -144,6 +144,10 @@ header {
   
   .menu__links{
     width: 100%;
+    padding-top: 9.5vh;
+  }
+  .menu__links .menu__socials{
+    height: 15%;
   }
   .menu__links .menu__socials a{
     padding: 1rem 1.3rem;
