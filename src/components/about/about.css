@@ -45,7 +45,7 @@
   .about__img img:hover{
     transform: scale(1.1);
   }
-
+  
   .cards{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -156,5 +156,8 @@
       }
       .cards{
         grid-template-columns: 100%;
+      }
+      .btn_about button{
+        border-bottom: 2px solid var(--color-bgb2);
       }
     }

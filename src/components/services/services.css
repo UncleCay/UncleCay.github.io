@@ -51,9 +51,7 @@
     color: white;
 }
 .serviceCard p{
-    line-height: 1.6rem;
-    font-weight: 300;
-    font-size: 1.1em;
+    font-weight: 400;
 }
 
 .serviceCard:hover{
