@@ -151,6 +151,9 @@
       }
     }
     @media screen and (max-width: 1024px){
+      .about__container{
+        gap: 0;
+      }
       .cards{
         grid-template-columns: 100%;
       }
