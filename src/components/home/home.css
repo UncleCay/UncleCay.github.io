@@ -9,12 +9,12 @@
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  animation: slideDown 1s ease;
   background-image: url(../../assets/home10.jpg);
+  animation: slideDown 1.5s ease;
 }
 
 .home__intro{
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, .3);
   backdrop-filter: sepia(0%);
   position: relative;
   width: 100%;
