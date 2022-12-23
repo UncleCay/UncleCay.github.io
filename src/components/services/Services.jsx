@@ -9,7 +9,7 @@ const Services = () => {
       <h1>Services</h1>
       <div className='serviceCards'>
         <div className="serviceCard">
-          <img src={webdev} alt="web dev"/>
+          <img src={webdev} alt="Caleb Orakpor - webdev_logo"/>
           <h2>WEB DEVELOPMENT</h2>
           <p> I design and develope 
             any form of Reactjs or Javascrip project;<br />
@@ -18,7 +18,7 @@ const Services = () => {
           </p>
         </div>
         <div className="serviceCard">
-          <img src={ui_ux} alt="UI/UX"/>
+          <img src={ui_ux} alt="Caleb Orakpor - webdev_logo"/>
           <h2>UI/UX</h2>
           <p> I design from scratch and improve 
             user-interface and user-experience of alreay existing website and web application

@@ -9,19 +9,19 @@ const Project = () => {
       <div className="project__cards">
         <div className="project__card__row">
           <div className="project__card">
-            <img src={projectImage} alt="project Img"/>
+            <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
               <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
           <div className="project__card">
-          <img src={projectImage} alt="project Img"/>
+          <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
               <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
           <div className="project__card">
-          <img src={projectImage} alt="project Img"/>
+          <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
               <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
@@ -29,19 +29,19 @@ const Project = () => {
         </div>
         <div className="project__card__row">
           <div className="project__card">
-          <img src={projectImage} alt="project Img"/>
+          <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
               <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
           <div className="project__card">
-          <img src={projectImage} alt="project Img"/>
+          <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
               <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>
           </div>
           <div className="project__card">
-          <img src={projectImage} alt="project Img"/>
+          <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
               <p>...STILL WORKING ON SOME PROJECTS...</p>
               </span>

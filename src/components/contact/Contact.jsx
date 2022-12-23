@@ -50,7 +50,7 @@ const Contact = () => {
             allowFullScreen="" 
             loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
-            title="my__location">
+            title="Caleb Orakpor - Location - Lagos Nigeria">
             </iframe>
             <div className="map__content">
               <p>Lagos, Nigeria. </p>
