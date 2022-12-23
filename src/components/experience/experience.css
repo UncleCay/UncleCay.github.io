@@ -6,6 +6,8 @@
     text-align: center;
     height: 100%;
     border-bottom: 3rem solid white;
+    font-weight: 300;
+    font-size: large;
 }
 
 #experience > h1{
@@ -56,6 +58,7 @@
 
 .qualifications span{
     color: gray;
+    font-size: .8em;
 }
 
 .flip__card:hover .qualifications{
@@ -70,7 +73,6 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background: white;
-    padding: 1rem;
 }
 
 .quali__card p{
@@ -112,9 +114,6 @@
 @media screen and (max-width: 627px){
     #experience > h1{
         font-size: xx-large;
-    }
-    .qualifications{
-        grid-template-columns: 100%;
     }
     .flip__card{
         width: 300px;

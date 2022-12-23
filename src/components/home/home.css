@@ -14,7 +14,7 @@
 }
 
 .home__intro{
-  background: rgba(0, 0, 0, .1);
+  background: rgba(0, 0, 0, .4);
   backdrop-filter: sepia(0%);
   position: relative;
   width: 100%;
@@ -27,13 +27,13 @@
   align-content: center;
 }
 
-.home__intro h1 {
+.home__intro h1, .home__intro h2 {
+    font-weight: 400;
     position: relative;
     font-size: 2.8em;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
     overflow:hidden;
     white-space: nowrap;
     
@@ -47,7 +47,7 @@
     color: white;
   }
   
-  .home__intro span h1{
+  .home__intro span h1, .home__intro h2{
     background: transparent;
     position: absolute;
     left: 50%;
@@ -55,24 +55,21 @@
     border-right: 4px solid transparent;
     animation: intro 24s 3.1s steps(100, end) both infinite, blink-caret .6s step-end both infinite;
   }
-  .txtLine1{
+  .home__intro .txtLine1{
     animation: subIntro 2s 1s steps(100, end) backwards;
     font-weight: 700;
   }
-  .home__intro .txtLine2{
-    font-size: 3em;
+  .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4, .home__intro .txtLine5{
+    font-size: 2.5em;
   }
   .home__intro .txtLine3{
     animation-delay: 9.1s;
-    font-size: 2em;
   }
   .home__intro .txtLine4{
     animation-delay: 15.1s;
-    font-size: 2em;
   }
   .home__intro .txtLine5{
     animation-delay: 21.1s;
-    font-size: 2em;
   }
   
   @keyframes intro {
@@ -100,7 +97,7 @@
   }
   
   .contact__link h3{
-    font-weight: 100;
+    font-weight: 400;
   }
   
   .contact__link button{
@@ -124,35 +121,20 @@
       margin: 0 auto;
     }
     .home__intro .txtLine1{
-      font-size: 1.5em;
+      font-size: 3em;
     }
-    .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4{
+    .home__intro .txtLine2, .home__intro .txtLine4, .home__intro .txtLine5{
+      font-size: 1.6em;
+    }
+    .home__intro .txtLine3{
       font-size: 1.4em;
-    }
-    
-  .home__intro .txtLine5{
-      font-size: 1.3em;
     }
   }
   
   @media screen and (max-width: 827px){
-
-    .home__intro .txtLine2{
-      font-size: 1.7em;
-    }
-    .home__intro .txtLine3{
-      font-size: 1.3em;
-    }
-}
-@media screen and (max-width: 1024px){
-    .home__intro .txtLine2{
-      font-size: 1.6em;
   }
-  .home__intro .txtLine3{
-      font-size: 1.3em;
-  }
-
-  .contact__link{
+  @media screen and (max-width: 1024px){
+    .contact__link{
     width: 90%;
   }
 }

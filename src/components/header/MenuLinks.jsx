@@ -1,6 +1,6 @@
 import React from 'react'
 import CV from '../../assets/Resume.pdf'
-import {BsGithub, BsWhatsapp, BsLinkedin, BsFacebook} from 'react-icons/bs'
+import {BsGithub, BsWhatsapp, BsLinkedin, BsTwitter} from 'react-icons/bs'
 
 const MenuLinks = (props) => {
 
@@ -21,8 +21,8 @@ const MenuLinks = (props) => {
       <div className='menu__socials'>
         <a href="https://github.com/UncleCay" target="_blank" rel="noreferrer"><BsGithub /></a>
         <a href="https://linkedin.com/caleb-orakpor-12ab81209" target="_blank" rel="noreferrer"><BsLinkedin /></a>
-        <a href="https://facebook.com" target="_blank" rel="noreferrer"><BsFacebook /></a>
         <a href="https://wa.me/2348135102532" target="_blank" rel="noreferrer"><BsWhatsapp /></a>
+        <a href="https://twitter.com" target="_blank" rel="noreferrer"><BsTwitter /></a>
       </div>
     </div>
   )

@@ -36,10 +36,9 @@ const About = () => {
         </div>
         <div className="about__content">
           <h2>
-          <strong> Hello World!</strong> <br />
-           My name is Caleb. I'm a front-end React developer located in Nigeria.
+           Hello World!<br />
+           My name is Caleb. I'm a front-end React developer, located in Nigeria.
           </h2>
-          <br />
           <p>
           I love turning designs into lines of code. I design and develop responsive websites using React.<br />
           When working on a project, I pay attention to the smallest details addressing problems with patience.<br />
