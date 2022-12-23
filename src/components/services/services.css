@@ -26,7 +26,6 @@
 
 .serviceCard{
     box-shadow: 1px 1px 1px black;
-    height: 50vh;
     width: 100%;
     transition: all .2s ease;
     overflow:hidden;
@@ -34,23 +33,9 @@
     color: var(--color-bgb2);
     position: relative;
     padding: 2rem;
-}
-
-.serviceCard h2{
-    color: var(--color-bgb1);
-}
-
-.serviceCard p{
+    color: gray;
     font-weight: 100;
-    line-height: 1.6rem;
-}
-
-.serviceCard:hover{
-    color: var(--color-white);
-    background:var(--color-bg5);
-}
-.serviceCard:hover h2 {
-    color: white;
+    font-size: 1.05rem;
 }
 
 .serviceCard img{
@@ -58,27 +43,30 @@
     aspect-ratio: 1.5/1;
     margin: auto;    
 }
+.serviceCard h2{
+    color: var(--color-bgb1);
+}
 
+.serviceCard:hover h2 {
+    color: white;
+}
+.serviceCard p{
+    line-height: 1.6rem;
+}
 
-@media screen and (max-width: 827px){
-    .serviceCard{
-        font-size:x-small;
-    }
-    .serviceCard p{
-        line-height: normal;
+.serviceCard:hover{
+    color: var(--color-white);
+    background:var(--color-bg5);
+}
+
+@media screen and (max-width: 1024px){  
+    .serviceCard img{
+        width: 90px;    
     }
 }
-@media screen and (max-width: 627px){
+@media screen and (max-width: 624px){
     .serviceCards{
         flex-direction: column;
-    }
-    .serviceCards{
         padding: 1rem;
-    }
-    .serviceCard h2{
-        font-size: x-large;
-    }
-    .serviceCard p{
-        font-size: large;
     }
 }

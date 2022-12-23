@@ -23,20 +23,20 @@ header {
   background: transparent;
   border-radius: 7px;
   aspect-ratio: 1/1;
-  padding: 0.5rem 0rem .2rem .1rem;
+  padding: 0.45rem 0 0 0rem;
   text-align:center;
   z-index: 2;
-  border: 5.5px solid var(--color-bgb1);
+  border: 7px solid var(--color-bgb1);
   transform: rotate(-45deg);
-  text-shadow: -1.5px 1.3px 0px white;
-  box-shadow: -1.5px 1.5px 0px white;
+  text-shadow: -1px 1px 0px white;
+  box-shadow: -1px 0px 0px white;
   transition: all .3s ease-in-out;
 }
 
 .brand__name:hover{
   transform: rotate(45deg);
-  text-shadow: 1.5px 2px 0px white;
-  box-shadow: 1.5px 1.5px 0px white;
+  text-shadow: 1px 1px 0px white;
+  box-shadow: 1px 1px 30px white;
 }
 
 .brand__name a{
@@ -102,8 +102,8 @@ header {
   }
   
   .menu__links .menu__list ul a{
-    height: 10.8vh;
-    padding-top: 1.2rem;
+    height: 10.55vh;
+    padding-top: 1.6rem;
     display: block; /*important*/
     width: 100%;
     border-left: .5rem solid var(--color-white);
@@ -137,11 +137,13 @@ header {
   .menu__links .menu__socials a{
     padding: .5rem;
   }
+  .brand__name:hover{
+    box-shadow: -1px 0 0 white;
+  }
 }
 
 /* ======= MEDIA QUERIES FOR SMALL DEVICES ======= */
 @media screen and (max-width: 627px){
-  
   .menu__links{
     width: 100%;
     padding-top: 9.5vh;

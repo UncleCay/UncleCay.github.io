@@ -29,19 +29,17 @@
 
 .flip__indicator{
     position: absolute;
-    left: 17%;
-    top: 27.5%;
+    left: 50%;
+    top: 57%;
     color: gray;
-    display: inline-flex;
-    align-items: center;
-    gap:1.5px;
+    flex-direction: column;
     animation: flip__arrow .7s ease infinite;
 }
 
 @keyframes flip__arrow{
-    from {transform: translateX(2px)}
-    50% {transform: translateX(-2px)}
-    to {transform: translateX(2px)}
+    from {transform: translateY(2px)}
+    50% {transform: translateY(-2px)}
+    to {transform: translateY(2px)}
 }
 
 .qualifications{ 
@@ -53,6 +51,7 @@
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     font-weight: 100;
+    color: var(--color-bgb3);
 }
 
 .qualifications span{
@@ -60,16 +59,11 @@
 }
 
 .flip__card:hover .qualifications{
-    transform: rotateY(180deg);
+    box-shadow: 0 -4px 8px 0 rgba(0,0,0,0.2);
+    transform: rotateX(-180deg);
 }
 
-.qualifications .quali__card{
-    box-shadow: .2px .3px .5px .5px darkgray;
-    padding: 1rem;
-    background: white;
-}
-
-.quali__card__front, .quali__card__back{
+.quali__card{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -79,8 +73,12 @@
     padding: 1rem;
 }
 
-.quali__card__back{
-    transform: rotateY(180deg);
+.quali__card p{
+    padding: .3rem;
+}
+
+.back{
+    transform: rotateX(-180deg);
 }
 
 .logo_div img{
@@ -121,11 +119,10 @@
     .flip__card{
         width: 300px;
     }
+    .flip__indicator{
+        top: 54.5%;
+    }
 }
 
 @media screen and (max-width: 1024px){
-    .flip__indicator{
-        left:0;
-        gap:0;
-    }
 }
