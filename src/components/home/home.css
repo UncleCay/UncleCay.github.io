@@ -10,7 +10,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(../../assets/home10.jpg);
-  animation: slideDown 1.5s ease;
+  animation: slideDown 2s ease-out;
 }
 
 .home__intro{
@@ -53,7 +53,7 @@
     left: 50%;
     transform: translateX(-50%);
     border-right: 4px solid transparent;
-    animation: intro 24s 3.1s steps(100, end) both infinite, blink-caret .6s step-end both infinite;
+    animation: intro 24s 3.1s steps(100, end) both infinite;
   }
   .home__intro .txtLine1{
     animation: subIntro 2s 1s steps(100, end) backwards;
