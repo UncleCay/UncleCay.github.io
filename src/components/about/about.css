@@ -81,7 +81,7 @@
 }
 
 .skills{
-      width: 200%;
+      width: 220%;
       background: var(--color-bgb1);
       color: beige;
       display: inline-flex;
@@ -92,11 +92,12 @@
       z-index: 2;
       margin-bottom: 5rem;
     }
-    
     .skills h4{
       padding: 10px 0;
+      position: absolute;
+      bottom: 0;
     }
-
+    
     .skills h3{
       background: var(--color-bgb1);
       z-index: 2;
@@ -104,21 +105,17 @@
       border-radius: 0 0px 40px 0;
     }
     
-    .skills h4{
-      position: absolute;
-      bottom: 0;
-    }
     
     .skills:hover > h4{
       animation-play-state:  paused;
     }
     
     .skills .skills__slide1{
-      width: 100%;
+      width: 105%;
       animation: sliding__text 25s linear infinite;
     }
     .skills .skills__slide2{
-      width: 100%;
+      width: 105%;
       animation: sliding__text 25s linear both infinite;
       animation-delay: 12.5s;
     }
