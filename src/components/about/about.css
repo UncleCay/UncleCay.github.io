@@ -82,7 +82,7 @@
 }
 
 .skills{
-      width: 220%;
+      width: 230%;
       background: var(--color-bgb1);
       color: beige;
       display: inline-flex;
@@ -112,11 +112,11 @@
     }
     
     .skills .skills__slide1{
-      width: 105%;
+      width: 115%;
       animation: sliding__text 25s linear infinite;
     }
     .skills .skills__slide2{
-      width: 105%;
+      width: 115%;
       animation: sliding__text 25s linear both infinite;
       animation-delay: 12.5s;
     }
