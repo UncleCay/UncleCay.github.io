@@ -40,7 +40,7 @@ const About = () => {
            My name is Caleb. I'm a front-end React developer, located in Nigeria.
           </h2>
           <p>
-          From playing with a Bitmap image editor to HTML and CSS, now on Javascript, React, and more.
+          From playing with a Paint graphics editor to HTML and CSS, now on Javascript, React, and more.
           I design and develop responsive websites using React.
           When working on a project, I pay attention to the smallest details addressing problems with patience.
           Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth. 

@@ -22,7 +22,7 @@ const Services = () => {
           <h2>UI/UX</h2>
           <p> I design from scratch and improve 
             user-interface and user-experience of already existing website and web application
-            using Figma and Bitmap image.
+            using Figma and Paint graphics editor.
           </p>
         </div>
       </div>
