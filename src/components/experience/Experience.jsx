@@ -26,10 +26,10 @@ const Experience = () => {
                 <img src={CT} alt="Certification" />
                 <h2>Certifications</h2>
               </div>
-              <p> Responsive Web development - Udemy<br />
-              <span>Febuary 27, 2020.</span></p>
               <p>Javascript Algorithm and Data Structure - Freecodecamp<br />
               <span>July 13, 2022.</span></p>
+              <p> Responsive Web development - Udemy<br />
+              <span>Febuary 27, 2020.</span></p>
             </div>
           </div>
         </div>
