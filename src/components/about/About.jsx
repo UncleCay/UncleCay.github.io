@@ -40,13 +40,12 @@ const About = () => {
            My name is Caleb. I'm a front-end React developer, located in Nigeria.
           </h2>
           <p>
-          I love turning designs into lines of code. I design and develop responsive websites using React.<br />
-          When working on a project, I pay attention to the smallest details addressing problems with patience.<br />
-          Web design and development help me to flex my creative mind and allow me to satisfy my desire for constant self-growth.
-          </p>
-          <p>
-          I prioritize responsiveness, scalability, user-friendliness, and simplicity when I design. 
-          I also strive for a concised, reusable, understandable, and maintainable code.
+          From playing with a Bitmap image editor to HTML and CSS, now on Javascript, React, and more.
+          I design and develop responsive websites using React.
+          When working on a project, I pay attention to the smallest details addressing problems with patience.
+          Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth. 
+          When I design, I put a high priority on responsiveness, scalability, user-friendliness, and simplicity.
+          A concise, reusable, intelligible, and maintainable code is another goal of mine.
           </p>
         </div>
       </div>

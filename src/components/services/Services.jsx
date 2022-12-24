@@ -11,7 +11,7 @@ const Services = () => {
         <div className="serviceCard">
           <img src={webdev} alt="Caleb Orakpor - webdev_logo"/>
           <h2>WEB DEVELOPMENT</h2>
-          <p> I design and develope 
+          <p> I design and develop 
             any form of Reactjs or Javascrip project;<br />
              website, web application, landing page, online form.
             etc.
@@ -21,7 +21,7 @@ const Services = () => {
           <img src={ui_ux} alt="Caleb Orakpor - webdev_logo"/>
           <h2>UI/UX</h2>
           <p> I design from scratch and improve 
-            user-interface and user-experience of alreay existing website and web application
+            user-interface and user-experience of already existing website and web application
             using Figma and Bitmap image.
           </p>
         </div>
