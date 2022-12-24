@@ -13,7 +13,7 @@ const Services = () => {
           <img src={webdev} alt="Caleb Orakpor - webdev_icon"/>
           <h2>WEB DEVELOPMENT</h2>
           <p> I design and develop 
-            any form of Reactjs or Javascrip project;<br />
+            any form of Reactjs or Javascrip project;
              website, web application, landing page, online form.
             etc.
           </p>
