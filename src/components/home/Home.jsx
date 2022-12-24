@@ -17,7 +17,7 @@ const Home = () => {
           </div>
         </div>
           <div className="contact__link">
-            <h3><a href="#contact"><button>Contact Me</button></a> For Your Responsive Web desing and development</h3>
+            <h3><a href="#contact"><button>Contact Me</button></a> for Your Responsive Website</h3>
           </div>
       </div>
   )

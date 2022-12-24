@@ -91,7 +91,7 @@
     left: 50%;
     transform: translateX(-50%);
     color: var(--color-white);
-    width: 49%;
+    padding: 0 1rem;
     background: var(--color-bgb1);
     border-radius: 5px;
   }
