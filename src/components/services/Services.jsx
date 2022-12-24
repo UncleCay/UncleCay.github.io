@@ -18,7 +18,15 @@ const Services = () => {
             etc.
           </p>
         </div>
-        <div className="serviceCard">
+      </div>
+      <div className="lowerBackground"></div>
+    </section>
+  )
+}
+
+export default Services
+
+        /*<div className="serviceCard">
           <img src={ui_ux} alt="Caleb Orakpor - ui-ux_icon"/>
           <h2>UI/UX</h2>
           <p> I design from scratch and improve 
@@ -32,11 +40,4 @@ const Services = () => {
           <p> Using tools like Paint graphics editor and Adobe Photoshop,
             I can modify any kind of image file to your specifications.
           </p>
-        </div>
-      </div>
-      <div className="lowerBackground"></div>
-    </section>
-  )
-}
-
-export default Services
+        </div>*/

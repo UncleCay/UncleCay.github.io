@@ -43,7 +43,14 @@ const Contact = () => {
           </div>
           </div>
         </form>
-        <div className="contact__map">
+      </div>
+    </section>
+  )
+}
+
+export default Contact
+
+       /* <div className="contact__map">
           <div className="google__map">
             <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.45932557248!2d3.1438705913608556!3d6.548376812440139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1671655610669!5m2!1sen!2sng"
@@ -59,10 +66,4 @@ const Contact = () => {
               <span><HiMail />: orakporcaleb@gmail.com</span>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-  )
-}
-
-export default Contact
+        </div> */

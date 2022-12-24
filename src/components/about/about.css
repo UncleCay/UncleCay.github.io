@@ -132,8 +132,10 @@
         gap: .5rem;
         margin: 0.5rem auto;
       }
-      .about__content p, .about__content h2{
-        text-align: center;
+      .about__content p{
+        text-align: justify;
+        font-size: large;
+        letter-spacing: .01em;
       }
     }
     

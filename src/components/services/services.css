@@ -26,7 +26,7 @@
 
 .serviceCard{
     box-shadow: 1px 1px 1px black;
-    width: 100%;
+    width: 50%;
     transition: all .2s ease;
     overflow:hidden;
     background: white;
@@ -68,5 +68,8 @@
     .serviceCards{
         flex-direction: column;
         padding: 1rem;
+    }
+    .serviceCard{
+        width: 100%;
     }
 }
