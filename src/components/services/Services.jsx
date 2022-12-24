@@ -1,8 +1,8 @@
 import React from 'react'
 import './services.css'
 import webdev from '../../assets/webdev__icon.jpg'
-import ui_ux from '../../assets/ui_ux__icon.jfif'
-import image_editor from '../../assets/image_editor__icon.png'
+/*import ui_ux from '../../assets/ui_ux__icon.jfif'
+import image_editor from '../../assets/image_editor__icon.png'*/
 
 const Services = () => {
   return (

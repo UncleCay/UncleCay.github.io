@@ -1,6 +1,6 @@
 import React from 'react'
-import { FcCellPhone } from 'react-icons/fc'
-import { HiMail } from 'react-icons/hi'
+/*import { FcCellPhone } from 'react-icons/fc'
+import { HiMail } from 'react-icons/hi'*/
 import './contact.css'
 
 const Contact = () => {
