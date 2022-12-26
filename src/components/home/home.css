@@ -1,5 +1,5 @@
 #home {
-  margin: 0 auto;
+  margin: 0;
   justify-content:center;
   height: 100vh;
   position: relative;
@@ -10,19 +10,22 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(../../assets/home10.jpg);
-  animation: slideDown 2s ease-out;
 }
 
 .home__intro{
-  background: rgba(0, 0, 0, .3);
+  background: rgba(0, 0, 0, .4);
   backdrop-filter: sepia(0%);
+  border-radius: 7px;
   position: relative;
-  width: 100%;
-  height: 100%;
+  top: 6rem;
+  width: 77%;
+  height: 70%;
+  margin: auto;
+  animation: slideDown 1.5s ease-out;
 }
 
 .text__container{
-  padding: 15.5% 0 0 0;
+  padding: 5% 0 0 0;
   margin: 0;
   align-content: center;
 }
@@ -31,7 +34,6 @@
     font-weight: 400;
     position: relative;
     font-size: 2.8em;
-    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: 0 auto;
     overflow:hidden;
@@ -53,10 +55,12 @@
     left: 50%;
     transform: translateX(-50%);
     border-right: 4px solid transparent;
+  }
+  .home__intro h2{
     animation: intro 24s 3.1s steps(100, end) both infinite;
   }
   .home__intro .txtLine1{
-    animation: subIntro 2s 1s steps(100, end) backwards;
+    animation: subIntro 3s 1.5s steps(100, end) backwards;
     font-weight: 700;
   }
   .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4, .home__intro .txtLine5{
@@ -116,6 +120,12 @@
   }
 
 @media screen and (max-width: 627px){
+    .home__intro{
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      top: 0;
+    }
     .text__container{
       padding: 10rem 0 0;
       margin: 0 auto;

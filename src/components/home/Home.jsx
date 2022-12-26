@@ -15,10 +15,10 @@ const Home = () => {
             <h2 className="txtLine5">This is my portfolio website.</h2>
             </span>
           </div>
-        </div>
           <div className="contact__link">
             <h3><a href="#contact"><button>Contact Me</button></a> for Your Responsive Website</h3>
           </div>
+        </div>
       </div>
   )
 }
