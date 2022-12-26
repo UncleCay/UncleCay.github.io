@@ -101,7 +101,7 @@ bottom: .5rem;
 
 .errmsg{
     position: absolute;
-    bottom: 50px;
+    bottom: 84px;
     right: 0;
     transition: all .3s ease-in-out;
     transform: translate(100%, 50%);
@@ -168,9 +168,5 @@ bottom: .5rem;
     .name__email{
         grid-template-columns: 100%;
         gap: .5rem;
-    }
-
-    .errmsg{
-        bottom: 125vh;
     }
   }
