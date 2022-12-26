@@ -34,13 +34,13 @@ header {
 
 .brand__name:hover{
   transform: rotate(45deg);
-  box-shadow: 1px 1px 30px white;
-  background: white;
-  border-color: white;
+  box-shadow: 1px 1px 30px var(--color-white);
+  background: var(--color-white);
+  border-color: var(--color-white);
 }
 
 .brand__name a{
-  color: white;
+  color: var(--color-white);
 }
 .brand__name a:hover{
   color: var(--color-bgb1);
