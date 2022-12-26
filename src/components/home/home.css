@@ -21,7 +21,7 @@
   width: 77%;
   height: 70%;
   margin: auto;
-  animation: slideDown 1.5s ease-out;
+  animation: slideDown 1.8s ease;
 }
 
 .text__container{
