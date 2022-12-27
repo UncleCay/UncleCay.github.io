@@ -57,24 +57,24 @@
     transform: translateX(-50%);
     border-right: 4px solid transparent;
   }
-  .home__intro h2{
-    animation: intro 24s 3.1s steps(100, end) both infinite;
-  }
   .home__intro .txtLine1{
-    animation: subIntro 3s 1.5s steps(100, end) backwards;
+    animation: subIntro 3s 3s steps(100, end) backwards;
     font-weight: 700;
+  }
+  .home__intro h2{
+    animation: intro 24s 4.6s steps(100, end) both infinite;
   }
   .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4, .home__intro .txtLine5{
     font-size: 2.5em;
   }
   .home__intro .txtLine3{
-    animation-delay: 9.1s;
+    animation-delay: 10.6s;
   }
   .home__intro .txtLine4{
-    animation-delay: 15.1s;
+    animation-delay: 16.6s;
   }
   .home__intro .txtLine5{
-    animation-delay: 21.1s;
+    animation-delay: 22.6s;
   }
   
   @keyframes intro {
