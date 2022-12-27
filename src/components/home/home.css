@@ -22,7 +22,7 @@
   width: 77%;
   height: 70%;
   margin: auto;
-  animation: slideDown 1.8s 1.5s ease;
+  animation: slideDown 1.8s 1s ease;
 }
 
 .text__container{
@@ -58,23 +58,23 @@
     border-right: 4px solid transparent;
   }
   .home__intro .txtLine1{
-    animation: subIntro 3s 3s steps(100, end) backwards;
+    animation: subIntro 3s 2.5s steps(100, end) backwards;
     font-weight: 700;
   }
   .home__intro h2{
-    animation: intro 24s 4.6s steps(100, end) both infinite;
+    animation: intro 24s 4.1s steps(100, end) both infinite;
   }
   .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4, .home__intro .txtLine5{
     font-size: 2.5em;
   }
   .home__intro .txtLine3{
-    animation-delay: 10.6s;
+    animation-delay: 10.1s;
   }
   .home__intro .txtLine4{
-    animation-delay: 16.6s;
+    animation-delay: 16.1s;
   }
   .home__intro .txtLine5{
-    animation-delay: 22.6s;
+    animation-delay: 22.1s;
   }
   
   @keyframes intro {
