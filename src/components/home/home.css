@@ -16,7 +16,7 @@
 .home__intro{
   background: rgba(0, 0, 0, .4);
   backdrop-filter: sepia(0%);
-  border-radius: 7px;
+
   position: relative;
   top: 6rem;
   width: 77%;
