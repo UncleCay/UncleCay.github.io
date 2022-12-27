@@ -10,8 +10,8 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(../../assets/home10.jpg);
-  animation: widthChange 2.5s 1s ease backwards;
 }
+/*animation: widthChange 2s .5s backwards;*/
 
 @keyframes widthChange{
   from{width: 0 ;margin:auto}
@@ -26,7 +26,7 @@
   width: 77%;
   height: 70%;
   margin: auto;
-  animation: slideDown 1.8s 2s ease backwards;
+  animation: slideDown 1.5s 1s ease backwards;
 }
 
 .text__container{
@@ -62,23 +62,23 @@
     border-right: 4px solid transparent;
   }
   .home__intro .txtLine1{
-    animation: subIntro 3s 3.5s steps(100, end) backwards;
+    animation: subIntro 3s 2.5s steps(100, end) backwards;
     font-weight: 700;
   }
   .home__intro h2{
-    animation: intro 24s 5.1s steps(100, end) both infinite;
+    animation: intro 24s 4.2s steps(100, end) both infinite;
   }
   .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4, .home__intro .txtLine5{
     font-size: 2.5em;
   }
   .home__intro .txtLine3{
-    animation-delay: 11.1s;
+    animation-delay: 10.2s;
   }
   .home__intro .txtLine4{
-    animation-delay: 17.1s;
+    animation-delay: 16.2s;
   }
   .home__intro .txtLine5{
-    animation-delay: 23.1s;
+    animation-delay: 22.2s;
   }
   
   @keyframes intro {

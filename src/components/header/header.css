@@ -29,7 +29,7 @@ header {
   z-index: 2;
   transform: rotate(-45deg);
   box-shadow: 0 .1px 2px black;
-  animation: turn_aroud 1.5s 1.3s ease;
+  animation: turn_aroud 1.5s 1s;
 }
 
 .brand__name:hover{
