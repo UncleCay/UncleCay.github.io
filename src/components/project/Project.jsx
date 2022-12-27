@@ -11,19 +11,19 @@ const Project = () => {
           <div className="project__card">
             <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...STILL WORKING ON SOME PROJECTS...</p>
+              <p>...COMING UP SOON...</p>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...STILL WORKING ON SOME PROJECTS...</p>
+              <p>...COMING UP SOON...</p>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...STILL WORKING ON SOME PROJECTS...</p>
+              <p>...COMING UP SOON...</p>
               </span>
           </div>
         </div>
@@ -31,19 +31,19 @@ const Project = () => {
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...STILL WORKING ON SOME PROJECTS...</p>
+              <p>...COMING UP SOON...</p>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...STILL WORKING ON SOME PROJECTS...</p>
+              <p>...COMING UP SOON...</p>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...STILL WORKING ON SOME PROJECTS...</p>
+              <p>...COMING UP SOON...</p>
               </span>
           </div>
         </div>
