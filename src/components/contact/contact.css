@@ -131,7 +131,7 @@ bottom: .5rem;
 }
 
 .submit__btn button:hover{
-    border-color: var(--color-bgb3);
+    border-color: var(--color-white);
 }
 
 .contact__map{

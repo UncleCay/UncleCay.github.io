@@ -9,7 +9,6 @@ const Experience = () => {
   return (
     <section id="experience">
         <h1>Experience</h1>
-        <span className="flip__indicator"><TbArrowBigUpLine /></span>
       <div className="experience__wrapper">
         <div className="flip__card">
           <div className="qualifications">

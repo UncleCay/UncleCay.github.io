@@ -14,38 +14,39 @@ nav{
     80% {opacity: 0.8;}
     90% {opacity: 0.9;}
     100% {opacity: 1;}
-  }
+}
 
 .nav__links{
     position: fixed;
-    bottom: 50%;
-    right: 1rem;
-    transform: translateY(50%);
-    padding: 2rem 1rem;
     z-index: 1;
     display: flex;
-    flex-direction: column;
-    gap: 18rem;
+    gap: 40rem;
+    bottom: 0%;
+    right: 50%;
+    transform: translateX(50%);
+    padding: 1rem;
 }
-
 nav a, .go__down, .go__up{
     padding: 0.5rem;
     border-radius: 50%;
     color: var(--color-light);
     font-size:larger;
     display: flex;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 3;
+    animation: scroll_alter 1s ease infinite alternate;
+}
+@keyframes scroll_alter{
+    0%{ padding: .4rem}
+    100%{ padding: .6rem}
 }
 
 nav a:hover{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 627px){
     .nav__links{
-        flex-direction: row;
-        bottom: 0%;
         right: 50%;
         transform: translateX(50%);
         padding: 1rem;
@@ -54,8 +55,8 @@ nav a:hover{
         margin: 0 4.5rem;
     }
 }
-@media screen and (max-width: 827px){
+@media screen and (max-width: 727px){
     .nav__links{
-        gap: 9rem;
+        gap: 5.5rem;
     }
 }

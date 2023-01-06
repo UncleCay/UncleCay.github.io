@@ -11,7 +11,7 @@ const Services = () => {
       <div className='serviceCards'>
         <div className="serviceCard">
           <img src={webdev} alt="Caleb Orakpor - webdev_icon"/>
-          <h2>WEB DEVELOPMENT</h2>
+          <h3>WEB DEVELOPMENT</h3>
           <p> I design and develop 
             any form of Reactjs or Javascrip project;
              website, web application, landing page, online form.
@@ -19,7 +19,43 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="lowerBackground"></div>
+      <div className="serviceMuscle">
+      <div className="muscle startMuscle">
+          <h3>Languages I Speak</h3>
+          <ul>
+            <li><span className="bullet"></span>HTML,</li>
+            <li><span className="bullet"></span>CSS,</li>
+            <li><span className="bullet"></span>Javascript,</li>
+            <li><span className="bullet"></span>React, & Git CL.</li>
+          </ul>
+        </div>
+        <div className="muscle">
+          <h3>Dev Tools</h3>
+          <ul>
+            <li><span className="bullet"></span>VS Code,</li>
+            <li><span className="bullet"></span>Github,</li>
+            <li><span className="bullet"></span>Git Bash,</li>
+            <li><span className="bullet"></span>Bootstrap.</li>
+          </ul>
+        </div>
+        <div className="muscle">
+          <h3>Design Tools</h3>
+          <ul>
+            <li><span className="bullet"></span>Paint graphics editor,</li>
+            <li><span className="bullet"></span>Figma,</li>
+            <li><span className="bullet"></span>Pen & Paper sketch.</li>
+          </ul>
+        </div>
+        <div className="muscle endMuscle">
+          <h3>My Qualities</h3>
+          <ul>
+            <li><span className="bullet"></span>Good Communication,</li>
+            <li><span className="bullet"></span>Active Listening,</li>
+            <li><span className="bullet"></span>Critical Thinking,</li>
+            <li><span className="bullet"></span>Organisation and Time Management.</li>
+          </ul>
+        </div>
+      </div>
     </section>
   )
 }

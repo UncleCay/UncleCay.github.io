@@ -1,20 +1,16 @@
 header {
     width: 100%;
-    box-shadow: 0 .1px 7px black;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 2.2rem;
     position: fixed;
     top: 0;
     z-index: 2;
     transition: all .5s ease;
     background: transparent;
+    box-shadow: .01px .01px 4px black;
   }
-  
-  header:hover{
-  backdrop-filter: blur(0px);
-}
 
 .brand__name{
   font-family: 'Bebas Neue', 'open sans';
@@ -22,28 +18,27 @@ header {
   font-weight: 400;
   line-height: 35px;
   background: var(--color-bgb1);
-  border: 6px solid var(--color-bgb1);
+
+  box-shadow: 1px -1px 1px rgba(255, 165, 0, .5);
   border-radius: 50%;
-  border-color: var(--color-bgb1);
-  padding: 0.5rem 0 0.2rem 0.1rem;
+  padding: 1.1rem .6rem .6rem .6rem;
   z-index: 2;
   transform: rotate(-45deg);
-  box-shadow: 0 .1px 2px black;
-  animation: turn_aroud 1.5s 1s;
+  animation: cl_turn 1.3s ease;
 }
 
 .brand__name:hover{
-  animation: turn_fandb 1s  ease forwards;
+  animation: acl_turn 1s  ease forwards;
   background: var(--color-white);
   border-color: var(--color-white);
 }
 
-@keyframes turn_aroud{
-  from { transform: rotate(-45deg)}
-  to { transform: rotate(315deg)}
+@keyframes cl_turn{
+  from { transform: rotate(-45deg);}
+  to { transform: rotate(315deg);}
 }
-@keyframes turn_fandb{
-  from { transform: rotate(315deg)}
+@keyframes acl_turn{
+  from { transform: rotate(315deg);}
   to { transform: rotate(-45deg); box-shadow: 1px 1px 40px var(--color-white);}
 }
 
@@ -53,6 +48,91 @@ header {
 }
 .brand__name:hover a{
   color: var(--color-bgb1);
+
+}
+.menu__label{
+  position: relative;
+}
+h4 span {
+  font: 10px Monaco, MonoSpace;
+  height: 2.5rem;
+  position: absolute;
+  width: 15px;
+  right: .6rem;
+  top: -1.4rem;
+  color: rgba(255, 165, 0, .5);
+  transform-origin: bottom center;
+}
+
+ h4 .char1 {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+ h4 .char2 {
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+  transform: rotate(290deg);
+}
+ h4 .char3 {
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  transform: rotate(310deg);
+}
+ h4 .char4 {
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(330deg);
+}
+ h4 .char5 {
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(370deg);
+}
+ h4 .char6 {
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(390deg);
+}
+ h4 .char7 {
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(410deg);
+}
+ h4 .char8 {
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(430deg);
+}
+ h4 .char9 {
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(450deg);
+}
+ h4 .char10 {
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(470deg);
 }
   
 /* ======= MENU BARS ======= */
@@ -60,9 +140,8 @@ header {
     cursor: pointer;
     background:var(--color-bgb1);
     border-radius: 50%;
-    padding: 0.6rem;
+    padding: 0.8rem;
     z-index: 2;
-    box-shadow: 0 .1px 2px black;
 }  
 
 .bar1, .bar2, .bar3 {
@@ -70,7 +149,7 @@ header {
     height: 4px;
     margin: 6px 0;
     transition: 0.4s;
-    box-shadow: 2px 2px 0px black;
+    box-shadow: 2px 2px 0px var(--color-bgb1);
     background: white;
   }
   
@@ -98,54 +177,94 @@ header {
 
   /* ======= MENU LINKS ======= */
   .menu__links{
-    background: var(--color-white);
+    background: var(--color-bgb1);
     position: absolute;
     right: -32rem;
     top: 0rem;
-    width: 25%;
+    width: 9rem;
     height: 100vh;
     z-index: 1;
-    display: flex;
-    flex-direction: column;
     padding-top: 11vh;
     text-align: center;
   }
   
   .menu__links .menu__list ul a{
-    height: 10.55vh;
-    padding-top: 1.6rem;
+    height: 8.7vh;
+    padding-top: 1.2rem;
     display: block; /*important*/
     width: 100%;
-    border-left: .5rem solid var(--color-white);
-    border-right: .5rem solid var(--color-white);
-    color: black;
+    /*border-left: .5rem solid var(--color-bgb1);
+    border-right: .5rem solid var(--color-bgb1);*/
+    color: var(--color-white);
+    font-weight: 100;
+    border-bottom: .1rem solid gray;
   }
   
   .menu__links .menu__list > ul > li > a:hover{
-    color: brown;
-    border-left: 0rem solid var(--color-white);
-    border-right: .5rem solid var(--color-white);
+    font-size: 1.1em;
+    color: orange;
+    /* border-left: 0rem solid var(--color-bgb1);
+    border-right: .5rem solid var(--color-bgb1);*/
+    background: var(--color-bgb2);
   }
   
   .menu__links .menu__socials{
-  font-size:x-large;
-  background: var(--color-bgb2);
+  font-size: larger;
+  background: var(--color-bgb1);
   width: 100%;
   height: 10%;
   position: fixed;
-  bottom: 0;
-  padding: .5rem;
+  bottom: 18%;
+  padding-top: .5rem;
+  border-bottom: 1px solid var(--color-white2);
 }
 
 .menu__links .menu__socials a{
-  padding: .5rem 1rem;
-  display: inline-block;
+  padding: .3rem;
+}
+
+.menu__links .menu__socials:hover{
+  background: var(--color-bgb2);
+}
+
+.menu__links .menu__socials a:hover{
+  color: orange;
+}
+
+/* logo for menu */
+
+.menu__links  .brand__name{
+  position: absolute;
+  bottom: 4%;
+  left: 25%;
+  animation: cl_turn 1.3s ease;
+  transform: rotate(-45deg);
+  z-index: -1;
+}
+
+.menu__links  .brand__name:hover{
+  animation: acl_turn 1s  ease forwards;
+  background: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.menu__links .brand__name a{
+  color: var(--color-white);
+}
+.menu__links .brand__name:hover a{
+  color: var(--color-bgb1);
 }
 
 /* ======= MEDIA QUERIES FOR MEDIUM DEVICES ======= */
 @media screen and (max-width: 1024px){
+  .menu__links .menu__list ul a{
+    border: none;
+  }
+  .menu__links .menu__socials{
+    bottom: 16%;
+  }
   .menu__links .menu__socials a{
-    padding: .5rem;
+    padding: .4rem;
   }
   .brand__name:hover{
     box-shadow: -1px 0 0 white;
@@ -154,14 +273,22 @@ header {
 
 /* ======= MEDIA QUERIES FOR SMALL DEVICES ======= */
 @media screen and (max-width: 627px){
+  header{
+    padding: .7rem;
+  }
   .menu__links{
     width: 100%;
     padding-top: 9.5vh;
   }
+  .menu__links  .brand__name{
+    bottom: 5%;
+    left: 43%;
+  }
   .menu__links .menu__socials{
-    height: 15%;
+    font-size: 1.7em;
+    padding-top: .5rem;
   }
   .menu__links .menu__socials a{
-    padding: 1rem 1.3rem;
+    padding: 1rem 1rem;
   }
 }

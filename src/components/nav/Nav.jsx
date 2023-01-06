@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav__links">
-          <a href="#home"   title="Scroll Up"><FiChevronsUp /></a>
+          <a href="#home"   className="go__up" title="Scroll Up"><FiChevronsUp /></a>
           <a href="#footer"  className="go__down" title="Scroll Down"><FiChevronsDown /></a>
       </div>
     </nav>

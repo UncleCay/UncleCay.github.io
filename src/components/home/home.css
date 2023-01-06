@@ -11,41 +11,34 @@
   background-repeat: no-repeat;
   background-image: url(../../assets/home10.jpg);
 }
-/*animation: widthChange 2s .5s backwards;*/
-
-@keyframes widthChange{
-  from{width: 0 ;margin:auto}
-  to{width: 100%; margin:auto}
-}
 
 .home__intro{
-  background: rgba(0, 0, 0, .4);
-  backdrop-filter: sepia(0%);
+  background: rgba(0, 0, 0, .7);
+  backdrop-filter: blur(5px);
   position: relative;
-  top: 6rem;
-  width: 77%;
-  height: 70%;
+  top: 0rem;
+  width: 100%;
+  height: 100%;
   margin: auto;
-  animation: slideDown 1.5s 1s ease backwards;
+  animation: fadeIn .5s .5s ease backwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 5rem;
 }
 
 .text__container{
-  padding: 5% 0 0 0;
-  margin: 0;
-  align-content: center;
+  position: relative;
 }
 
 .home__intro h1, .home__intro h2 {
-    font-weight: 400;
+    font-weight: 100;
     position: relative;
     font-size: 2.8em;
     text-align: center;
     margin: 0 auto;
     overflow:hidden;
-    white-space: nowrap;
-    
-    --interval: 2s;
-    display: block;
+    white-space:nowrap;
     text-shadow: 
     0px 0px 0px transparent,
     0px 0px 0px transparent,
@@ -56,10 +49,9 @@
   
   .home__intro span h1, .home__intro h2{
     background: transparent;
-    position: absolute;
+    display: inline-block;
     left: 50%;
     transform: translateX(-50%);
-    border-right: 4px solid transparent;
   }
   .home__intro .txtLine1{
     animation: subIntro 3s 2.5s steps(100, end) backwards;
@@ -93,64 +85,82 @@
     to { width: 100%;}
   } 
 
-  .contact__link{
-    position: absolute;
-    bottom: 15%;
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
-    color: var(--color-white);
-    padding: 0 1rem;
-    background: var(--color-bgb1);
-    border-radius: 5px;
-  }
-  
-  .contact__link h3{
-    font-weight: 400;
-  }
-  
-  .contact__link button{
-    padding: .5rem;
-    background: var(--color-bgb1);
-    font-size:large;
-    align-self: center;
-    border: 1px solid black;
-    border-top: none;
-    border-bottom: none;
-    color: var(--color-white2);
-  }
-  
-  .contact__link button:hover{
-    color: bisque;
-  }
+.gray__text{
+  color: #a2a2a3;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  position: relative;
+  text-align: center;
+  animation: fadeIn 1s 2s backwards;
+}
 
-@media screen and (max-width: 627px){
-    .text__container{
-      padding: 10rem 0 0;
-      margin: 0 auto;
+.contact__link{
+  position: relative;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+  z-index: 2;
+}
+.contact__button{
+    text-decoration: none;
+    max-width: 200px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    color: orange;
+    margin: 1rem auto;
+}
+.contact__button div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid orange;
+    transition: all .3s ease-in-out;
+}
+.contact__button span.bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: -5px;
+    top: 0;
+    background-color: orange;
+}
+
+.contact__button span.base{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    background-color: orange;
+    transition: all .3s ease-in-out;
+    transform: skewX(-19deg);
+}
+.contact__button:hover span.base{
+    width: 100%;
+}
+.contact__button span.text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: orange;
+}
+.contact__button:hover span.text{
+    color: blue;
+}
+  @media screen and (max-width: 281px){
+    .home__intro .text__container h2{
+      font-size: 1.2em !important;
     }
-    .home__intro .txtLine1{
-      font-size: 3em;
+}
+  @media screen and (max-width: 627px){
+    .home__intro .text__container h2{
+      font-size: 1.55em;
     }
-    .home__intro .txtLine2, .home__intro .txtLine4, .home__intro .txtLine5{
-      font-size: 1.6em;
-    }
-    .home__intro .txtLine3{
-      font-size: 1.4em;
-    }
-  }
-  
-  @media screen and (max-width: 827px){
-    .home__intro{
-      width: 100%;
-      height: 100%;
-      border-radius: 0;
-      top: 0;
-      padding-top: 3rem;
-    }
-  }
-  @media screen and (max-width: 1024px){
-    .contact__link{
-    width: 90%;
-  }
 }

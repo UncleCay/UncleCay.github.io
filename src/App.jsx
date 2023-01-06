@@ -7,6 +7,7 @@ import Services from './components/services/Services'
 import Project from './components/project/Project'
 import Contact from './components/contact/Contact'
 import Home from './components/home/Home'
+import HomeTwo from './components/homeTwo/HomeTwo'
 import Footer from './components/footer/Footer'
 import Testimonials from './components/testimonials/Testimonials'
 
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <div className="app__container">
       <Header />
-        <Home />
+      <Home />
         <Nav />
         <About />
         <Services />
@@ -29,3 +30,5 @@ const App = () => {
 }
 
 export default App
+
+  //<Home />

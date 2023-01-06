@@ -22,7 +22,7 @@
   }
   
   .img__container{
-    background: var(--color-white);
+    background: white;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -63,7 +63,7 @@
     text-align:left;
     height: 100%;
     z-index: 2;
-    background: var(--color-white);
+    background: white;
     padding: 1.5rem 4rem;
   }
 
@@ -72,10 +72,11 @@
     font-size: 1.8em;
     line-height: 1.4em;
     padding-bottom: .5rem;
+    color: var(--color-bgb1)
   }
 
   .about__content p{
-  font-weight: 400;
+  font-weight: 100;
   font-size: 1.2em;
   text-align: justify;
   color: rgb(61, 61, 61);
@@ -84,7 +85,7 @@
 .skills{
       width: 230%;
       background: var(--color-bgb1);
-      color: beige;
+      color: bisque;
       display: inline-flex;
       gap: 10rem;
       position:relative;
