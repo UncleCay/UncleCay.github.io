@@ -1,0 +1,194 @@
+/*#home_two{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background: var(--color-bg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    z-index: 0;
+}
+.text-zone{
+    animation: fadeIn 1.3s backwards;
+    margin: auto;
+}
+.text-zone h1{
+    font-weight: 600;
+    font-size: 6.3rem;
+    line-height: 85px;
+    letter-spacing: -6px;
+    position: relative;
+    font-family: 'Open sans';
+    animation: text_beat 1s ease infinite alternate-reverse;
+    text-align: start;
+    color: white;
+    transition: all 1s ease;
+}
+
+
+.text-zone span span{
+    text-shadow: 3px 2px 0px black;
+    animation: typing .5s 1s backwards;
+}
+#two{animation-delay: 1.15s;} #three{animation-delay: 2.3s;}
+#four{animation-delay: 2.4s;}#five{animation-delay: 2.5s;}
+#six{animation-delay: 2.6s;} #seven{animation-delay: 2.7s;}
+#eight{animation-delay: 2.8s;}#nine{animation-delay: 2.9s;}
+#ten{animation-delay: 4.15s;} #eleven{animation-delay: 4.2s;}
+#twelve{animation-delay: 4.3s;}#thirteen{animation-delay: 4.4s;}
+#fourteen{animation-delay: 4.5s;} #fifteen{animation-delay: 4.6s;}
+#sixteen{animation-delay: 4.7s;}#seventeen{animation-delay: 4.8s;}
+#eighteen{animation-delay: 4.9s;} #nineteen{animation-delay: 5s;}
+#twenty{animation-delay: 5.1s;}#twentyone{animation-delay: 5.2s;}
+
+@keyframes typing {
+    from{opacity: 0}
+    to{opacity: 1}
+}
+
+.text-zone span span:hover{
+    font-weight: 700;
+    text-shadow: 7px 7px 1px var(--color-bg5);
+}
+
+.hover-this {
+    transition: all .1s ease;
+}
+  
+  .cursor {
+      pointer-events: none;
+    position: fixed;
+    padding: .5rem;
+    background-color: orange;
+    border-radius: 50%;
+    mix-blend-mode:color-burn;
+    transition: transform 0.3s ease;
+}
+  
+.hover-this:hover ~ .cursor {
+    transform:translate(-50%, -50%) scale(7);
+}
+/*
+.text-zone h1::before{
+    content: '<html>';
+    position: absolute;
+    top: -2.5rem;
+    left: -6rem;
+    font-size: 1.5rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+.text-zone h1::after{
+    content: '</html>';
+    position: absolute;
+    bottom: -10rem;
+    left: -6rem;
+    font-size: 1.5rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #666565;
+    letter-spacing: 3px;
+}
+.text-zone .gray-text{
+    color: #a2a2a3;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    position: relative;
+    animation: fadeIn 1s 6s backwards;
+}
+
+.contact-button{
+    text-decoration: none;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 3px;
+    position: relative;
+    text-align: center;
+    color: orange;
+}
+.contact-button div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid orange;
+    transition: all .3s ease-in-out;
+}
+.contact-button span.bg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: -5px;
+    top: 0;
+    background-color: orange;
+}
+
+.contact-button span.base{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    background-color: orange;
+    transition: all .3s ease-in-out;
+    transform: skewX(-19deg);
+}
+.contact-button:hover span.base{
+    width: 100%;
+}
+.contact-button span.text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: orange;
+}
+.contact-button:hover span.text{
+    color: blue;
+}
+  
+@media(max-width: 627px) {
+    .text-zone h1{
+        padding: 1rem;
+        margin: 0;
+        font-size: 3.3rem;
+        line-height: 3.5rem;
+    }
+    @keyframes text_beat{
+        from{font-size: 3.3rem}
+        to{ font-size: 3.36rem}
+      }
+  }
+
+  
+  @media(max-width: 750px) {
+      .text-zone h1{
+          margin: auto;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    @keyframes text_beat{
+        from{font-size: 3.5rem}
+        to{ font-size: 3.53rem}
+    }
+    
+    .text-zone h1::before, .text-zone h1::after{
+        left: 0rem;
+    }
+  }
+    @media(max-width: 827px) {
+        .text-zone h1::before, .text-zone h1::after{
+            left: 0rem;
+        }
+        .text-zone h1{
+            margin: auto;
+      }
+  }
+  */

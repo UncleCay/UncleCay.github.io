@@ -7,7 +7,7 @@ import Services from './components/services/Services'
 import Project from './components/project/Project'
 import Contact from './components/contact/Contact'
 import Home from './components/home/Home'
-import HomeTwo from './components/homeTwo/HomeTwo'
+//import HomeTwo from './components/homeTwo/HomeTwo'
 import Footer from './components/footer/Footer'
 import Testimonials from './components/testimonials/Testimonials'
 

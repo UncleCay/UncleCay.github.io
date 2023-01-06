@@ -85,12 +85,6 @@
 .serviceMuscle .muscle{
     padding: 3rem;
 }
-.endMuscle{
-
-}
-.startMuscle{
-
-}
 
 @media screen and (max-width: 1024px){  
     .serviceCard img{
