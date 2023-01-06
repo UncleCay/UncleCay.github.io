@@ -3,7 +3,6 @@ import './experience.css'
 import CV from '../../assets/Resume.pdf'
 import CT from '../../assets/certification_logo2.jpg'
 import EDU from '../../assets/education_logo2.png'
-import {TbArrowBigUpLine} from 'react-icons/tb'
 
 const Experience = () => {
   return (
