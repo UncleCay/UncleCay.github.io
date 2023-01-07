@@ -64,7 +64,7 @@ html {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-      background: var(--color-bgb2); 
+      background: var(--color-bg5); 
   }
 
 body {

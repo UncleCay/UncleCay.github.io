@@ -9,7 +9,6 @@ header {
     z-index: 2;
     transition: all .5s ease;
     background: transparent;
-    box-shadow: .01px .01px 4px black;
   }
 
 .brand__name{
