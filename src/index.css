@@ -42,22 +42,23 @@
 
 html {
     scroll-behavior: smooth;
+    background: var(--color-bg)
 }
 
 /* width */
 ::-webkit-scrollbar {
     width: 13px;
-    background: var(--color-bgb3);
+    background: var(--color-bg2);
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px var(--color-bgb1); 
+    box-shadow: inset 0 0 5px var(--color-bg); 
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-      background: var(--color-bgb1); 
+      background: var(--color-bg); 
       border-radius: 7px;
   }
   
@@ -193,7 +194,7 @@ img {
     width: 0;
     margin: 0;
     height: 3rem;
-    background: var(--color-bgb2);
+    background: var(--color-bg2);
 }
 
 .btn__color__fill:hover span, .btn__color__fill:hover button{
@@ -222,12 +223,12 @@ img {
     width: 0;
     margin: 0;
     height: 3rem;
-    background: var(--color-bgb2);
+    background: var(--color-bg2);
 }
 
 .btn_about:hover span, .btn_about:hover button{
     width: 100%;
-    color: white;
+    color: bisque;
 }
 
 /* ======= MEDIA QUERIES FOR MEDIUM DEVICES ======= */

@@ -5,7 +5,8 @@
   position: relative;
   background-size: cover;
   height: 100%;
-  background: var(--color-bg5);
+  background: var(--color-bgb2);
+  background: var(--color-bg);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -72,7 +73,7 @@
     font-size: 1.8em;
     line-height: 1.4em;
     padding-bottom: .5rem;
-    color: var(--color-bgb1)
+    color: var(--color-bg2)
   }
 
   .about__content p{
@@ -84,7 +85,7 @@
 
 .skills{
       width: 230%;
-      background: var(--color-bgb1);
+      background: var(--color-bg2);
       color: bisque;
       display: inline-flex;
       gap: 10rem;
@@ -101,7 +102,7 @@
     }
     
     .skills h3{
-      background: var(--color-bgb1);
+      background: var(--color-bg2);
       z-index: 2;
       padding: 10px;
       border-radius: 0 40px 40px 0;

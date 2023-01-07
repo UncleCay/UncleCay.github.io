@@ -91,9 +91,9 @@
 }
 
 .work__experience button:hover{
-    background: var(--color-bgb2);
+    background: var(--color-bg2);
     color: white;
-    border: var(--color-bgb2);
+    border: var(--color-bg2);
 }
 
 @media screen and (max-width: 627px){
