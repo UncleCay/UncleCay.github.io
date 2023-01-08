@@ -30,7 +30,7 @@
 }
 
 .serviceCard{
-    box-shadow: 1px 1px 3px black;
+    box-shadow: 3px 3px 3px black;
     width: 50%;
     transition: all .2s ease;
     overflow:hidden;
@@ -39,9 +39,9 @@
     position: relative;
     padding: 2rem;
     color: black;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 1.3em;
-    border: 1px solid darkgray;
+    border: 1px solid gray;
 }
 
 .serviceCard img{
@@ -81,6 +81,7 @@
 .serviceMuscle h3{
     padding-bottom: .3rem;
     color: brown;
+
 }
 .serviceMuscle ul li{
     padding-bottom: .3rem;

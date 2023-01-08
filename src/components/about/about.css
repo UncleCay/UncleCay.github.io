@@ -73,14 +73,14 @@
     font-size: 1.8em;
     line-height: 1.4em;
     padding-bottom: .5rem;
-    color: var(--color-bg2)
+    color: black;
   }
 
   .about__content p{
-  font-weight: 100;
+  font-weight: 400;
   font-size: 1.2em;
   text-align: justify;
-  color: rgb(61, 61, 61);
+  color: black;
 }
 
 .skills{
