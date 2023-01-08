@@ -6,6 +6,8 @@
     height: 100%;
     padding-bottom: 5rem;
     background-color: var(--color-white);
+    background-image: url(../../assets/service_img2.jpg);
+    background-attachment: fixed;
 }
 
 #services h1{
@@ -33,9 +35,9 @@
     position: relative;
     padding: 2rem;
     color: gray;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 1.3em;
-    border: 1px solid gray;
+    border: 1px solid darkgray;
 }
 
 .serviceCard img{
@@ -79,11 +81,17 @@
 .serviceMuscle ul li{
     padding-bottom: .3rem;
     color: gray;
-    font-weight: 100;
+    font-weight: 400;
     font-size: large;
 }
 .serviceMuscle .muscle{
-    padding: 3rem;
+    padding: 1.5rem;
+}
+.serviceMuscle .muscle:hover ul li{
+    color: black;
+}
+.serviceMuscle .muscle:hover h3{
+    color: brown;
 }
 
 @media screen and (max-width: 1024px){  

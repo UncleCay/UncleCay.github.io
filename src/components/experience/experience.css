@@ -8,6 +8,7 @@
     border-bottom: 3rem solid white;
     font-weight: 300;
     font-size: large;
+    
 }
 
 #experience > h1{
@@ -38,7 +39,7 @@
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     font-weight: 400;
-    color: rgb(105, 104, 104);
+    color: black;
 }
 
 .qualifications span{
@@ -58,6 +59,10 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background: white;
+    background: url(../../assets/edu.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0rem -4rem;
 }
 
 .quali__card p{
@@ -110,4 +115,7 @@
 }
 
 @media screen and (max-width: 1024px){
+    .quali__card{
+        background-size: contain;
+    }
 }

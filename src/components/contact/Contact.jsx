@@ -9,8 +9,8 @@ const Contact = () => {
           <div className="contact__heading">
             <h1>Contact Me</h1>
             <p>
-              I'm interested in web development job and freelance opportunities.<br />
-              However, if you have other request or question, don't hesitate to contact me.
+            Are you looking for a responsive web developer? or any other inquiries?<br />
+           You can Send an email via the form or chat with me using the Whatsapp icon at the bottom page.
             </p>
           </div>
           <div className="form__input__wrapper">
