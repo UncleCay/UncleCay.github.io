@@ -7,6 +7,7 @@ import image_editor from '../../assets/image_editor__icon.png'*/
 const Services = () => {
   return (
     <section id="services">
+      <div className='service__container'>
       <h1>Services</h1>
       <div className='serviceCards'>
         <div className="serviceCard">
@@ -55,6 +56,7 @@ const Services = () => {
             <li><span className="bullet"></span>Organisation and Time Management.</li>
           </ul>
         </div>
+      </div>
       </div>
     </section>
   )
