@@ -67,8 +67,8 @@
     margin: auto;
     text-align: center;
     background: var(--color-bg2);
-    gap: 1rem;
-    padding: 0 1rem;
+    gap: .5rem;
+    padding: 0 .5rem;
     border: 1rem solid var(--color-bg2);
     border-left: none;
     border-right: none;
@@ -80,22 +80,20 @@
 
 .serviceMuscle h3{
     padding-bottom: .3rem;
-    color: black;
+    color: brown;
 }
 .serviceMuscle ul li{
     padding-bottom: .3rem;
-    color: gray;
+    color: black;
     font-weight: 400;
     font-size: large;
 }
 .serviceMuscle .muscle{
     padding: 1.5rem;
 }
-.serviceMuscle .muscle:hover ul li{
-    color: black;
-}
-.serviceMuscle .muscle:hover h3{
-    color: brown;
+
+.serviceMuscle .muscle:hover{
+    background: var(--color-white)
 }
 
 @media screen and (max-width: 1024px){  
