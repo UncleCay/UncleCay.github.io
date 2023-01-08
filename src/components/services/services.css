@@ -109,6 +109,9 @@
     }
 }
 @media screen and (max-width: 627px){
+    #services{
+        background-position: -55rem 2rem;
+    }
     .serviceCards{
         flex-direction: column;
         padding: 1rem;
