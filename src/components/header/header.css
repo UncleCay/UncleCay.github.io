@@ -13,21 +13,25 @@ header {
 
 .brand__name{
   font-family: 'Bebas Neue', 'open sans';
+  font-family: 'La Belle Aurore', cursive;
   font-size: 55px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 600;
   line-height: 35px;
   background: var(--color-bg);
   border-radius: 50%;
-  padding: 1.1rem .6rem .6rem .6rem;
+  padding: 1.1rem .6rem .82rem .6rem;
   z-index: 2;
   transform: rotate(-45deg);
   animation: cl_turn 1.3s ease;
+  text-shadow: 3px 3px 0px black;
 }
 
 .brand__name:hover{
   animation: acl_turn 1s  ease forwards;
   background: var(--color-white);
   border-color: var(--color-white);
+  text-shadow: none;
 }
 
 @keyframes cl_turn{
@@ -40,12 +44,11 @@ header {
 }
 
 .brand__name a{
-  color: var(--color-white);
+  color: white;
   border-radius: 50%;
 }
 .brand__name:hover a{
   color: var(--color-bg);
-
 }
 .menu__label{
   position: relative;

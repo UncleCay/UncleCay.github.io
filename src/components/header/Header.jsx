@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="header__top">
-        <h2 className="brand__name"><a href="#home">OC</a></h2>
+        <h2 className="brand__name"><a href="#home">CALEB</a></h2>
       <div className={crossBars ? "menu__bars change" : "menu__bars"} onClick={changeBar}>
         <h4 className="menu__label">
           <span className="char1">M</span>

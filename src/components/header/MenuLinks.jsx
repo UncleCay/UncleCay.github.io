@@ -24,7 +24,7 @@ const MenuLinks = (props) => {
         <a href="https://twitter.com" target="_blank" rel="noreferrer"><BsTwitter /></a>
       </div>
       <div>
-        <h2 className="brand__name"><a href="#home">OC</a></h2>
+        <h2 className="brand__name"><a href="#home">CALEB</a></h2>
       </div>
     </div>
   )
