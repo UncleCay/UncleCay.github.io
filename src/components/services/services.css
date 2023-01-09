@@ -72,10 +72,18 @@
     border: 1rem solid var(--color-bg2);
     border-left: none;
     border-right: none;
+    overflow: hidden;
 }
 .serviceMuscle .muscle{
     background: white;
     width: 100%;
+    padding: 1.5rem;
+    transition: all .5s ease;
+}
+
+.serviceMuscle .muscle:hover{
+    background: var(--color-white);
+    transform: scale(1.1) translateY(-.5rem);
 }
 
 .serviceMuscle h3{
@@ -88,15 +96,6 @@
     color: black;
     font-weight: 400;
     font-size: large;
-}
-.serviceMuscle .muscle{
-    padding: 1.5rem;
-    transition: all .5s ease;
-}
-
-.serviceMuscle .muscle:hover{
-    background: var(--color-white);
-    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1024px){  
