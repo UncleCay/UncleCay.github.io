@@ -91,10 +91,12 @@
 }
 .serviceMuscle .muscle{
     padding: 1.5rem;
+    transition: all .5s ease;
 }
 
 .serviceMuscle .muscle:hover{
-    background: var(--color-white)
+    background: var(--color-white);
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 1024px){  

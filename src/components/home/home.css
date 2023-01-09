@@ -54,7 +54,7 @@
     font-weight: 700;
   }
   .home__intro h2{
-    animation: intro 24s 4.2s steps(100, end) both infinite;
+    animation: intro 24s 4.2s steps(100, end) both infinite, text__opacity 24s 4.2s steps(100) infinite;
   }
   .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4, .home__intro .txtLine5{
     font-size: 2.5em;
@@ -73,6 +73,11 @@
     from, to { width: 0%;}
     15% { width: 100%;}
     25% { width: 0%;}
+  }
+  @keyframes text__opacity {
+    from, to { opacity: 1;}
+    15% { opacity: 1;}
+    45% { opacity: 0;}
   }
   
   
