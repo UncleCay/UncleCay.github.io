@@ -26,14 +26,15 @@
     background: white;
     display: flex;
     flex-direction: column;
-    width: 100%;
     overflow: hidden;
+    width: 100%;
   }
   
   
   .about__img{
     overflow: hidden;
     width: 100%;
+    margin: 0 auto;
   }
   
   .about__img img{
