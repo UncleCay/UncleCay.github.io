@@ -20,7 +20,7 @@
   width: 100%;
   height: 100%;
   margin: auto;
-  animation: fadeIn .5s .5s ease backwards;
+  animation: fadeIn 1s steps(100) backwards;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -50,7 +50,7 @@
     transform: translateX(-50%);
   }
   .home__intro .txtLine1{
-    animation: subIntro 3s 2.5s steps(100, end) backwards;
+    animation: subIntro 3s 2s steps(100, end) backwards;
     font-weight: 700;
   }
   .home__intro h2{

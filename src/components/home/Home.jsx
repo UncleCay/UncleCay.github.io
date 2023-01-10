@@ -7,12 +7,26 @@ const Home = () => {
       <div id="home">
         <div className="home__intro">
           <div className="text__container">
-            <h1 className="txtLine1">Welcome!</h1>
+            <h1 className="txtLine1">
+              <span className='intro__char'>W</span><sapn>e</sapn><span className='intro__char'>l</span><span className='intro__char'>c</span><span className='intro__char'>o</span><span className='intro__char'>m</span><span className='intro__char'>e</span><span className='intro__char'>!</span></h1>
             <span className="intro__texts">
-            <h2 className="txtLine2">My name is Caleb, <span>Orakpor.</span></h2>
-            <h2 className="txtLine3">I'm a front-end React<span> developer</span></h2>
-            <h2 className="txtLine4">Located in Lagos, <span>Nigeria</span></h2>
-            <h2 className="txtLine5">This is my portfolio <span>website</span></h2>
+              <h2 className="txtLine2">
+                <span className='intro__char'>M</span><span className='intro__char'>y </span><span className='intro__char'>n</span><span className='intro__char'>a</span><span className='intro__char'>m</span><span className='intro__char'>e </span>
+                <span className='intro__char'>i</span><span className='intro__char'>s </span><span className='intro__char'>C</span><span className='intro__char'>a</span><span className='intro__char'>l</span><span className='intro__char'>e</span><span className='intro__char'>b, </span>
+                <span className='intro__char'>O</span><span className='intro__char'>r</span><span className='intro__char'>a</span><span className='intro__char'>k</span><span className='intro__char'>p</span><span className='intro__char'>o</span><span className='intro__char'>r</span></h2>
+              <h2 className="txtLine3">
+                <span className='intro__char'>I'</span><span className='intro__char'>m </span><span className='intro__char'>a </span>
+                <span className='intro__char'>f</span><span className='intro__char'>r</span><span className='intro__char'>o</span><span className='intro__char'>n</span><span className='intro__char'>t-</span><span className='intro__char'>e</span><span className='intro__char'>n</span><span className='intro__char'>d </span>
+                <span className='intro__char'>R</span><span className='intro__char'>e</span><span className='intro__char'>a</span><span className='intro__char'>c</span><span className='intro__char'>t </span>
+                <span className='intro__char'>d</span><span className='intro__char'>e</span><span className='intro__char'>v</span><span className='intro__char'>e</span><span className='intro__char'>l</span><span className='intro__char'>o</span><span className='intro__char'>p</span><span className='intro__char'>e</span><span className='intro__char'>r</span></h2>
+              <h2 className="txtLine4">
+                <span className='intro__char'>L</span><span className='intro__char'>o</span><span className='intro__char'>c</span><span className='intro__char'>a</span><span className='intro__char'>t</span><span className='intro__char'>e</span><span className='intro__char'>d </span>
+                <span className='intro__char'>i</span><span className='intro__char'>n </span><span className='intro__char'>L</span><span className='intro__char'>a</span><span className='intro__char'>g</span><span className='intro__char'>o</span><span className='intro__char'>s, </span>
+                <span className='intro__char'>N</span><span className='intro__char'>i</span><span className='intro__char'>g</span><span className='intro__char'>e</span><span className='intro__char'>r</span><span className='intro__char'>i</span><span className='intro__char'>a</span></h2>
+              <h2 className="txtLine5">
+                <span className='intro__char'>T</span><span className='intro__char'>h</span><span className='intro__char'>i</span><span className='intro__char'>s </span><span className='intro__char'>i</span><span className='intro__char'>s </span><span className='intro__char'>m</span><span className='intro__char'>y </span>
+                <span className='intro__char'>p</span><span className='intro__char'>o</span><span className='intro__char'>r</span><span className='intro__char'>t</span><span className='intro__char'>f</span><span className='intro__char'>o</span><span className='intro__char'>l</span><span className='intro__char'>i</span><span className='intro__char'>o </span>
+                <span className='intro__char'>w</span><span className='intro__char'>e</span><span className='intro__char'>b</span><span className='intro__char'>s</span><span className='intro__char'>i</span><span className='intro__char'>t</span><span className='intro__char'>e</span></h2>
             </span>
           </div>
           <div className="contact__link">

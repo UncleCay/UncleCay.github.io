@@ -1,3 +1,4 @@
+/*
 import React from 'react'
 import './homeTwo.css'
 import {useEffect} from 'react'
@@ -65,3 +66,4 @@ const HomeTwo = () => {
 }
 
 export default HomeTwo
+*/
