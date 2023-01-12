@@ -11,6 +11,10 @@ header {
     background: transparent;
   }
 
+  header:hover{
+    box-shadow: 1px 1px 3px black;
+  }
+
 .brand__name{
   font-family: 'La Belle Aurore', cursive;
   font-family: 'Bebas Neue', 'open sans';

@@ -12,7 +12,7 @@
 
 .service__container{
     background: rgba(31, 51, 52, .3);
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(4px);
 }
 
 #services h1{
