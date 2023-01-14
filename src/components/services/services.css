@@ -4,7 +4,6 @@
     top: 0;
     margin: 0;
     height: 100%;
-    padding-bottom: 1rem;
     background-image: url(../../assets/service_img6.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -53,10 +52,6 @@
     color: orange;
 }
 
-.serviceCard:hover h3 {
-    color: brown;
-}
-
 .serviceCard:hover{
     color: white;
     background: black;
@@ -86,9 +81,6 @@
 .serviceMuscle .muscle:hover{
     background: black;
     color: white;
-}
-.serviceMuscle .muscle:hover > h3{
-    color: brown;
 }
 
 .serviceMuscle h3{

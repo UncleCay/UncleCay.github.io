@@ -104,7 +104,7 @@ const showMessage = (errmsg, updateColor) => {
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
-    origin: "top",
+    origin: "bottom",
     distance: "80px",
     duration: 1000,
     reset: true,

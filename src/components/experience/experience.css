@@ -5,9 +5,9 @@
     margin: 0;
     text-align: center;
     height: 100%;
-    border-bottom: 3rem solid white;
     font-weight: 300;
     font-size: large;
+    border-bottom: 1px solid var(--color-white);
 }
 
 #experience > h1{
@@ -78,26 +78,30 @@
 }
 
 .work__experience{
-    padding: 2rem;
-    color: var(--color-bg2);
-    margin: 2rem auto;
-    background: var(--color-white);
+    padding: 3rem;
+    color: var(--color-bg);
+    border: 2px solid var(--color-white);
+    border-left: none;
+    border-right: none;
 }
 
 .work__experience button{
     width: 52%;
     height: 5rem;
     font-size: x-large;
-    color: var(--color-bg2);
     border: 3px solid white;
     transition: .5s all ease;
     margin: 1.5rem auto;
+    background: transparent;
+    color: var(--color-bg);
+    border: 2px solid rgba(237, 208, 143);
 }
 
 .work__experience button:hover{
-    background: var(--color-bg);
-    color: white;
-    border: var(--color-bg);
+    color: var(--color-bg2);
+    background: rgba(222, 187, 123);
+    background: rgba(241, 217, 145);
+    background: rgba(237, 208, 143);
 }
 
 @media screen and (max-width: 627px){
@@ -105,11 +109,8 @@
         font-size: xx-large;
     }
     .flip__card{
-        margin: 0;
+        margin: 0 0 1rem 0;
         width: 100%;
-    }
-    .flip__indicator{
-        top: 54.5%;
     }
 }
 
