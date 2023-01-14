@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home__intro">
           <div className="text__container">
             <h1 className="txtLine1">
-              <span className='intro__char'>W</span><sapn>e</sapn><span className='intro__char'>l</span><span className='intro__char'>c</span><span className='intro__char'>o</span><span className='intro__char'>m</span><span className='intro__char'>e</span><span className='intro__char'>!</span></h1>
+              <span className='intro__char'>W</span><span>e</span><span className='intro__char'>l</span><span className='intro__char'>c</span><span className='intro__char'>o</span><span className='intro__char'>m</span><span className='intro__char'>e</span><span className='intro__char'>!</span></h1>
             <span className="intro__texts">
               <h2 className="txtLine2">
                 <span className='intro__char'>M</span><span className='intro__char'>y </span><span className='intro__char'>n</span><span className='intro__char'>a</span><span className='intro__char'>m</span><span className='intro__char'>e </span>

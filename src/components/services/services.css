@@ -8,10 +8,11 @@
     background-image: url(../../assets/service_img6.jpg);
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 .service__container{
-    background: rgba(31, 51, 52, .3);
+    /*background: rgba(31, 51, 52, .3);*/
     backdrop-filter: blur(4px);
 }
 
@@ -34,11 +35,10 @@
     width: 50%;
     transition: all .2s ease;
     overflow:hidden;
-    background: white;
-    color: var(--color-bgb2);
+    background: var(--color-bg);
     position: relative;
     padding: 2rem;
-    color: black;
+    color: white;
     font-weight: 400;
     font-size: 1.3em;
     border: 1px solid bisque;
@@ -50,50 +50,54 @@
     margin: auto;    
 }
 .serviceCard h3{
-    color: black;
+    color: orange;
 }
 
 .serviceCard:hover h3 {
-    color: white;
+    color: brown;
 }
 
 .serviceCard:hover{
-    color: var(--color-white);
-    background:var(--color-bg2);
+    color: white;
+    background: black;
 }
 .serviceMuscle{
     display: flex;
-    background: white;
     margin: auto;
     text-align: center;
-    background: var(--color-bg2);
+    background: var(--color-bg);
+    background: transparent;
     gap: .5rem;
     padding: 0 .5rem;
-    border: 1rem solid var(--color-bg2);
+    border: 1rem solid var(--color-bg);
+    border: 1rem solid transparent;
     border-left: none;
     border-right: none;
     overflow: hidden;
 }
 .serviceMuscle .muscle{
-    background: white;
+    background: var(--color-bg);
     width: 100%;
     padding: 1.5rem;
     transition: all .5s ease;
+    color: white;
 }
 
 .serviceMuscle .muscle:hover{
-    background: var(--color-white);
-    transform: scale(1.1) translateY(-.5rem);
+    background: black;
+    color: white;
+}
+.serviceMuscle .muscle:hover > h3{
+    color: brown;
 }
 
 .serviceMuscle h3{
     padding-bottom: .3rem;
-    color: brown;
+    color: orange;
 
 }
 .serviceMuscle ul li{
     padding-bottom: .3rem;
-    color: black;
     font-weight: 400;
     font-size: large;
 }
@@ -128,6 +132,6 @@
         gap: .5rem;
     }
     .muscle{
-        border-bottom: 2px solid var(--color-white)
+        border-bottom: 2px solid bisque;
     }
 }

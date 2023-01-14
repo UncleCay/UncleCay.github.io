@@ -3,6 +3,8 @@ import App from './App'
 import './index.css'
 import * as ReactDOM from 'react-dom';
 import emailjs from '@emailjs/browser';
+import ScrollReveal from 'scrollreveal'
+export default ScrollReveal();
 /*
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
@@ -100,5 +102,42 @@ const showMessage = (errmsg, updateColor) => {
 }
 
 
-
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: "top",
+    distance: "80px",
+    duration: 1000,
+    reset: true,
+    easing: 'ease'
+  });
   
+  /*SCROLL ABOUT*/
+  sr.reveal(".about__container", { delay: 200 });
+  sr.reveal(".about__content h2", { delay: 200 });
+  sr.reveal(".about__content .my__name", { delay: 400 });
+  sr.reveal(".about__content p", { delay: 500 });
+  sr.reveal(".about__content .p__span", { delay: 600, interval: 100 });
+  sr.reveal(".about__img", { delay: 50 });
+  sr.reveal(".btn__about h5", { delay: 50 });
+  sr.reveal(".cards", { delay: 100});
+  sr.reveal(".skills", { delay: 100});
+  
+  /*SCROLL SERVICES*/
+  sr.reveal(".serviceCards", {delay: 200});
+  sr.reveal(".muscle", {delay: 200, interval: 200 });
+  
+  /*SCROLL EXPERIENCE*/
+  sr.reveal(".flip__card", {delay: 200});
+  sr.reveal(".work__experience", {delay: 300});
+  
+  /*SCROLL PROJECT*/
+  sr.reveal("#project div", { reset: false, interval: 200});
+  
+  /*SCROLL QUOTE*/
+  sr.reveal(".testimonial__wrapper", { reset: false, delay: 400});
+
+  /*SCROLL CONTACT*/
+  sr.reveal("#contact h1", {reset: false, delay: 200});
+  sr.reveal("#contact p", {reset: false, delay: 300});
+  sr.reveal("#contact .form__input__wrapper", {reset: false, delay: 300});
+  sr.reveal("#contact button", {reset: false, delay: 400});

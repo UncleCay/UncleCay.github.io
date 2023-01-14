@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/me4.png'
+import Me from '../../assets/me5.png'
 import {AiFillFolderOpen} from 'react-icons/ai'
 import {MdContactPage} from 'react-icons/md'
 
@@ -36,16 +36,16 @@ const About = () => {
         </div>
         <div className="about__content">
           <h2>
-           Hello World!<br />
-           My name is Caleb. I'm a front-end React developer, located in Nigeria.
+           <span className="hello">Hello World!</span><br />
+           <span className='my__name'>My name is Caleb. I'm a front-end React developer, located in Nigeria.</span>
           </h2>
           <p>
-          From playing with a Paint graphics editor to HTML and CSS, now on Javascript, React, and more.
-          I design and develop responsive websites using React.
-          When working on a project, I pay attention to the smallest details addressing problems with patience.
-          Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth. 
-          When I design, I put a high priority on responsiveness, scalability, user-friendliness, and simplicity.
-          A concise, reusable, intelligible, and maintainable code is another goal of mine.
+          <span className="p__span">From playing with a Paint graphics editor to HTML and CSS, now on Javascript, React, and more.</span>
+          <span className="p__span">I design and develop responsive websites using React.</span>
+          <span className="p__span">When working on a project, I pay attention to the smallest details addressing problems with patience.</span>
+          <span className="p__span">Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth.</span> 
+          <span className="p__span">When I design, I put a high priority on responsiveness, scalability, user-friendliness, and simplicity.</span>
+          <span className="p__span">A concise, reusable, intelligible, and maintainable code is another goal of mine.</span>
           </p>
         </div>
       </div>
