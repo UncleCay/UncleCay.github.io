@@ -36,16 +36,16 @@ const About = () => {
         </div>
         <div className="about__content">
           <h2>
-           <span className="hello">Hello World!</span><br />
-           <span className='my__name'>My name is Caleb. I'm a front-end React developer, located in Nigeria.</span>
+           <span className="about__scroll">Hello World!</span><br />
+           <span className='about__scroll'>My name is Caleb. I'm a front-end React developer, located in Nigeria.</span>
           </h2>
           <p>
-          <span className="p__span">From playing with a Paint graphics editor to HTML and CSS, now on Javascript, React, and more.</span>
-          <span className="p__span">I design and develop responsive websites using React.</span>
-          <span className="p__span">When working on a project, I pay attention to the smallest details addressing problems with patience.</span>
-          <span className="p__span">Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth.</span> 
-          <span className="p__span">When I design, I put a high priority on responsiveness, scalability, user-friendliness, and simplicity.</span>
-          <span className="p__span">A concise, reusable, intelligible, and maintainable code is another goal of mine.</span>
+          <span className="about__scroll">From playing with a Paint graphics editor to HTML and CSS, now on Javascript, React, and more.</span>
+          <span className="about__scroll">I design and develop responsive websites using React.</span>
+          <span className="about__scroll">When working on a project, I pay attention to the smallest details addressing problems with patience.</span>
+          <span className="about__scroll">Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth.</span> 
+          <span className="about__scroll">When I design, I put a high priority on responsiveness, scalability, user-friendliness, and simplicity.</span>
+          <span className="about__scroll">A concise, reusable, intelligible, and maintainable code is another goal of mine.</span>
           </p>
         </div>
       </div>
