@@ -7,7 +7,6 @@
     background-image: url(../../assets/service_img6.jpg);
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .service__container{
@@ -34,10 +33,10 @@
     width: 50%;
     transition: all .2s ease;
     overflow:hidden;
-    background: var(--color-bg);
+    background: white;
     position: relative;
     padding: 2rem;
-    color: white;
+    color: black;
     font-weight: 400;
     font-size: 1.3em;
     border: 1px solid bisque;
@@ -49,12 +48,15 @@
     margin: auto;    
 }
 .serviceCard h3{
-    color: orange;
+    color: black;
 }
 
 .serviceCard:hover{
     color: white;
-    background: black;
+    background: var(--color-bg);
+}
+.serviceCard:hover h3{
+    color: orange;
 }
 .serviceMuscle{
     display: flex;
@@ -71,21 +73,25 @@
     overflow: hidden;
 }
 .serviceMuscle .muscle{
-    background: var(--color-bg);
+    background: white;
     width: 100%;
     padding: 1.5rem;
     transition: all .5s ease;
-    color: white;
+    color: black;
 }
 
 .serviceMuscle .muscle:hover{
-    background: black;
+    background: var(--color-bg);
     color: white;
+}
+
+.serviceMuscle .muscle:hover h3{
+    color: orange;
 }
 
 .serviceMuscle h3{
     padding-bottom: .3rem;
-    color: orange;
+    color: brown;
 
 }
 .serviceMuscle ul li{
