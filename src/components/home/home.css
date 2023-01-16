@@ -54,19 +54,19 @@
     font-weight: 700;
   }
   .home__intro h2{
-    animation: intro 24s 4.2s steps(100, end) both infinite, text__opacity 24s 4.2s steps(100) infinite;
+    animation: intro 24s 3.5s steps(100, end) both infinite, text__opacity 24s 4.2s steps(100) infinite;
   }
   .home__intro .txtLine2, .home__intro .txtLine3, .home__intro .txtLine4, .home__intro .txtLine5{
     font-size: 2.5em;
   }
   .home__intro .txtLine3{
-    animation-delay: 10.2s;
+    animation-delay: 9.5s;
   }
   .home__intro .txtLine4{
-    animation-delay: 16.2s;
+    animation-delay: 15.5s;
   }
   .home__intro .txtLine5{
-    animation-delay: 22.2s;
+    animation-delay: 21.5s;
   }
   
   @keyframes intro {
@@ -93,7 +93,7 @@
   position: relative;
   text-align: center;
   text-shadow: 1.2px 1.2px .1px black;
-  animation: fadeIn 1s 2s backwards;
+  animation: fadeIn 1s 1s backwards;
 }
 
 .contact__link{

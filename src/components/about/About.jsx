@@ -6,8 +6,8 @@ import {MdContactPage} from 'react-icons/md'
 
 const About = () => {
   return (
-    <section id="about"> 
-      <h1>About Me</h1>
+    <section id="about">
+        <h1>About Me</h1>
       <div className="about__container">
         <div className="img__container">
           <div className="about__img">
