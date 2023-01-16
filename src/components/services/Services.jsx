@@ -14,7 +14,7 @@ const Services = () => {
           <img src={webdev} alt="Caleb Orakpor - webdev_icon"/>
           <h3>WEB DEVELOPMENT</h3>
           <p> I design and develop 
-            any form of Reactjs or Javascrip project;
+            any form of Reactjs or Javascript project;
              website, web application, landing page, online form.
             etc.
           </p>
@@ -34,7 +34,7 @@ const Services = () => {
           <h3>Dev Tools</h3>
           <ul>
             <li><span className="bullet"></span>VS Code,</li>
-            <li><span className="bullet"></span>Github,</li>
+            <li><span className="bullet"></span>GitHub,</li>
             <li><span className="bullet"></span>Git Bash,</li>
             <li><span className="bullet"></span>Bootstrap.</li>
           </ul>

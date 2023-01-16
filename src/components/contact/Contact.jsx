@@ -10,7 +10,7 @@ const Contact = () => {
             <h1>Contact Me</h1>
             <p>
             Are you looking for a responsive web developer? or any other inquiries?<br />
-           You can Send an email via the form or chat with me using the Whatsapp icon at the bottom page.
+           You can Send an email via the form or chat with me clicking the Whatsapp icon at the bottom page.
             </p>
           </div>
           <div className="form__input__wrapper">

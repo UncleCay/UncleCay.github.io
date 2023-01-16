@@ -40,11 +40,11 @@ const About = () => {
            <span className='about__scroll'>My name is Caleb. I'm a front-end React developer, located in Nigeria.</span>
           </h2>
           <p>
-          <span className="about__scroll">From playing with a Paint graphics editor to HTML and CSS, now on Javascript, React, and more.</span>
-          <span className="about__scroll">I design and develop responsive websites using React.</span>
-          <span className="about__scroll">When working on a project, I pay attention to the smallest details addressing problems with patience.</span>
-          <span className="about__scroll">Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth.</span> 
-          <span className="about__scroll">When I design, I put a high priority on responsiveness, scalability, user-friendliness, and simplicity.</span>
+          <span className="about__scroll">From playing with a Paint graphics editor to HTML and CSS, now on Javascript, React, and more. </span>
+          <span className="about__scroll">I design and develop responsive websites using React. </span>
+          <span className="about__scroll">When working on a project, I pay attention to the smallest details addressing problems with patience. </span>
+          <span className="about__scroll">Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth. </span> 
+          <span className="about__scroll">When I design, I put a high priority on responsiveness, scalability, user-friendliness, and simplicity. </span>
           <span className="about__scroll">A concise, reusable, intelligible, and maintainable code is another goal of mine.</span>
           </p>
         </div>
