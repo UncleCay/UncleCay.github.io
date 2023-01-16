@@ -12,6 +12,11 @@
 
 #experience > h1{
     color:brown;
+    padding: 1.6rem;
+}
+
+#experience h1::before, #experience h1::after{
+    background: brown;
 }
 
 .experience__wrapper{

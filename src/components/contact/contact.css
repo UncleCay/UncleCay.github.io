@@ -15,6 +15,10 @@
     font-weight: 600;
 }
 
+#contact h1::before, #contact h1::after{
+    background: brown;
+}
+
 .contact__heading p{
     color: var(--color-bgb2);
     text-align: center;
@@ -165,6 +169,10 @@ bottom: .5rem;
 @media screen and (max-width: 627px){
     .contact__container{
         grid-template-columns: 100%;
+    }
+
+    #contact h1::before, #contact h1::after{
+        display: none;
     }
 
     .contact__heading p{

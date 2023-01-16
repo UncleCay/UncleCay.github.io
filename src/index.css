@@ -91,6 +91,18 @@ section h1{
     text-shadow: .5px .5px 0px black;
   }
 
+  section h1::before, section h1::after{
+    content: "";
+    width: 2rem;
+    height: 5px;
+    background: white;
+    position: absolute;
+    margin: 1.8rem -3rem;
+  }
+  section h1::after{
+    margin: 1.8rem 1rem;
+  }
+
   @media screen and (max-width: 627px){
     section h1{
         padding-top: 5rem;

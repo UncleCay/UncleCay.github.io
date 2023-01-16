@@ -12,6 +12,10 @@
     padding-bottom: .5rem;
 }
 
+#project h1::before, #project h1::after{
+    background: brown;
+}
+
 .project__cards{
     position: relative;
     display: flex;
