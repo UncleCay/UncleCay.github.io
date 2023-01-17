@@ -130,10 +130,10 @@ const sr = ScrollReveal({
   sr.reveal(".work__experience", {delay: 300});
   
   /*SCROLL PROJECT*/
-  sr.reveal("#project div", { reset: false, interval: 200});
+  sr.reveal("#project div", { interval: 200});
   
   /*SCROLL QUOTE*/
-  sr.reveal(".testimonial__wrapper", { reset: false, delay: 400});
+  sr.reveal(".testimonial__wrapper", { delay: 400});
 
   /*SCROLL CONTACT*/
   sr.reveal("#contact h1", {reset: false, delay: 200});
