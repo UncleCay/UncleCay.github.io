@@ -106,15 +106,16 @@ const showMessage = (errmsg, updateColor) => {
 const sr = ScrollReveal({
     origin: "bottom",
     distance: "80px",
-    duration: 700,
+    duration: 600,
     reset: true,
     easing: 'ease'
   });
   
   /*SCROLL ABOUT*/
   sr.reveal("#about h1", { delay: 200 });
-  sr.reveal(".about__content h2", { delay: 200 });
-  sr.reveal(".about__content .about__scroll", { delay: 500, interval: 100 });
+  sr.reveal(".about__content h2", { delay: 300 });
+  sr.reveal(".about__content p", { delay: 400 });
+  sr.reveal(".about__content .about__scroll", { delay: 100, interval: 100 });
   sr.reveal(".img__container", { delay: 100 });
   sr.reveal(".about__img", { delay: 100 });
   sr.reveal(".cards", { delay: 400, interval: 100});
@@ -130,10 +131,10 @@ const sr = ScrollReveal({
   sr.reveal(".work__experience", {delay: 300});
   
   /*SCROLL PROJECT*/
-  sr.reveal("#project div", { interval: 200});
+  sr.reveal("#project div", { reset: false, interval: 200});
   
   /*SCROLL QUOTE*/
-  sr.reveal(".testimonial__wrapper", { delay: 400});
+  sr.reveal(".testimo__content", { reset: false, delay: 400});
 
   /*SCROLL CONTACT*/
   sr.reveal("#contact h1", {reset: false, delay: 200});
