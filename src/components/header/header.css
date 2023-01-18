@@ -198,18 +198,14 @@ h4 span {
     padding-top: 1.2rem;
     display: block; /*important*/
     width: 100%;
-    /*border-left: .5rem solid var(--color-bg);
-    border-right: .5rem solid var(--color-bg);*/
     color: var(--color-white);
     font-weight: 100;
     border-bottom: .1rem solid gray;
   }
   
   .menu__links .menu__list > ul > li > a:hover{
-
+    box-shadow: 1px 1px 3px black;
     color: orange;
-    /* border-left: 0rem solid var(--color-bg);
-    border-right: .5rem solid var(--color-bg);*/
     background: var(--color-bg2);
     text-shadow: 1px 1px 1px black;
   }
@@ -218,12 +214,11 @@ h4 span {
     font-size: 1.35em;
     background: var(--color-bg);
     width: 100%;
-    height: 10%;
-    /*position: fixed;
-    bottom: 18%;*/
+    height: 11%;
     text-align: center;
-    border-bottom: 1px solid var(--color-white2);
-    padding-top: 12px
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    margin-top: 1px;
   }
   
   .menu__links .menu__socials a{
@@ -232,6 +227,7 @@ h4 span {
   
   .menu__links .menu__socials:hover{
     background: var(--color-bg2);
+    box-shadow: 1px 1px 3px black;
   }
   
   .menu__links .menu__socials a:hover{
