@@ -50,7 +50,7 @@
     transform: translateX(-50%);
   }
   .home__intro .txtLine1{
-    animation: subIntro 3s 2s steps(100, end) backwards;
+    animation: subIntro 4s 2s steps(100, end) backwards;
     font-weight: 700;
   }
   .home__intro h2{
@@ -69,6 +69,11 @@
     animation-delay: 21.5s;
   }
   
+  @keyframes subIntro {
+    from { width: 0%;}
+    to { width: 100%;}
+  } 
+  
   @keyframes intro {
     from, to { width: 0%;}
     15% { width: 100%;}
@@ -80,11 +85,6 @@
     45% { opacity: 0;}
   }
   
-  
-  @keyframes subIntro {
-    from { width: 0%;}
-    to { width: 100%;}
-  } 
 
 .gray__text{
   color: white;
