@@ -10,7 +10,6 @@
 }
 
 .service__container{
-    /*background: rgba(31, 51, 52, .3);*/
     backdrop-filter: blur(4px);
 }
 
@@ -30,12 +29,12 @@
 
 .serviceCard{
     box-shadow: 3px 3px 3px black;
-    width: 50%;
+    width: 66%;
     transition: all .2s ease;
     overflow:hidden;
     background: white;
     position: relative;
-    padding: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     color: black;
     font-weight: 400;
     font-size: 1.3em;
@@ -48,7 +47,7 @@
     margin: auto;    
 }
 .serviceCard h3{
-    color: black;
+    text-shadow: 1px 1px 0px black;
 }
 
 .serviceCard:hover{
@@ -60,22 +59,17 @@
 }
 .serviceMuscle{
     display: flex;
-    margin: auto;
+    margin: 5px 0;
     text-align: center;
-    background: var(--color-bg2);
-    background: transparent;
     gap: .5rem;
-    padding: 0 .5rem;
-    border: 1rem solid var(--color-bg2);
-    border: 1rem solid transparent;
-    border-left: none;
-    border-right: none;
+    padding: 1rem;
     overflow: hidden;
 }
 .serviceMuscle .muscle{
+    box-shadow: 3px 3px 5px black;
     background: white;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     transition: all .5s ease;
     color: black;
 }
@@ -90,7 +84,8 @@
 }
 
 .serviceMuscle h3{
-    padding-bottom: .3rem;
+    text-shadow: 1px 0px 0px black;
+    padding: .3rem 0;
     color: brown;
 
 }
@@ -100,7 +95,7 @@
     font-size: large;
 }
 
-@media screen and (max-width: 1024px){  
+@media screen and (max-width: 1024px){ 
     .serviceCard img{
         width: 90px;    
     }
@@ -118,7 +113,7 @@
     }
     .serviceCards{
         flex-direction: column;
-        padding: 1rem;
+        padding: .5rem;
     }
     .serviceCard{
         width: 100%;

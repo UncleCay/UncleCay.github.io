@@ -11,7 +11,7 @@
 }
 
 #experience > h1{
-    padding-bottom: 1.5rem;
+    padding-bottom: .5rem;
     color:brown;
 }
 
@@ -22,13 +22,13 @@
 .experience__wrapper{
     display: flex;
     flex-direction: column;
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 
 .flip__card{
     background-color: transparent;
-    width: 50%;
+    width: 63%;
     height: 315px;
     perspective: 1000px;
     margin: 1rem auto;
@@ -67,6 +67,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: 0rem -4rem;
+    padding-top: 1rem;
 }
 
 .quali__card p{
@@ -91,7 +92,7 @@
 }
 
 .work__experience button{
-    width: 52%;
+    width: 36%;
     height: 5rem;
     font-size: x-large;
     border: 3px solid white;
@@ -104,8 +105,6 @@
 
 .work__experience button:hover{
     color: var(--color-bg2);
-    background: rgba(222, 187, 123);
-    background: rgba(241, 217, 145);
     background: rgba(237, 208, 143);
 }
 
@@ -114,7 +113,10 @@
         font-size: xx-large;
     }
     .flip__card{
-        margin: 0 0 1rem 0;
+        margin: .5rem auto 1rem auto;
+        width: 100%;
+    }
+    .work__experience button{
         width: 100%;
     }
 }
