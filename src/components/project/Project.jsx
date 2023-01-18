@@ -1,6 +1,6 @@
 import React from 'react'
 import './project.css'
-import projectImage from '../../assets/wood-texture.jpg'
+import projectImage from '../../assets/project__image.jpeg'
 
 const Project = () => {
   return (
@@ -11,19 +11,19 @@ const Project = () => {
           <div className="project__card">
             <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...COMING UP SOON...</p>
+              <h2>...COMING UP SOON...</h2>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...COMING UP SOON...</p>
+              <h2>...COMING UP SOON...</h2>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...COMING UP SOON...</p>
+              <h2>...COMING UP SOON...</h2>
               </span>
           </div>
         </div>
@@ -31,19 +31,19 @@ const Project = () => {
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...COMING UP SOON...</p>
+              <h2>...COMING UP SOON...</h2>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...COMING UP SOON...</p>
+              <h2>...COMING UP SOON...</h2>
               </span>
           </div>
           <div className="project__card">
           <img src={projectImage} alt="Caleb Orakpor - projects_preview"/>
             <span className="project__description">
-              <p>...COMING UP SOON...</p>
+              <h2>...COMING UP SOON...</h2>
               </span>
           </div>
         </div>

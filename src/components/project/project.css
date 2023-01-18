@@ -20,11 +20,14 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    gap: .5rem;
+    background: var(--color-white)
 }
 
 .project__card__row{
     position: relative;
     display: flex;
+    gap: .5rem;
 }
 
 .project__card img{
@@ -43,7 +46,7 @@
     backdrop-filter: blur(1px);
     text-align: center;
     color: transparent;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .7);
     transition: all .7s ease;
     width: 100%;
 }
@@ -51,6 +54,7 @@
 .project__card:hover span{
     height: 100%;
     color: white;
+    font-size: x-large;
 }
 
 @media screen and (max-width: 627px){
