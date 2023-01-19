@@ -52,9 +52,9 @@
 }
 
 .project__card:hover span{
+    font-size: x-large;
     height: 100%;
     color: white;
-    font-size: x-large;
 }
 
 @media screen and (max-width: 627px){
@@ -64,5 +64,11 @@
     .project__card__row{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 827px){
+    .project__card:hover span{
+        font-size: larger;
     }
 }

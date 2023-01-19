@@ -116,8 +116,9 @@ const sr = ScrollReveal({
   sr.reveal(".about__content h2", { delay: 300 });
   sr.reveal(".about__content p", { delay: 400 });
   sr.reveal(".about__content .about__scroll", { delay: 100, interval: 100 });
-  sr.reveal(".about__img", { delay: 100 });
-  sr.reveal(".cards", { delay: 400, interval: 100});
+  sr.reveal(".img__container", { delay: 200 });
+  sr.reveal(".about__img", { delay: 200 });
+  sr.reveal(".cards", { delay: 400});
   sr.reveal(".cards .btn_about", { delay: 400, interval: 100});
   sr.reveal(".skills", { delay: 400});
   
