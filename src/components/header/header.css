@@ -287,7 +287,11 @@ h4 span {
   .menu__links .menu__list ul a{
     height: 11.4vh;
     padding-top: 6%;
-    font-size: x-large;
+    font-size: 1.3em;
+  }
+  .menu__links .menu__list > ul > li > a:hover,   .menu__links .menu__socials:hover{
+    background: transparent;
+    box-shadow: none;
   }
   .menu__links  .brand__name{
     display: none;
@@ -296,6 +300,8 @@ h4 span {
     font-size: 2em;
     padding-top: 1.1rem;
     margin-top: 4px;
+    border-bottom: none;
+    border-top: 1px solid gray;
   }
   .menu__links .menu__socials a{
     padding: 1rem 1rem;
