@@ -1,6 +1,5 @@
 import React from 'react'
 import './project.css'
-import projectImage from '../../assets/project__image.jpeg'
 
 const Project = () => {
   return (
@@ -15,7 +14,7 @@ const Project = () => {
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
-              <a href="#">view project</a>
+              <a href="#project">view project</a>
               </span>
           </div>
           <div className="project__card project__two">
@@ -25,7 +24,7 @@ const Project = () => {
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
-              <a href="#">view project</a>
+              <a href="#project">view project</a>
               </span>
           </div>
           <div className="project__card project__three">
@@ -36,7 +35,7 @@ const Project = () => {
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
-              <a href="#">view project</a>
+              <a href="#project">view project</a>
               </span>
           </div>
         </div>
