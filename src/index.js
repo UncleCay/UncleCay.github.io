@@ -137,7 +137,7 @@ const sr = ScrollReveal({
   sr.reveal(".testimo__content", { reset: false, delay: 400});
 
   /*SCROLL CONTACT*/
-  sr.reveal("#contact h1", {reset: false, delay: 200});
-  sr.reveal("#contact p", {reset: false, delay: 300});
-  sr.reveal("#contact .form__input__wrapper", {reset: false, delay: 300});
-  sr.reveal("#contact button", {reset: false, delay: 400});
+  sr.reveal("#contact h1", {reset: false, delay: 300});
+  sr.reveal("#contact p", {reset: false, delay: 400});
+  sr.reveal("#contact .form__input__wrapper", {reset: false, delay: 500});
+  sr.reveal("#contact button", {reset: false, delay: 600});

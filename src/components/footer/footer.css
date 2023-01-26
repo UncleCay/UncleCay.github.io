@@ -13,6 +13,10 @@ footer a{
     padding: 2.5rem;
 }
 
+footer a:hover{
+    color: orange;
+}
+
 footer p{
     padding: 1rem;
     color: var(--color-light);

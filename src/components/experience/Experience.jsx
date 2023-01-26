@@ -3,6 +3,7 @@ import './experience.css'
 import CV from '../../assets/Resume.pdf'
 import CT from '../../assets/certification_logo2.jpg'
 import EDU from '../../assets/education_logo2.png'
+import {AiOutlineCaretDown} from 'react-icons/ai'
 
 const Experience = () => {
   return (
@@ -32,12 +33,19 @@ const Experience = () => {
           </div>
         </div>
       </div>
-        <div className="work__experience">
+      <div className="dropdown">
+  <p className="dropbtn">Certification links<br /><AiOutlineCaretDown /></p>
+  <div className="dropdown-content">
+    <a href="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" target="_black">Freecodecamp</a>
+    <a href="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516">Udemy</a>
+  </div>
+</div>
+      <div className="work__experience">
           <div>
             <p>For my work experience and more, Click the button below to view my CV</p>
             <a href={CV} target='_blank' rel="noreferrer"><button>My Resume</button></a>
           </div>
-        </div>
+      </div>
     </section>
   )
 }
