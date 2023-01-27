@@ -95,48 +95,6 @@
 .cert__links a:hover{
     color: brown;
 }
-/*
-.dropbtn {
-    background-color: white;
-    color: var(--color-white2);
-    border: 2px solid var(--color-white);
-    padding: 0;
-    font-size: 16px;
-    width: 100%;
-}
-
-.dropdown {
-    border: none;
-    display:flex;
-}
-
-.dropdown-content {
-    z-index: 1;
-    display: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 26px;
-    width: 10rem;
-    background-color: white;
-    box-shadow: 0px 4px 0px 0px var(--color-white);
-}
-
-.dropdown-content a {
-    font-size: 16px;
-    width: 100%;
-    font-weight: 100;
-    text-decoration: none;
-    display: block;
-    color: rgba(237, 208, 143);
-}
-  
-.dropdown-content a:hover {background-color: rgba(237, 208, 143); color: var(--color-bg2)}
-
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {color: rgba(237, 208, 143);}
-  */
 
 .work__experience{
     padding: 3rem;
