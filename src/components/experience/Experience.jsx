@@ -33,12 +33,9 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <div className="dropdown">
-  <p className="dropbtn">Certification links<br /><AiOutlineCaretDown /></p>
-  <div className="dropdown-content">
-    <a href="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" target="_black">Freecodecamp</a>
-    <a href="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516">Udemy</a>
-  </div>
+      <div className="cert__links">
+    <a href="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" target="_black">Freecodecamp Certification</a>
+    <a href="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516">Udemy Certification</a>
 </div>
       <div className="work__experience">
           <div>

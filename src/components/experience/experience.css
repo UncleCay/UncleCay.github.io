@@ -83,6 +83,19 @@
     margin: auto;
 }
 
+.cert__links{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 100;
+    font-size: .8em;
+}
+.cert__links a{
+    color: darkgray;
+}
+.cert__links a:hover{
+    color: brown;
+}
+/*
 .dropbtn {
     background-color: white;
     color: var(--color-white2);
@@ -123,10 +136,12 @@
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {color: rgba(237, 208, 143);}
+  */
 
 .work__experience{
     padding: 3rem;
     color: var(--color-bg);
+    border: 2px solid var(--color-white);
 }
 
 .work__experience button{
