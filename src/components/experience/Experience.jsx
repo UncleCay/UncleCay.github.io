@@ -3,7 +3,6 @@ import './experience.css'
 import CV from '../../assets/Resume.pdf'
 import CT from '../../assets/certification_logo2.jpg'
 import EDU from '../../assets/education_logo2.png'
-import {AiOutlineCaretDown} from 'react-icons/ai'
 
 const Experience = () => {
   return (
@@ -34,8 +33,8 @@ const Experience = () => {
         </div>
       </div>
       <div className="cert__links">
-    <a href="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" target="_black">Freecodecamp Certification</a>
-    <a href="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516">Udemy Certification</a>
+    <a href="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" title="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" target="_blank" rel="noreferrer">Freecodecamp Certification</a>
+    <a href="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516" title="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516" target="_blank" rel="noreferrer">Udemy Certification</a>
 </div>
       <div className="work__experience">
           <div>
