@@ -128,7 +128,8 @@ const sr = ScrollReveal({
   
   /*SCROLL EXPERIENCE*/
   sr.reveal(".flip__card", {delay: 200});
-  sr.reveal(".work__experience", {delay: 300});
+  sr.reveal(".cert__links", {delay: 300});
+  sr.reveal(".work__experience", {delay: 400});
   
   /*SCROLL PROJECT*/
   sr.reveal("#project div", { reset: false, interval: 200});
