@@ -30,12 +30,12 @@ const Experience = () => {
               <span>Febuary 27, 2020.</span></p>
             </div>
           </div>
+      <div className="cert__links">
+        <a href="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" title="freecodecamp certification" target="_blank" rel="noreferrer">Freecodecamp certification link</a>
+        <a href="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516" title="udemy certification" target="_blank" rel="noreferrer">Udemy certification link</a>
+      </div>
         </div>
       </div>
-      <div className="cert__links">
-    <a href="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" title="https://freecodecamp.org/certification/CalebOrakpor/javascript-algorithms-and-data-structures" target="_blank" rel="noreferrer">Freecodecamp Certification</a>
-    <a href="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516" title="https://ude.my/UC-ab587ea5-1b5b-4f59-ad37-d11e1b862516" target="_blank" rel="noreferrer">Udemy Certification</a>
-</div>
       <div className="work__experience">
           <div>
             <p>For my work experience and more, Click the button below to view my CV</p>

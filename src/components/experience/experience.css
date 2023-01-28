@@ -32,6 +32,7 @@
     height: 315px;
     perspective: 1000px;
     margin: 1rem auto;
+    z-index: 1;
 }
 
 .qualifications{ 
@@ -84,16 +85,25 @@
 }
 
 .cert__links{
-    display: flex;
-    justify-content: space-evenly;
     font-weight: 100;
     font-size: .8em;
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border-bottom: 4px solid rgba(237, 208, 143);
+    box-shadow: 0 2px 3px darkgray;
+    width: 44%;
 }
 .cert__links a{
-    color: darkgray;
+    padding: 2px;
 }
 .cert__links a:hover{
     color: brown;
+    background:rgba(237, 208, 143);
 }
 
 .work__experience{
@@ -135,5 +145,11 @@
 @media screen and (max-width: 1024px){
     .quali__card{
         background-size: contain;
+    }
+}
+
+@media screen and (max-width: 827px){
+    .cert__links{
+        width: 88%;
     }
 }

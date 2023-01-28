@@ -18,17 +18,17 @@ header {
 .brand__name{
   font-family: 'La Belle Aurore', cursive;
   font-family: 'Bebas Neue', 'open sans';
-  font-size: 55px;
   font-size: 24.55px;
   font-weight: 400;
   line-height: 35px;
   background: var(--color-bg);
   border-radius: 50%;
   padding: 1.1rem .6rem .82rem .6rem;
-  transform: rotate(-45deg);
+  transform: rotate(-220deg);
   animation: cl_turn 1.3s ease;
-  text-shadow: 3px 3px 0px black;
+  border: 2px solid var(--color-bg2);
   z-index: 2;
+  padding: 2rem;
 }
 
 .brand__name:hover{
@@ -39,104 +39,136 @@ header {
 }
 
 @keyframes cl_turn{
-  from { transform: rotate(-45deg);}
-  to { transform: rotate(315deg);}
+  from { transform: rotate(-220deg);}
+  to { transform: rotate(140deg);}
 }
 @keyframes acl_turn{
-  from { transform: rotate(315deg);}
-  to { transform: rotate(-45deg); box-shadow: 1px 1px 40px var(--color-white);}
+  from { transform: rotate(140deg);}
+  to { transform: rotate(-220deg); box-shadow: 1px 1px 40px var(--color-white);}
 }
-
+.brand__name .inner__circle{
+  content: " ";
+  width: 2rem;
+  z-index: 1;
+  background: var(--color-bg2);
+  box-shadow: 0 0 2px white;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  transform: translate(-33%);
+}
 .brand__name a{
   color: white;
   border-radius: 50%;
 }
-.brand__name:hover a{
+.brand__name:hover a, .brand__name:hover span{
   color: var(--color-bg);
+  background: white;
+  font-weight: 600;
+  text-shadow: none;
+}
+.brand__name:hover .inner__circle{
+  background: var(--color-bg2)
 }
 .menu__label{
   position: relative;
 }
-h4 span {
-  font: 10px Monaco, MonoSpace;
-  height: 2.5rem;
+.brand__name span{
+  font: 14px Monaco, MonoSpace;
+  height: 2rem;
   position: absolute;
-  width: 15px;
-  right: 8.8px;
-  top: -23px;
-  color: gray;
+  left: 27px;
+  top: 0;
+  width: 10px;
+  color: white;
   transform-origin: bottom center;
+  background: var(--color-bg);
+  text-shadow: 1px 1px 2px black;
+  font-weight: 600;
 }
-
- h4 .char1 {
+.brand__name .char-one{
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   -o-transform: rotate(270deg);
   transform: rotate(270deg);
 }
- h4 .char2 {
+.brand__name .char-two{
   -webkit-transform: rotate(12deg);
   -moz-transform: rotate(12deg);
   -ms-transform: rotate(12deg);
   -o-transform: rotate(12deg);
   transform: rotate(290deg);
 }
- h4 .char3 {
+.brand__name .char-three{
   -webkit-transform: rotate(18deg);
   -moz-transform: rotate(18deg);
   -ms-transform: rotate(18deg);
   -o-transform: rotate(18deg);
   transform: rotate(310deg);
 }
- h4 .char4 {
+.brand__name .char-four{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
   transform: rotate(330deg);
 }
- h4 .char5 {
+.brand__name .char-five{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(370deg);
+  transform: rotate(350deg);
 }
- h4 .char6 {
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
-  transform: rotate(390deg);
-}
- h4 .char7 {
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
-  transform: rotate(410deg);
-}
- h4 .char8 {
+.brand__name .char-six{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
   transform: rotate(430deg);
 }
- h4 .char9 {
+.brand__name .char-seven{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(450deg);
+  transform: rotate(451deg);
 }
- h4 .char10 {
+.brand__name .char-eight{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
   transform: rotate(470deg);
+}
+.brand__name .char-nine{
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(490deg);
+}
+.brand__name .char-ten{
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(510deg);
+}
+.brand__name .char-eleven{
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(530deg);
+}
+.brand__name .char-twelve{
+  -webkit-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform: rotate(550deg);
 }
   
 /* ======= MENU BARS ======= */
@@ -146,6 +178,7 @@ h4 span {
     border-radius: 50%;
     padding: .85rem;
     z-index: 2;
+    border: 2px solid var(--color-bg2);
 }  
 
 .bar1, .bar2, .bar3 {
@@ -239,17 +272,16 @@ h4 span {
 
 .menu__links  .brand__name{
   position: absolute;
-  bottom: 4%;
-  left: 25%;
+  bottom: 3%;
+  left: 26%;
   animation: cl_turn 1.3s ease;
-  transform: rotate(-45deg);
   z-index: -1;
 }
 
 .menu__links  .brand__name:hover{
   animation: acl_turn 1s  ease forwards;
-  background: var(--color-white);
-  border-color: var(--color-white);
+  background: white;
+  border-color: white;
 }
 
 .menu__links .brand__name a{
