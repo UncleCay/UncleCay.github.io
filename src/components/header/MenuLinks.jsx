@@ -24,8 +24,12 @@ const MenuLinks = (props) => {
         <a href="https://twitter.com" target="_blank" rel="noreferrer"><BsTwitter /></a>
       </div>
       <div>
-      <h2 className="brand__name"><span className="inner__circle"></span><a href="#home"><span className="char-one">C</span><span className="char-two">A</span><span className="char-three">L</span><span className="char-four">E</span><span className="char-five">B </span>
-        <span className="char-six">O</span><span className="char-seven">R</span><span className="char-eight">A</span><span className="char-nine">K</span><span className="char-ten">P</span><span className="char-eleven">O</span><span className="char-twelve">R</span></a></h2>
+      <a href="#home">
+        <h2 className="brand__name"><span className="inner__circle"></span>
+          <span className="char-one">C</span><span className="char-two">A</span><span className="char-three">L</span><span className="char-four">E</span><span className="char-five">B </span>
+          <span className="char-six">O</span><span className="char-seven">R</span><span className="char-eight">A</span><span className="char-nine">K</span><span className="char-ten">P</span><span className="char-eleven">O</span><span className="char-twelve">R</span>
+        </h2>
+      </a>
       </div>
     </div>
   )
