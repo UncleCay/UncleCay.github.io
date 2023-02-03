@@ -9,25 +9,25 @@ const Project = () => {
         <div className="project__card__row">
           <div className="project__card project__one">
             
-              <a href="#project">view project</a>
             <span className="project__description">
               <h2>Meme Generator</h2>
-              </span>
+            </span>
+              <a href="https://github.com/UncleCay/meme-generator" target="_blank" rel="noreferrer">Source Code</a>
           </div>
           <div className="project__card project__two">
           
-              <a href="#project">view project</a>
             <span className="project__description">
               <h2>Schedule Manager</h2>
-              </span>
+            </span>
+              <a href="https://github.com/UncleCay/schedule-manager" target="_blank" rel="noreferrer">Source Code</a>
           </div>
           <div className="project__card project__three">
-          
-              <a href="#project">view project</a>
+      
             <span className="project__description">
               <h2>...COMMING SOON...</h2>
               <h2>Automated Food Vending Machine</h2>
-              </span>
+            </span>
+              <a href="#project" rel="noreferrer">Source Code</a>
           </div>
         </div>
       </div>
