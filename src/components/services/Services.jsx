@@ -15,7 +15,7 @@ const Services = () => {
           <h3>WEB DEVELOPMENT</h3>
           <p> I design and develop 
             any form of Reactjs or Javascript project;
-             website, web application, landing page, online form.
+             website, web portal, landing page, online form.
             etc.
           </p>
         </div>

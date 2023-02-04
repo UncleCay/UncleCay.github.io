@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/me6.png'
+import Me from '../../assets/about__me.png'
 import {AiFillFolderOpen} from 'react-icons/ai'
 import {MdContactPage} from 'react-icons/md'
 
@@ -37,15 +37,15 @@ const About = () => {
         <div className="about__content">
           <h2>
            <span className="about__scroll">Hello World!</span><br />
-           <span className='about__scroll'>My name is Caleb. I'm a front-end React developer, located in Nigeria.</span>
+           <span className='about__scroll'>My name is Caleb. I'm a front-end React developer.</span>
           </h2>
           <p>
           <span className="about__scroll">I started with Paint graphic editor, but the moment I executed “hello world”, my first C program on the console, I knew right away that this was my passion and since then, I have been writing more than just “hello world”. </span>
           <span className="about__scroll">I design and develop responsive websites using React. </span>
           <span className="about__scroll">When working on a project, I pay attention to the smallest details addressing problems with patience. </span>
           <span className="about__scroll">Web design and development help exercise my creative thinking and satisfy my desire for constant self-growth. </span> 
-          <span className="about__scroll">When I design, I put a high priority on responsiveness, scalability, simplicity, and user-friendliness. </span>
-          <span className="about__scroll">A concise, reusable, intelligible, and maintainable code is another goal of mine.</span>
+          <span className="about__scroll">When I design, I put my priority on responsiveness, scalability, simplicity, and user-friendliness. </span>
+          <span className="about__scroll">A concise, reusable, intelligible, and maintainable code is another goal of mine. I strive for a constant self growth.</span>
           </p>
         </div>
       </div>

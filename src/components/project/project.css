@@ -22,6 +22,7 @@
     flex-direction: column;
     gap: .5rem;
     background: var(--color-white);
+    padding: .5rem;
 }
 
 .project__card__row{
@@ -37,27 +38,35 @@
     background: var(--color-bg);
     position: absolute;
 }
-
 .project__one{
+    animation: scheduleAnim 40s 7s ease infinite backwards;
+}
+
+.project__two{
     animation: memeAnim 20s 7s ease infinite backwards;
 }
-.project__two{
-    animation: scheduleAnim 20s 7s infinite backwards;
-}
 
-@keyframes memeAnim {
-    0% { background: url(../../assets/meme__sshot.png); background-size: 100% 100%; background-repeat: no-repeat}
-    25% { background: url(../../assets/meme__sshot2.png); background-size: 100% 100%; background-repeat: no-repeat}
-    50% { background: url(../../assets/meme__sshot3.png); background-size: 100% 100%; background-repeat: no-repeat}
-    75% { background: url(../../assets/meme__sshot4.png); background-size: 100% 100%; background-repeat: no-repeat}
-    100% { background: url(../../assets/meme__sshot.png); background-size: 100% 100%; background-repeat: no-repeat}
-}
 @keyframes scheduleAnim {
     0% { background: url(../../assets/schedule__ss.png); background-size: 100% 100%; background-repeat: no-repeat;}
+    20% { background: url(../../assets/schedule__ss.png); background-size: 100% 100%; background-repeat: no-repeat;}
     25% { background: url(../../assets/schedule__ss2.png); background-size: 100% 100%; background-repeat: no-repeat;}
+    45% { background: url(../../assets/schedule__ss2.png); background-size: 100% 100%; background-repeat: no-repeat;}
     50% { background: url(../../assets/schedule__ss3.png); background-size: 100% 100%; background-repeat: no-repeat;}
+    70% { background: url(../../assets/schedule__ss3.png); background-size: 100% 100%; background-repeat: no-repeat;}
     75% { background: url(../../assets/schedule__ss4.png); background-size: 100% 100%; background-repeat: no-repeat;}
+    95% { background: url(../../assets/schedule__ss4.png); background-size: 100% 100%; background-repeat: no-repeat;}
     100% { background: url(../../assets/schedule__ss.png); background-size: 100% 100%; background-repeat: no-repeat;}
+}
+@keyframes memeAnim {
+    0% { background: url(../../assets/meme__sshot.png); background-size: 100% 100%; background-repeat: no-repeat}
+    20% { background: url(../../assets/meme__sshot.png); background-size: 100% 100%; background-repeat: no-repeat}
+    25% { background: url(../../assets/meme__sshot2.png); background-size: 100% 100%; background-repeat: no-repeat}
+    45% { background: url(../../assets/meme__sshot2.png); background-size: 100% 100%; background-repeat: no-repeat}
+    50% { background: url(../../assets/meme__sshot3.png); background-size: 100% 100%; background-repeat: no-repeat}
+    70% { background: url(../../assets/meme__sshot3.png); background-size: 100% 100%; background-repeat: no-repeat}
+    75% { background: url(../../assets/meme__sshot4.png); background-size: 100% 100%; background-repeat: no-repeat}
+    95% { background: url(../../assets/meme__sshot4.png); background-size: 100% 100%; background-repeat: no-repeat}
+    100% { background: url(../../assets/meme__sshot.png); background-size: 100% 100%; background-repeat: no-repeat}
 }
 
 .project__card{
@@ -124,9 +133,6 @@
 }
 
 @media screen and (max-width: 627px){
-    .project__cards{
-        padding: 1rem;
-    }
     .project__card__row{
         display: flex;
         flex-direction: column;
