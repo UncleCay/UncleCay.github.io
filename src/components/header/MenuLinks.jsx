@@ -1,6 +1,6 @@
 import React from 'react'
 import CV from '../../assets/CV.pdf'
-import {BsGithub, BsWhatsapp, BsLinkedin, BsTwitter} from 'react-icons/bs'
+import {BsGithub, BsWhatsapp, BsLinkedin} from 'react-icons/bs'
 
 const MenuLinks = (props) => {
 
