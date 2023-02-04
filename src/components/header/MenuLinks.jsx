@@ -21,14 +21,15 @@ const MenuLinks = (props) => {
         <a href="https://github.com/UncleCay" target="_blank" rel="noreferrer"><BsGithub /></a>
         <a href="https://linkedin.com/caleb-orakpor-12ab81209" target="_blank" rel="noreferrer"><BsLinkedin /></a>
         <a href="https://wa.me/2348135102532" target="_blank" rel="noreferrer"><BsWhatsapp /></a>
-        <a href="https://twitter.com" target="_blank" rel="noreferrer"><BsTwitter /></a>
       </div>
       <div>
       <a href="#home">
-        <h2 className="brand__name"><span className="inner__circle"></span>
-          <span className="char-one">C</span><span className="char-two">A</span><span className="char-three">L</span><span className="char-four">E</span><span className="char-five">B </span>
-          <span className="char-six">O</span><span className="char-seven">R</span><span className="char-eight">A</span><span className="char-nine">K</span><span className="char-ten">P</span><span className="char-eleven">O</span><span className="char-twelve">R</span>
-        </h2>
+      <p className="brand__name">
+          <span className="inner__circle"></span>
+          <span className="char-one">C</span><span className="char-two">A</span><span className="char-three">L</span><span className="char-four">E</span><span className="char-five">B </span><span className="char-connect-one">* </span>
+          <span className="char-six">C</span><span className="char-seven">A</span><span className="char-eight">L</span><span className="char-nine">E</span><span className="char-ten">B </span><span className="char-connect-two">* </span>
+          <span className="char-eleven">C</span><span className="char-twelve">A</span><span className="char-thirteen">L</span><span className="char-fourteen">E</span><span className="char-fifteen">B </span><span className="char-connect-three">* </span>
+        </p>
       </a>
       </div>
     </div>

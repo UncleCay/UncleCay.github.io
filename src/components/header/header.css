@@ -24,7 +24,7 @@ header {
   background: var(--color-bg);
   border-radius: 50%;
   padding: 1.1rem .6rem .82rem .6rem;
-  transform: rotate(-270deg);
+  transform: rotate(-250deg);
   animation: cl_turn 1.3s ease;
   border: 1px solid var(--color-bg2);
   z-index: 2;
@@ -38,19 +38,19 @@ header {
 }
 
 @keyframes cl_turn{
-  from { transform: rotate(-270deg);}
-  to { transform: rotate(90deg);}
+  from { transform: rotate(-250deg);}
+  to { transform: rotate(110deg);}
 }
 @keyframes acl_turn{
-  from { transform: rotate(90deg);}
-  to { transform: rotate(-270deg); box-shadow: 1px 1px 40px var(--color-white);}
+  from { transform: rotate(110deg);}
+  to { transform: rotate(-250deg); box-shadow: 1px 1px 40px var(--color-white);}
 }
 .brand__name .inner__circle{
   content: " ";
   width: 2rem;
   z-index: 2;
   background: var(--color-bg2);
-  box-shadow: 0 0 2px white;
+  box-shadow: 0 0 3px white;
   border-radius: 50%;
   position: absolute;
   top: 25%;
@@ -73,7 +73,7 @@ header {
   position: relative;
 }
 .brand__name span{
-  font: 14px Monaco, MonoSpace;
+  font: 12px Monaco, MonoSpace;
   height: 2rem;
   position: absolute;
   left: 27px;
@@ -90,126 +90,126 @@ header {
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   -o-transform: rotate(270deg);
-  transform: rotate(270deg);
+  transform: rotate(274deg);
 }
 .brand__name .char-two{
   -webkit-transform: rotate(12deg);
   -moz-transform: rotate(12deg);
   -ms-transform: rotate(12deg);
   -o-transform: rotate(12deg);
-  transform: rotate(290deg);
+  transform: rotate(294deg);
 }
 .brand__name .char-three{
   -webkit-transform: rotate(18deg);
   -moz-transform: rotate(18deg);
   -ms-transform: rotate(18deg);
   -o-transform: rotate(18deg);
-  transform: rotate(310deg);
+  transform: rotate(314deg);
 }
 .brand__name .char-four{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(330deg);
+  transform: rotate(334deg);
 }
 .brand__name .char-five{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(350deg);
+  transform: rotate(354deg);
 }
 .brand__name .char-connect-one{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(370deg);
+  transform: rotate(13deg);
 }
 .brand__name .char-six{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(390deg);
+  transform: rotate(32deg);
 }
 .brand__name .char-seven{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(410deg);
+  transform: rotate(52deg);
 }
 .brand__name .char-eight{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(430deg);
+  transform: rotate(72deg);
 }
 .brand__name .char-nine{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(450deg);
+  transform: rotate(92deg);
 }
 .brand__name .char-ten{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(470deg);
+  transform: rotate(112deg);
 }
 .brand__name .char-connect-two{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(490deg);
+  transform: rotate(131deg);
 }
 .brand__name .char-eleven{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(510deg);
+  transform: rotate(150deg);
 }
 .brand__name .char-twelve{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(530deg);
+  transform: rotate(170deg);
 }
 .brand__name .char-thirteen{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(550deg);
+  transform: rotate(190deg);
 }
 .brand__name .char-fourteen{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(570deg);
+  transform: rotate(210deg);
 }
 .brand__name .char-fifteen{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(590deg);
+  transform: rotate(230deg);
 }
 .brand__name .char-connect-three{
   -webkit-transform: rotate(24deg);
   -moz-transform: rotate(24deg);
   -ms-transform: rotate(24deg);
   -o-transform: rotate(24deg);
-  transform: rotate(610deg);
+  transform: rotate(251deg);
 }
   
 /* ======= MENU BARS ======= */
@@ -220,17 +220,32 @@ header {
     padding: .85rem;
     z-index: 2;
     border: 1px solid var(--color-bg2);
-}  
-
-.bar1, .bar2, .bar3 {
+  }  
+  
+  .bar1, .bar2, .bar3 {
     width: 33px;
     height: 4px;
     margin: 6px 0;
     transition: 0.4s;
     box-shadow: 2px 2px 0px var(--color-bg);
     background: white;
+    position: relative;
   }
-  
+  .bar2 p{
+    font-size: .7em;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    left: -51px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--color-bg);
+    padding: 0 0 0 4px;
+    border: 1px solid var(--color-bg2);
+    border-right: none;
+    border-radius: 11px 0 0 11px;
+    text-shadow: 1px 1px 1px black;
+  }
   .menu__bars:hover > .bar{
     background: var(--color-white2);
   }
@@ -300,7 +315,7 @@ header {
   }
   
   .menu__links .menu__socials a{
-    padding: 4px;
+    padding: 7px;
   }
   
   .menu__links .menu__socials:hover{
