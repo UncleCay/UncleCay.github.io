@@ -364,9 +364,6 @@ header {
   .menu__links .menu__socials a{
     padding: .4rem;
   }
-  .brand__name:hover{
-    box-shadow: -1px 0 0 white;
-  }
 }
 
 /* ======= MEDIA QUERIES FOR SMALL DEVICES ======= */
