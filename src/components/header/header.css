@@ -29,12 +29,14 @@ header {
   border: 1px solid var(--color-bg2);
   z-index: 2;
   padding: 2rem;
+  transition: all 1s ease
 }
 
 .brand__name:hover{
   animation: acl_turn 1s  ease forwards;
   background: white;
   border-color: white;
+  box-shadow: 1px 1px 40px var(--color-white);
 }
 
 @keyframes cl_turn{
@@ -43,7 +45,7 @@ header {
 }
 @keyframes acl_turn{
   from { transform: rotate(110deg);}
-  to { transform: rotate(-250deg); box-shadow: 1px 1px 40px var(--color-white);}
+  to { transform: rotate(-250deg);}
 }
 .brand__name .inner__circle{
   content: " ";
@@ -86,129 +88,129 @@ header {
   font-weight: 600;
 }
 .brand__name .char-one{
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
+  -webkit-transform: rotate(274deg);
+  -moz-transform: rotate(274deg);
+  -ms-transform: rotate(274deg);
+  -o-transform: rotate(274deg);
   transform: rotate(274deg);
 }
 .brand__name .char-two{
-  -webkit-transform: rotate(12deg);
-  -moz-transform: rotate(12deg);
-  -ms-transform: rotate(12deg);
-  -o-transform: rotate(12deg);
+  -webkit-transform: rotate(294deg);
+  -moz-transform: rotate(294deg);
+  -ms-transform: rotate(294deg);
+  -o-transform: rotate(294deg);
   transform: rotate(294deg);
 }
 .brand__name .char-three{
-  -webkit-transform: rotate(18deg);
-  -moz-transform: rotate(18deg);
-  -ms-transform: rotate(18deg);
-  -o-transform: rotate(18deg);
+  -webkit-transform: rotate(314deg);
+  -moz-transform: rotate(314deg);
+  -ms-transform: rotate(314deg);
+  -o-transform: rotate(314deg);
   transform: rotate(314deg);
 }
 .brand__name .char-four{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(334deg);
+  -moz-transform: rotate(334deg);
+  -ms-transform: rotate(334deg);
+  -o-transform: rotate(334deg);
   transform: rotate(334deg);
 }
 .brand__name .char-five{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(354deg);
+  -moz-transform: rotate(354deg);
+  -ms-transform: rotate(354deg);
+  -o-transform: rotate(354deg);
   transform: rotate(354deg);
 }
 .brand__name .char-connect-one{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(13deg);
+  -moz-transform: rotate(13deg);
+  -ms-transform: rotate(13deg);
+  -o-transform: rotate(13deg);
   transform: rotate(13deg);
 }
 .brand__name .char-six{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(32deg);
+  -moz-transform: rotate(32deg);
+  -ms-transform: rotate(32deg);
+  -o-transform: rotate(32deg);
   transform: rotate(32deg);
 }
 .brand__name .char-seven{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(52deg);
+  -moz-transform: rotate(52deg);
+  -ms-transform: rotate(52deg);
+  -o-transform: rotate(52deg);
   transform: rotate(52deg);
 }
 .brand__name .char-eight{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(72deg);
+  -moz-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  -o-transform: rotate(72deg);
   transform: rotate(72deg);
 }
 .brand__name .char-nine{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(92deg);
+  -moz-transform: rotate(92deg);
+  -ms-transform: rotate(92deg);
+  -o-transform: rotate(92deg);
   transform: rotate(92deg);
 }
 .brand__name .char-ten{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(112deg);
+  -moz-transform: rotate(112deg);
+  -ms-transform: rotate(112deg);
+  -o-transform: rotate(112deg);
   transform: rotate(112deg);
 }
 .brand__name .char-connect-two{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(131deg);
+  -moz-transform: rotate(131deg);
+  -ms-transform: rotate(131deg);
+  -o-transform: rotate(131deg);
   transform: rotate(131deg);
 }
 .brand__name .char-eleven{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(150deg);
+  -moz-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  -o-transform: rotate(150deg);
   transform: rotate(150deg);
 }
 .brand__name .char-twelve{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(170deg);
+  -moz-transform: rotate(170deg);
+  -ms-transform: rotate(170deg);
+  -o-transform: rotate(170deg);
   transform: rotate(170deg);
 }
 .brand__name .char-thirteen{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(190deg);
+  -moz-transform: rotate(190deg);
+  -ms-transform: rotate(190deg);
+  -o-transform: rotate(190deg);
   transform: rotate(190deg);
 }
 .brand__name .char-fourteen{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(210deg);
+  -moz-transform: rotate(210deg);
+  -ms-transform: rotate(210deg);
+  -o-transform: rotate(210deg);
   transform: rotate(210deg);
 }
 .brand__name .char-fifteen{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(230deg);
+  -moz-transform: rotate(230deg);
+  -ms-transform: rotate(230deg);
+  -o-transform: rotate(230deg);
   transform: rotate(230deg);
 }
 .brand__name .char-connect-three{
-  -webkit-transform: rotate(24deg);
-  -moz-transform: rotate(24deg);
-  -ms-transform: rotate(24deg);
-  -o-transform: rotate(24deg);
+  -webkit-transform: rotate(251deg);
+  -moz-transform: rotate(251deg);
+  -ms-transform: rotate(251deg);
+  -o-transform: rotate(251deg);
   transform: rotate(251deg);
 }
   
