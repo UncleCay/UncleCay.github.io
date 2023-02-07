@@ -371,6 +371,9 @@ header {
   header{
     padding: .7rem;
   }
+  .bar2 p{
+    display: none;
+  }
   .menu__links{
     width: 100%;
     padding-top: 8.5vh;
