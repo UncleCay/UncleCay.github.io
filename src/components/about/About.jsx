@@ -44,7 +44,7 @@ const About = () => {
           <span className="about__scroll">I design and develop responsive websites. </span>
           <span className="about__scroll">When working on a project, my priorities are responsiveness, scalability, simplicity, and user-friendliness. </span>
           <span className="about__scroll">A concise, reusable, and maintainable code are also my aim. </span>
-          <span className="about__scroll">Through web design and development, I exercise my creative thinking, sate my curiosity and fulfill my desire for continuous self-development.</span> 
+          <span className="about__scroll">Through web design and development, I exercise my creative thinking, satisfy my curiosity and fulfill my desire for continuous self-development.</span> 
           </p>
         </div>
       </div>

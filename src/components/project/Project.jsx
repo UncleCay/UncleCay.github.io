@@ -10,16 +10,16 @@ const Project = () => {
           <div className="project__card project__one">
             
             <span className="project__description">
-              <h2>Meme Generator</h2>
+              <h2>Schedule Manager</h2>
             </span>
-              <a href="https://github.com/UncleCay/meme-generator" target="_blank" rel="noreferrer">Source Code</a>
+              <a href="https://github.com/UncleCay/schedule-manager" target="_blank" rel="noreferrer">Source Code</a>
           </div>
           <div className="project__card project__two">
           
             <span className="project__description">
-              <h2>Schedule Manager</h2>
+              <h2>Meme Generator</h2>
             </span>
-              <a href="https://github.com/UncleCay/schedule-manager" target="_blank" rel="noreferrer">Source Code</a>
+              <a href="https://github.com/UncleCay/meme-generator" target="_blank" rel="noreferrer">Source Code</a>
           </div>
           <div className="project__card project__three">
       

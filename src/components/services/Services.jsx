@@ -11,10 +11,7 @@ const Services = () => {
         <div className="serviceCard">
           <img src={webdev} alt="Caleb Orakpor - webdev_icon"/>
           <h3>WEB DEVELOPMENT</h3>
-          <p> I design and develop 
-            any form of Reactjs or Javascript project;
-             website, web portal, landing page, online form.
-            etc.
+          <p> We use clean codes and a customized approach to infuse creativity and interactivity into your web portals.
           </p>
         </div>
       </div>

@@ -86,6 +86,7 @@ header {
   background: var(--color-bg);
   text-shadow: 1px 1px 2px black;
   font-weight: 600;
+  transition: all 1s ease;
 }
 .brand__name .char-one{
   -webkit-transform: rotate(274deg);
@@ -355,6 +356,9 @@ header {
 
 /* ======= MEDIA QUERIES FOR MEDIUM DEVICES ======= */
 @media screen and (max-width: 1024px){
+  .bar2 p{
+    display: none;
+  }
   .menu__links .menu__list ul a{
     border: none;
   }
@@ -370,9 +374,6 @@ header {
 @media screen and (max-width: 627px){
   header{
     padding: .7rem;
-  }
-  .bar2 p{
-    display: none;
   }
   .menu__links{
     width: 100%;
