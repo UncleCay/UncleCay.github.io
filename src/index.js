@@ -123,7 +123,7 @@ const sr = ScrollReveal({
   sr.reveal(".skills", { delay: 400});
   
   /*SCROLL SERVICES*/
-  sr.reveal(".serviceCards", {delay: 200});
+  sr.reveal(".serviceCard", {delay: 200, interval:200});
   sr.reveal(".muscle", {delay: 200, interval: 200 });
   
   /*SCROLL EXPERIENCE*/

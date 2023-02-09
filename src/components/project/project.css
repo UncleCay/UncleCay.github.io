@@ -132,6 +132,11 @@
     color: white;
 }
 
+.project__card .project__description p{
+    margin: 1rem;
+    text-align: left;
+}
+
 @media screen and (max-width: 627px){
     .project__card__row{
         display: flex;
@@ -142,5 +147,15 @@
 @media screen and (max-width: 827px){
     .project__card:hover span{
         font-size: larger;
+    }
+}
+@media screen and (max-width: 940px){
+    .project__card .project__description h2{
+        font-size: 1.1em;
+    }
+    .project__card .project__description p{
+        margin: .1rem;
+        padding: .2rem .5rem;
+        font-size: .74em;
     }
 }

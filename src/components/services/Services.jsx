@@ -1,6 +1,7 @@
 import React from 'react'
 import './services.css'
-import webdev from '../../assets/webdev__icon.jpg'
+import webdev from '../../assets/webdev__icon2.jpg'
+import psdToCode from '../../assets/psd_to_code.PNG'
 
 const Services = () => {
   return (
@@ -11,7 +12,15 @@ const Services = () => {
         <div className="serviceCard">
           <img src={webdev} alt="Caleb Orakpor - webdev_icon"/>
           <h3>WEB DEVELOPMENT</h3>
-          <p> We use clean codes and a customized approach to infuse creativity and interactivity into your web portals.
+          <p> 
+            We use clean codes and a customized approach to infuse creativity and interactivity into your already existing websites or from scratch.
+          </p>
+        </div>
+        <div className="serviceCard">
+          <img src={psdToCode} alt="Caleb Orakpor - psd-code_icon"/>
+          <h3>PSD TO CODE</h3>
+          <p> 
+            We convert PSD, Sketch, Ai, Figma files, and Adobe XD files into pixel-perfect standards that are compliant with HTML5/CSS3/Bootstrap3/4 templates.
           </p>
         </div>
       </div>

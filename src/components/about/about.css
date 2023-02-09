@@ -12,7 +12,7 @@
 
 .about__container{
     display: grid;
-    grid-template-columns: 27% 70%;
+    grid-template-columns: 26% 70%;
     gap: 2.5rem;
     justify-content: center;
     margin-bottom: 1rem;
