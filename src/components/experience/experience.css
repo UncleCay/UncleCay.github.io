@@ -28,8 +28,8 @@
 
 .flip__card{
     background-color: transparent;
-    width: 63%;
-    height: 295px;
+    width: 60%;
+    height: 290px;
     perspective: 1000px;
     margin: auto;
     z-index: 1;
