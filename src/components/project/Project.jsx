@@ -16,7 +16,7 @@ const Project = () => {
               <p><BsCaretRightFill /> Set a task with date</p>
               <p><BsCaretRightFill /> Add/Remove reminder on a task</p>
               <p><BsCaretRightFill /> Remove a task entirely at will</p>
-              <p>It is designed with HTML, CSS, JavaScript, React, and RESTful API</p>
+              <p>It was designed with HTML, CSS, JavaScript, React, and RESTful API</p>
             </span>
               <a href="https://github.com/UncleCay/schedule-manager" target="_blank" rel="noreferrer">Source Code</a>
           </div>
@@ -27,7 +27,7 @@ const Project = () => {
               <p>This app allows you to;</p>
               <p><BsCaretRightFill /> Select a random meme from an API</p>
               <p><BsCaretRightFill /> Add a top and bottom text on the meme image</p>
-              <p>It is designed with HTML, CSS, JavaScript, React, and RESTful API</p>
+              <p>It was designed with HTML, CSS, JavaScript, React, and RESTful API</p>
             </span>
               <a href="https://github.com/UncleCay/meme-generator" target="_blank" rel="noreferrer">Source Code</a>
           </div>

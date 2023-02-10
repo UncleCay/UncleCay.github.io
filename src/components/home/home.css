@@ -156,13 +156,13 @@
 .contact__button:hover span.text{
     color: blue;
 }
-  @media screen and (max-width: 281px){
+  @media screen and (max-width: 330px){
     .home__intro .text__container h2{
-      font-size: 1.15em !important;
+      font-size: 1.25em !important;
     }
 }
   @media screen and (max-width: 627px){
     .home__intro .text__container h2{
-      font-size: 1.45em;
+      font-size: 1.6em;
     }
 }

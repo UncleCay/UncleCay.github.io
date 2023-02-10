@@ -297,6 +297,7 @@ header {
     color: var(--color-white);
     font-weight: 100;
     border-bottom: .1rem dotted gray;
+    background: var(--color-bg);
   }
   
   .menu__links .menu__list > ul > li > a:hover{
@@ -361,6 +362,10 @@ header {
   }
   .menu__links .menu__list ul a{
     border: none;
+    height: 9vh;
+  }
+  .menu__links .menu__list{
+    padding-top: 1rem;
   }
   .menu__links .menu__socials{
     bottom: 16%;
@@ -381,8 +386,8 @@ header {
   }
   .menu__links .menu__list ul a{
     height: 11.4vh;
-    padding-top: 6%;
-    font-size: 1.3em;
+    padding-top: 6.5%;
+    font-size: 1.2em;
   }
   .menu__links .menu__list > ul > li > a:hover,   .menu__links .menu__socials:hover{
     background: transparent;

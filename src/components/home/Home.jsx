@@ -17,7 +17,6 @@ const Home = () => {
               <h2 className="txtLine3">
                 <span className='intro__char'>I'</span><span className='intro__char'>m </span><span className='intro__char'>a </span>
                 <span className='intro__char'>f</span><span className='intro__char'>r</span><span className='intro__char'>o</span><span className='intro__char'>n</span><span className='intro__char'>t-</span><span className='intro__char'>e</span><span className='intro__char'>n</span><span className='intro__char'>d </span>
-                <span className='intro__char'>R</span><span className='intro__char'>e</span><span className='intro__char'>a</span><span className='intro__char'>c</span><span className='intro__char'>t </span>
                 <span className='intro__char'>d</span><span className='intro__char'>e</span><span className='intro__char'>v</span><span className='intro__char'>e</span><span className='intro__char'>l</span><span className='intro__char'>o</span><span className='intro__char'>p</span><span className='intro__char'>e</span><span className='intro__char'>r</span></h2>
               <h2 className="txtLine4">
                 <span className='intro__char'>L</span><span className='intro__char'>o</span><span className='intro__char'>c</span><span className='intro__char'>a</span><span className='intro__char'>t</span><span className='intro__char'>e</span><span className='intro__char'>d </span>

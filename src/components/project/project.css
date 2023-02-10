@@ -144,11 +144,6 @@
     }
 }
 
-@media screen and (max-width: 827px){
-    .project__card:hover span{
-        font-size: larger;
-    }
-}
 @media screen and (max-width: 940px){
     .project__card .project__description h2{
         font-size: 1.1em;
