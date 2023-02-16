@@ -48,7 +48,7 @@ const Services = () => {
           <ul>
             <li><span className="bullet"></span>Paint graphics editor,</li>
             <li><span className="bullet"></span>Figma,</li>
-            <li><span className="bullet"></span>BPMN2.0,</li>
+            <li><span className="bullet"></span>WordPress,</li>
             <li><span className="bullet"></span>Pen & Paper sketch.</li>
           </ul>
         </div>

@@ -69,7 +69,7 @@ header {
   text-shadow: 0 0 1px;
 }
 .brand__name:hover .inner__circle{
-  background: var(--color-bg2)
+  background: var(--color-bg2);
 }
 .menu__label{
   position: relative;
@@ -292,12 +292,14 @@ header {
   .menu__links .menu__list ul a{
     height: 8.7vh;
     padding-top: 8%;
-    display: block; /*important*/
+    display: flex;
     width: 100%;
     color: var(--color-white);
     font-weight: 100;
     border-bottom: .1rem dotted gray;
     background: var(--color-bg);
+    align-items: center;
+    justify-content: center;
   }
   
   .menu__links .menu__list > ul > li > a:hover{
@@ -386,7 +388,7 @@ header {
   }
   .menu__links .menu__list ul a{
     height: 11.4vh;
-    padding-top: 6.5%;
+    padding-top: 0%;
     font-size: 1.2em;
   }
   .menu__links .menu__list > ul > li > a:hover,   .menu__links .menu__socials:hover{
