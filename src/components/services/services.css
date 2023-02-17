@@ -29,7 +29,7 @@
 .serviceCard{
     box-shadow: 3px 3px 3px black;
     width: 50%;
-    transition: all .2s ease;
+    transition: all .1s ease;
     overflow:hidden;
     background: white;
     position: relative;

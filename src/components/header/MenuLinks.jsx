@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/Front-End Developer - Caleb Orakpor.pdf'
 import {BsGithub, BsWhatsapp, BsLinkedin} from 'react-icons/bs'
 
 const MenuLinks = (props) => {
@@ -19,7 +19,7 @@ const MenuLinks = (props) => {
       </div>
       <div className='menu__socials'>
         <a href="https://github.com/UncleCay" target="_blank" rel="noreferrer"><BsGithub /></a>
-        <a href="https://linkedin.com/caleb-orakpor-12ab81209" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+        <a href="https://linkedin.com/in/caleb-orakpor" target="_blank" rel="noreferrer"><BsLinkedin /></a>
         <a href="https://wa.me/2348135102532" target="_blank" rel="noreferrer"><BsWhatsapp /></a>
       </div>
       <div>
