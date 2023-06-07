@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import CV from '../../assets/Front-End Developer - Caleb Orakpor.pdf'
+import CV from '../../assets/Resume.pdf'
 import CT from '../../assets/certification_logo2.jpg'
 import EDU from '../../assets/education_logo2.png'
 
