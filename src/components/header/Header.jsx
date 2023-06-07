@@ -26,7 +26,7 @@ const Header = () => {
       </a>
       <div className={crossBars ? "menu__bars change" : "menu__bars"} onClick={changeBar}>
               <div className="bar1 bar"></div>
-              <div className="bar2 bar"><p>MENU</p></div>
+              <div className="bar2 bar"></div>
               <div className="bar3 bar"></div>
         </div>
         <MenuLinks barCrossed={crossBars} handleClick={menuLinkClick}/>

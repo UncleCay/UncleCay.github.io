@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/Front-End Developer - Caleb Orakpor.pdf'
+import CV from '../../assets/Resume.pdf'
 import {BsGithub, BsWhatsapp, BsLinkedin} from 'react-icons/bs'
 
 const MenuLinks = (props) => {
